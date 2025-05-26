@@ -12,20 +12,20 @@ document.addEventListener("DOMContentLoaded", function() {
     const input = document.getElementById('search-input');
     const suggestions = document.getElementById('suggestions');
     const results = document.getElementById('results');
+    const selectedContainer = document.getElementById('selected-drugs');
+    const selectedDrugs = new Set();
 
-    // Xử lý autocomplete
+    // Autocomplete & chọn hoạt chất
     input.addEventListener('input', debounce(function(e) {
         const query = e.target.value.trim().toLowerCase();
         suggestions.innerHTML = '';
-        results.innerHTML = '';
-
         if (!query) {
             suggestions.style.display = 'none';
             return;
         }
 
         const filtered = Array.from(allDrugs).filter(d =>
-            d.toLowerCase().includes(query)
+            d.toLowerCase().includes(query) && !selectedDrugs.has(d)
         );
 
         if (filtered.length > 0) {
@@ -34,9 +34,13 @@ document.addEventListener("DOMContentLoaded", function() {
                 div.className = 'suggestion-item';
                 div.textContent = drug;
                 div.onclick = () => {
-                    input.value = drug;
+                    if (!selectedDrugs.has(drug)) {
+                        selectedDrugs.add(drug);
+                        updateSelectedDrugs();
+                        findInteractions();
+                    }
+                    input.value = '';
                     suggestions.style.display = 'none';
-                    showResults(drug);
                 };
                 suggestions.appendChild(div);
             });
@@ -53,45 +57,97 @@ document.addEventListener("DOMContentLoaded", function() {
         }
     });
 
-    // Xử lý Enter
+    // Xử lý Enter để thêm hoạt chất
     input.addEventListener('keydown', function(e) {
         if (e.key === 'Enter') {
-            showResults(input.value.trim());
+            const value = input.value.trim();
+            if (value && allDrugs.has(value) && !selectedDrugs.has(value)) {
+                selectedDrugs.add(value);
+                updateSelectedDrugs();
+                findInteractions();
+            }
+            input.value = '';
             suggestions.style.display = 'none';
         }
     });
 
-    // Hiển thị kết quả
-    function showResults(searchTerm) {
-        results.innerHTML = '';
-        if (!searchTerm) return;
-
-        let found = false;
-
-        // Tìm hoạt chất trùng khớp
-        const exactMatch = data.find(item =>
-            item.hoat_chat.toLowerCase() === searchTerm.toLowerCase()
-        );
-
-        if (exactMatch) {
-            found = true;
-            exactMatch.tuong_tac.forEach(t => {
-                results.appendChild(createResultCard(exactMatch.hoat_chat, t));
+    // Hiển thị danh sách đã chọn
+    function updateSelectedDrugs() {
+        selectedContainer.innerHTML = '';
+        selectedDrugs.forEach(drug => {
+            const div = document.createElement('div');
+            div.className = 'selected-item';
+            div.innerHTML = `
+                <span>${drug}</span>
+                <button data-drug="${drug}" title="Xóa">&times;</button>
+            `;
+            div.querySelector('button').addEventListener('click', () => {
+                selectedDrugs.delete(drug);
+                updateSelectedDrugs();
+                findInteractions();
             });
-        } else {
-            // Tìm các tương tác có chứa thuốc
-            data.forEach(item => {
-                item.tuong_tac.forEach(t => {
-                    if (t.thuoc.toLowerCase() === searchTerm.toLowerCase()) {
-                        found = true;
-                        results.appendChild(createResultCard(item.hoat_chat, t));
+            selectedContainer.appendChild(div);
+        });
+
+        // Nút xóa tất cả
+        if (selectedDrugs.size > 0) {
+            const clearBtn = document.createElement('button');
+            clearBtn.className = 'clear-all';
+            clearBtn.textContent = 'Xóa tất cả';
+            clearBtn.addEventListener('click', () => {
+                selectedDrugs.clear();
+                updateSelectedDrugs();
+                results.innerHTML = '';
+            });
+            selectedContainer.appendChild(clearBtn);
+        }
+    }
+
+    // Tìm tương tác giữa tất cả các cặp hoạt chất đã chọn
+    function findInteractions() {
+        results.innerHTML = '';
+        if (selectedDrugs.size < 2) return;
+
+        const drugsArray = Array.from(selectedDrugs);
+        const foundInteractions = [];
+
+        // Duyệt tất cả các cặp (hai chiều)
+        drugsArray.forEach((drug1, i) => {
+            drugsArray.slice(i + 1).forEach(drug2 => {
+                // Tìm tương tác drug1 -> drug2
+                data.forEach(item => {
+                    if (item.hoat_chat === drug1) {
+                        item.tuong_tac.forEach(t => {
+                            if (t.thuoc === drug2) {
+                                foundInteractions.push({
+                                    hoatChat: drug1,
+                                    interaction: t
+                                });
+                            }
+                        });
+                    }
+                    // Tìm tương tác drug2 -> drug1
+                    if (item.hoat_chat === drug2) {
+                        item.tuong_tac.forEach(t => {
+                            if (t.thuoc === drug1) {
+                                foundInteractions.push({
+                                    hoatChat: drug2,
+                                    interaction: t
+                                });
+                            }
+                        });
                     }
                 });
             });
-        }
+        });
 
-        if (!found) {
-            results.innerHTML = `<div class="result-card"><em>Không tìm thấy kết quả phù hợp.</em></div>`;
+        // Hiển thị kết quả
+        if (foundInteractions.length > 0) {
+            foundInteractions.forEach(({ hoatChat, interaction }) => {
+                results.appendChild(createResultCard(hoatChat, interaction));
+            });
+        } else {
+            results.innerHTML = `<div class="result-card">Không tìm thấy tương tác nào giữa các hoạt chất đã chọn.</div>`;
         }
     }
 
