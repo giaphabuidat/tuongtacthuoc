@@ -1,0 +1,111 @@
+body {
+    font-family: 'Segoe UI', Arial, sans-serif;
+    background: #f7fafd;
+    margin: 0;
+    padding: 0 0 40px 0;
+}
+
+h1 {
+    text-align: center;
+    color: #1976d2;
+    margin-top: 40px;
+    margin-bottom: 30px;
+    letter-spacing: 1px;
+}
+
+.search-container {
+    max-width: 500px;
+    margin: 0 auto 20px auto;
+    position: relative;
+}
+
+#search-input {
+    width: 100%;
+    padding: 14px 16px;
+    font-size: 17px;
+    border: 1.5px solid #1976d2;
+    border-radius: 6px;
+    outline: none;
+    box-sizing: border-box;
+    transition: border-color 0.2s;
+}
+
+#search-input:focus {
+    border-color: #1565c0;
+    box-shadow: 0 0 0 2px #1976d233;
+}
+
+.suggestions {
+    position: absolute;
+    width: 100%;
+    background: #fff;
+    border: 1px solid #e3e3e3;
+    border-top: none;
+    z-index: 10;
+    max-height: 220px;
+    overflow-y: auto;
+    box-shadow: 0 8px 24px rgba(25, 118, 210, 0.07);
+    display: none;
+}
+
+.suggestion-item {
+    padding: 12px 16px;
+    cursor: pointer;
+    transition: background 0.2s;
+    font-size: 16px;
+}
+
+.suggestion-item:hover {
+    background: #e3f2fd;
+}
+
+#results {
+    max-width: 650px;
+    margin: 0 auto;
+    margin-top: 16px;
+}
+
+.result-card {
+    background: #fff;
+    border-radius: 10px;
+    padding: 20px 24px;
+    margin: 18px 0;
+    box-shadow: 0 4px 16px rgba(25, 118, 210, 0.07);
+    border-left: 7px solid #1976d2;
+    transition: box-shadow 0.2s;
+}
+
+.result-card:hover {
+    box-shadow: 0 8px 28px rgba(25, 118, 210, 0.13);
+}
+
+.result-card h3 {
+    margin: 0 0 10px 0;
+    font-size: 20px;
+    color: #1976d2;
+}
+
+.severity {
+    font-weight: bold;
+    margin: 10px 0 8px 0;
+    font-size: 16px;
+}
+
+.mucdo-4 { color: #d32f2f; }
+.mucdo-3 { color: #fbc02d; }
+.mucdo-2 { color: #fb8c00; }
+.mucdo-1 { color: #1976d2; }
+
+.result-card p {
+    margin: 6px 0;
+    font-size: 15px;
+    color: #333;
+}
+
+@media (max-width: 700px) {
+    .result-card, #results, .search-container {
+        max-width: 98vw;
+        padding-left: 2vw;
+        padding-right: 2vw;
+    }
+}
