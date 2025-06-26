@@ -2130,6 +2130,918 @@ window.tuongTacData = [
       "xu_ly": "Chống chỉ định phối hợp."
     }
   ]
+},
+{
+  "hoat_chat": "Donepezil",
+  "cac_thuoc_trong_nhom": ["Donepezil"],
+  "tuong_tac": [
+    {
+      "thuoc": ["Thioridazin"],
+      "muc_do": 4,
+      "phan_tich": "Hiệp đồng tăng tác dụng. Tăng nguy cơ kéo dài khoảng QT, xoắn đỉnh",
+      "xu_ly": "1. Chống chỉ định phối hợp ở các bệnh nhân có hội chứng QT kéo dài do di truyền hoặc mắc phải.<br> 2. Trên các đối tượng bệnh nhân khác, tốt nhất nên tránh phối hợp các thuốc này. Trong trường hợp cần thiết phối hợp, cần đánh giá cẩn thận nguy cơ/lợi ích và lượng giá các yếu tố nguy cơ trên từng bệnh nhân, đặc biệt là rối loạn điện giải (hạ kali máu, hạ magie máu, hạ calci máu), nhịp tim chậm, nữ giới trước khi quyết định kê đơn."
+    },
+    {
+      "thuoc": ["Fluconazol"],
+      "muc_do": 4,
+      "phan_tich": "Hiệp đồng tăng tác dụng. Tăng nguy cơ kéo dài khoảng QT, xoắn đỉnh",
+      "xu_ly": "1. Chống chỉ định phối hợp ở các bệnh nhân có hội chứng QT kéo dài do di truyền hoặc mắc phải.<br> 2. Trên các đối tượng bệnh nhân khác, tốt nhất nên tránh phối hợp các thuốc này. Trong trường hợp cần thiết phối hợp, cần đánh giá cẩn thận nguy cơ/lợi ích và lượng giá các yếu tố nguy cơ trên từng bệnh nhân, đặc biệt là rối loạn điện giải (hạ kali máu, hạ magie máu, hạ calci máu), nhịp tim chậm, nữ giới trước khi quyết định kê đơn."
+    },
+    {
+      "thuoc": ["Sparfloxacin"],
+      "muc_do": 4,
+      "phan_tich": "Hiệp đồng tăng tác dụng. Tăng nguy cơ kéo dài khoảng QT, xoắn đỉnh",
+      "xu_ly": "1. Chống chỉ định phối hợp ở các bệnh nhân có hội chứng QT kéo dài do di truyền hoặc mắc phải.<br> 2. Trên các đối tượng bệnh nhân khác, tốt nhất nên tránh phối hợp các thuốc này. Trong trường hợp cần thiết phối hợp, cần đánh giá cẩn thận nguy cơ/lợi ích và lượng giá các yếu tố nguy cơ trên từng bệnh nhân, đặc biệt là rối loạn điện giải (hạ kali máu, hạ magie máu, hạ calci máu), nhịp tim chậm, nữ giới trước khi quyết định kê đơn."
+    }
+  ]
+},
+{
+  "hoat_chat": "Doxycyclin",
+  "cac_thuoc_trong_nhom": ["Doxycyclin"],
+  "tuong_tac": [
+    {
+      "thuoc": ["Tretinoin"],
+      "muc_do": 4,
+      "phan_tich": "Hiệp đồng tăng độc tính. Tăng nguy cơ tăng áp nội sọ lành tính (phù gai thị, đau đầu, buồn nôn và nôn, và rối loạn thị giác)",
+      "xu_ly": "Chống chỉ định phối hợp"
+    },
+    {
+      "thuoc": ["Isotretinoin"],
+      "muc_do": 4,
+      "phan_tich": "Hiệp đồng tăng độc tính. Tăng nguy cơ tăng áp nội sọ lành tính (phù gai thị, đau đầu, buồn nôn và nôn, và rối loạn thị giác)",
+      "xu_ly": "Chống chỉ định phối hợp"
+    }
+  ]
+},
+{
+  "hoat_chat": "Doxylamin",
+  "cac_thuoc_trong_nhom": ["Doxylamin"],
+  "tuong_tac": [
+    {
+      "thuoc": ["Linezolid"],
+      "muc_do": 4,
+      "phan_tich": "Hiệp đồng tác dụng serotonin. Tăng nguy cơ hội chứng serotonin (sốt cao, rối loạn nhận thức, tăng phản xạ, mất phối hợp, rung giật cơ, cứng cơ, co giật, nhịp tim nhanh, tăng huyết áp, tăng thân nhiệt, vã mồ hôi, ảo giác, kích động hoặc bồn chồn…)",
+      "xu_ly": "1. Cố gắng tránh sử dụng đồng thời linezolid và doxylamin. Tốt nhất các thuốc này nên sử dụng cách nhau 2 tuần. Cân nhắc thay đổi sang các thuốc nhóm khác có cùng chỉ định và ít có nguy cơ tương tác hơn.<br> 2. Trong hợp không thể trì hoãn điều trị được 2 tuần, bắt buộc sử dụng dài ngày hoặc khẩn cấp bằng linezolid và không có thuốc khác thay thế, cân bằng lợi ích và nguy cơ xảy ra hội chứng serotonin. Nếu lợi ích vượt trội nguy cơ, vẫn có thể sử dụng đồng thời nhưng cần giám sát chặt chẽ chặt chẽ bệnh nhân, đặc biệt trong tháng đầu tiên sử dụng đồng thời 2 thuốc."
+    },
+    {
+      "thuoc": ["Xanh methylen (sử dụng đường tiêm tĩnh mạch)"],
+      "muc_do": 4,
+      "phan_tich": "Hiệp đồng tác dụng serotonin. Tăng nguy cơ hội chứng serotonin (sốt cao, rối loạn nhận thức, tăng phản xạ, mất phối hợp, rung giật cơ, cứng cơ, co giật, nhịp tim nhanh, tăng huyết áp, tăng thân nhiệt, vã mồ hôi, ảo giác, kích động hoặc bồn chồn…)",
+      "xu_ly": "1. Cố gắng tránh sử dụng đồng thời xanh methylen và carbamazepin. Tốt nhất các thuốc này nên sử dụng cách nhau 2 tuần. Cân nhắc thay đổi sang các thuốc nhóm khác có cùng chỉ định và ít có nguy cơ tương tác hơn.<br> 2. Trong hợp không thể trì hoãn điều trị được 2 tuần, bắt buộc sử dụng dài ngày hoặc khẩn cấp bằng xanh methylen và không có thuốc khác thay thế, cân bằng lợi ích và nguy cơ xảy ra hội chứng serotonin. Nếu lợi ích vượt trội nguy cơ, vẫn có thể sử dụng đồng thời nhưng cần giám sát chặt chẽ chặt chẽ bệnh nhân, đặc biệt trong tháng đầu tiên sử dụng đồng thời 2 thuốc."
+    },
+    {
+      "thuoc": ["Furazolidon"],
+      "muc_do": 4,
+      "phan_tich": "Hiệp đồng tác dụng serotonin. Tác dụng ức chế MAO của furazolidon do chất chuyển hóa của thuốc, xuất hiện chậm sau 5 - 10 ngày. Tăng nguy cơ hội chứng serotonin (sốt cao, rối loạn nhận thức, tăng phản xạ, mất phối hợp, rung giật cơ, cứng cơ, co giật, nhịp tim nhanh, tăng huyết áp, tăng thân nhiệt, vã mồ hôi, ảo giác, kích động hoặc bồn chồn…)",
+      "xu_ly": "1. Cố gắng tránh sử dụng đồng thời furazolidon và doxylamin. Tốt nhất các thuốc này nên sử dụng cách nhau 2 tuần. Cân nhắc thay đổi sang các thuốc nhóm khác có cùng chỉ định và ít có nguy cơ tương tác hơn.<br> 2. Trong hợp không thể trì hoãn điều trị được 2 tuần, bắt buộc sử dụng dài ngày hoặc khẩn cấp bằng furazolidon và không có thuốc khác thay thế, cân bằng lợi ích và nguy cơ xảy ra hội chứng serotonin. Nếu lợi ích vượt trội nguy cơ, vẫn có thể sử dụng đồng thời nhưng cần giám sát chặt chẽ chặt chẽ bệnh nhân, đặc biệt trong tháng đầu tiên sử dụng đồng thời 2 thuốc."
+    }
+  ]
+},
+{
+  "hoat_chat": "Duloxetin",
+  "cac_thuoc_trong_nhom": ["Duloxetin"],
+  "tuong_tac": [
+    {
+      "thuoc": ["Linezolid"],
+      "muc_do": 4,
+      "phan_tich": "Hiệp đồng tác dụng serotonin. Tăng nguy cơ hội chứng serotonin (sốt cao, rối loạn nhận thức, tăng phản xạ, mất phối hợp, rung giật cơ, cứng cơ, co giật, nhịp tim nhanh, tăng huyết áp, tăng thân nhiệt, vã mồ hôi, ảo giác, kích động hoặc bồn chồn…)",
+      "xu_ly": "1. Cố gắng tránh sử dụng đồng thời linezolid và duloxetin. Tốt nhất các thuốc này nên sử dụng cách nhau 2 tuần. Cân nhắc thay đổi sang các thuốc nhóm khác có cùng chỉ định và ít có nguy cơ tương tác hơn.<br> 2. Trong hợp không thể trì hoãn điều trị được 2 tuần, bắt buộc sử dụng dài ngày hoặc khẩn cấp bằng linezolid và không có thuốc khác thay thế, cân bằng lợi ích và nguy cơ xảy ra hội chứng serotonin. Nếu lợi ích vượt trội nguy cơ, vẫn có thể sử dụng đồng thời nhưng cần giám sát chặt chẽ chặt chẽ bệnh nhân, đặc biệt trong tháng đầu tiên sử dụng đồng thời 2 thuốc."
+    },
+    {
+      "thuoc": ["Xanh methylen (sử dụng đường tiêm tĩnh mạch)"],
+      "muc_do": 4,
+      "phan_tich": "Hiệp đồng tác dụng serotonin. Tăng nguy cơ hội chứng serotonin (sốt cao, rối loạn nhận thức, tăng phản xạ, mất phối hợp, rung giật cơ, cứng cơ, co giật, nhịp tim nhanh, tăng huyết áp, tăng thân nhiệt, vã mồ hôi, ảo giác, kích động hoặc bồn chồn…)",
+      "xu_ly": "1. Cố gắng tránh sử dụng đồng thời xanh methylen và duloxetin. Tốt nhất các thuốc này nên sử dụng cách nhau 2 tuần. Cân nhắc thay đổi sang các thuốc nhóm khác có cùng chỉ định và ít có nguy cơ tương tác hơn.<br> 2. Trong hợp không thể trì hoãn điều trị được 2 tuần, bắt buộc sử dụng dài ngày hoặc khẩn cấp bằng xanh methylen và không có thuốc khác thay thế, cân bằng lợi ích và nguy cơ xảy ra hội chứng serotonin. Nếu lợi ích vượt trội nguy cơ, vẫn có thể sử dụng đồng thời nhưng cần giám sát chặt chẽ chặt chẽ bệnh nhân, đặc biệt trong tháng đầu tiên sử dụng đồng thời 2 thuốc."
+    },
+    {
+      "thuoc": ["Fluvoxamin"],
+      "muc_do": 4,
+      "phan_tich": "Fluvoxamin ức chế CYP1A2 mạnh làm giảm chuyển hóa của duloxetin. Tăng nồng độ của duloxetin trong huyết thanh, tăng nguy cơ tác dụng không mong muốn (buồn ngủ, hôn mê, hội chứng serotonin, co giật, nôn và nhịp tim nhanh...)",
+      "xu_ly": "Chống chỉ định phối hợp"
+    },
+    {
+      "thuoc": ["Furazolidon"],
+      "muc_do": 4,
+      "phan_tich": "Hiệp đồng tác dụng serotonin. Tác dụng ức chế MAO của furazolidon do chất chuyển hóa của thuốc, xuất hiện chậm sau 5 - 10 ngày. Tăng nguy cơ hội chứng serotonin (sốt cao, rối loạn nhận thức, tăng phản xạ, mất phối hợp, rung giật cơ, cứng cơ, co giật, nhịp tim nhanh, tăng huyết áp, tăng thân nhiệt, vã mồ hôi, ảo giác, kích động hoặc bồn chồn…)",
+      "xu_ly": "1. Cố gắng tránh sử dụng đồng thời furazolidon và duloxetin. Tốt nhất các thuốc này nên sử dụng cách nhau 2 tuần. Cân nhắc thay đổi sang các thuốc nhóm khác có cùng chỉ định và ít có nguy cơ tương tác hơn.<br> 2. Trong hợp không thể trì hoãn điều trị được 2 tuần, bắt buộc sử dụng dài ngày hoặc khẩn cấp bằng furazolidon và không có thuốc khác thay thế, cân bằng lợi ích và nguy cơ xảy ra hội chứng serotonin. Nếu lợi ích vượt trội nguy cơ, vẫn có thể sử dụng đồng thời nhưng cần giám sát chặt chẽ chặt chẽ bệnh nhân, đặc biệt trong tháng đầu tiên sử dụng đồng thời 2 thuốc."
+    }
+  ]
+},
+{
+  "hoat_chat": "Efavirenz",
+  "cac_thuoc_trong_nhom": ["Efavirenz"],
+  "tuong_tac": [
+    {
+      "thuoc": ["Grazoprevir", "Elbasvir"],
+      "muc_do": 4,
+      "phan_tich": "Efavirenz cảm ứng CYP3A4 làm tăng chuyển hóa của Grazoprevir/elbasvir. Giảm nồng độ grazoprevir/elbasvir trong huyết thanh, dẫn đến giảm hiệu quả điều trị",
+      "xu_ly": "Chống chỉ định phối hợp."
+    },
+    {
+      "thuoc": ["Voriconazol"],
+      "muc_do": 4,
+      "phan_tich": "Efavirenz cảm ứng CYP3A4 làm tăng chuyển hóa của voriconazol; voriconazol ức chế CYP3A4 làm giảm chuyển hóa của efavirenz. Giảm nồng độ voriconazol, tăng nồng độ efavirenz trong huyết thanh, tăng nguy cơ kéo dài khoảng QT",
+      "xu_ly": "1. Chống chỉ định với liều efavirenz trên 400 mg/ngày.<br> 2. Voriconazol có thể phối hợp efavirenz khi tăng liều duy trì của voriconazol lên 400 mg mỗi 12 giờ và giảm liều của efavirenz còn 300 mg mỗi 24 giờ. Khi ngừng sử dụng voriconazol, có thể quay lại sử dụng liều ban đầu efavirenz."
+    }
+  ]
+},
+{
+  "hoat_chat": "Eltrombopag",
+  "cac_thuoc_trong_nhom": ["Eltrombopag"],
+  "tuong_tac": [
+    {
+      "thuoc": ["Grazoprevir", "Elbasvir"],
+      "muc_do": 4,
+      "phan_tich": "Eltrombopag ức chế OATP1B1/3 làm giảm vận chuyển grazoprevir vào gan. Tăng nồng độ grazoprevir/elbasvir, tăng nguy cơ tăng ALT",
+      "xu_ly": "Chống chỉ định phối hợp"
+    }
+  ]
+},
+{
+  "hoat_chat": "Enalapril",
+  "cac_thuoc_trong_nhom": ["Enalapril"],
+  "tuong_tac": [
+    {
+      "thuoc": ["Sacubitril", "Valsartan", "Sacubitril"],
+      "muc_do": 4,
+      "phan_tich": "Tăng tích lũy bradykinin gây phù mạch. Tăng nguy cơ phù mạch",
+      "xu_ly": "Chống chỉ định phối hợp. Chỉ bắt đầu sử dụng Sacubitril/valsartan (sacubitril) sau khi ngừng enalapril ít nhất 36 giờ."
+    }
+  ]
+},
+{
+  "hoat_chat": "Enzalutamid",
+  "cac_thuoc_trong_nhom": ["Enzalutamid"],
+  "tuong_tac": [
+    {
+      "thuoc": ["Grazoprevir", "Elbasvir"],
+      "muc_do": 4,
+      "phan_tich": "Enzalutamid cảm ứng CYP3A4 làm tăng chuyển hóa của Grazoprevir/elbasvir. Giảm nồng độ grazoprevir/elbasvir trong huyết thanh, dẫn đến giảm hiệu quả điều trị",
+      "xu_ly": "Chống chỉ định phối hợp."
+    }
+  ]
+},
+{
+  "hoat_chat": "Ephedrin (sử dụng đường uống)",
+  "cac_thuoc_trong_nhom": ["Ephedrin (sử dụng đường uống)"],
+  "tuong_tac": [
+    {
+      "thuoc": ["Xanh methylen (sử dụng đường tiêm tĩnh mạch)"],
+      "muc_do": 4,
+      "phan_tich": "Tăng tích lũy noradrenalin (norepinephrin). Tăng nguy cơ xuất hiện cơn tăng huyết áp (đau đầu, đánh trống ngực, cứng cổ, tăng huyết áp)",
+      "xu_ly": "1. Chống chỉ định sử dụng ephedrin sử dụng đường uống đồng thời hoặc trong vòng 14 ngày trước đó có sử dụng linezolid.<br> 2. Đối với ephedrin sử dụng đường tiêm, cần sử dụng rất thận trọng trên bệnh nhân đang dùng linezolid trong điều kiện giám sát huyết áp chặt chẽ."
+    },
+    {
+      "thuoc": ["Xanh methylen (sử dụng đường tiêm tĩnh mạch)"],
+      "muc_do": 4,
+      "phan_tich": "Tăng tích lũy noradrenalin (norepinephrin). Tăng nguy cơ xuất hiện cơn tăng huyết áp (đau đầu, đánh trống ngực, cứng cổ, tăng huyết áp)",
+      "xu_ly": "1. Chống chỉ định sử dụng ephedrin sử dụng đường uống đồng thời hoặc trong vòng 14 ngày trước đó có sử dụng xanh methylen.<br> 2. Đối với ephedrin sử dụng đường tiêm, cần sử dụng rất thận trọng trên bệnh nhân đang dùng xanh methylen trong điều kiện giám sát huyết áp chặt chẽ."
+    },
+    {
+      "thuoc": ["Furazolidon"],
+      "muc_do": 4,
+      "phan_tich": "Tăng tích lũy noradrenalin (norepinephrin). Tác dụng ức chế MAO của furazolidon do chất chuyển hóa của thuốc, xuất hiện chậm sau 5 - 10 ngày. Tăng nguy cơ xuất hiện cơn tăng huyết áp (đau đầu, đánh trống ngực, cứng cổ, tăng huyết áp)",
+      "xu_ly": "1. Chống chỉ định sử dụng ephedrin sử dụng đường uống đồng thời hoặc trong vòng 14 ngày trước đó có sử dụng furazolidon.<br> 2. Đối với ephedrin sử dụng đường tiêm, cần sử dụng rất thận trọng trên bệnh nhân đang dùng furazolidon trong điều kiện giám sát huyết áp chặt chẽ."
+    }
+  ]
+},
+{
+  "hoat_chat": "Ergometrin",
+  "cac_thuoc_trong_nhom": ["Ergometrin"],
+  "tuong_tac": [
+    {
+      "thuoc": ["Sumatriptan"],
+      "muc_do": 4,
+      "phan_tich": "Hiệp đồng tác dụng co mạch. Co thắt mạch kéo dài",
+      "xu_ly": "Chống chỉ định phối hợp. Hai thuốc cách nhau ít nhất 24 giờ."
+    },
+    {
+      "thuoc": ["Roxithromycin"],
+      "muc_do": 4,
+      "phan_tich": "Roxithromycin ức chế CYP3A4 mạnh làm giảm chuyển hóa của ergometrin. Tăng nồng độ của ergometrin trong huyết thanh, tăng nguy cơ độc tính (nôn, buồn nôn, hoại tử đầu chi, thiếu máu cục bộ do co thắt mạch…)",
+      "xu_ly": "Chống chỉ định phối hợp"
+    },
+    {
+      "thuoc": ["Erythromycin"],
+      "muc_do": 4,
+      "phan_tich": "Erythromycin ức chế CYP3A4 mạnh làm giảm chuyển hóa của ergometrin. Tăng nồng độ của ergometrin trong huyết thanh, tăng nguy cơ độc tính (nôn, buồn nôn, hoại tử đầu chi, thiếu máu cục bộ do co thắt mạch…)",
+      "xu_ly": "Chống chỉ định phối hợp"
+    },
+    {
+      "thuoc": ["Voriconazol"],
+      "muc_do": 4,
+      "phan_tich": "Voriconazol ức chế CYP3A4 mạnh làm giảm chuyển hóa của ergometrin. Tăng nồng độ của ergometrin trong huyết thanh, tăng nguy cơ độc tính (nôn, buồn nôn, hoại tử đầu chi, thiếu máu cục bộ do co thắt mạch…)",
+      "xu_ly": "Chống chỉ định phối hợp"
+    },
+    {
+      "thuoc": ["Posaconazol"],
+      "muc_do": 4,
+      "phan_tich": "Posaconazol ức chế CYP3A4 mạnh làm giảm chuyển hóa của ergometrin. Tăng nồng độ của ergometrin trong huyết thanh, tăng nguy cơ độc tính (nôn, buồn nôn, hoại tử đầu chi, thiếu máu cục bộ do co thắt mạch…)",
+      "xu_ly": "Chống chỉ định phối hợp"
+    },
+    {
+      "thuoc": ["Itraconazol"],
+      "muc_do": 4,
+      "phan_tich": "Itraconazol ức chế CYP3A4 mạnh làm giảm chuyển hóa của ergometrin. Tăng nồng độ của ergometrin trong huyết thanh, tăng nguy cơ độc tính (nôn, buồn nôn, hoại tử đầu chi, thiếu máu cục bộ do co thắt mạch…)",
+      "xu_ly": "Chống chỉ định phối hợp"
+    },
+    {
+      "thuoc": ["Saquinavir", "Ritonavir"],
+      "muc_do": 4,
+      "phan_tich": "Saquinavir ức chế CYP3A4 mạnh làm giảm chuyển hóa của ergometrin. Tăng nồng độ của ergometrin trong huyết thanh, tăng nguy cơ độc tính (nôn, buồn nôn, hoại tử đầu chi, thiếu máu cục bộ do co thắt mạch…)",
+      "xu_ly": "Tốt nhất nên tránh phối hợp. Đối với trường hợp điều trị băng huyết sau sinh, nếu không còn thuốc khác thay thế ở người bệnh đang sử dụng saquinavir, sử dụng ergometrin chỉ khi lợi ích vượt trội nguy cơ và sử dụng liều thấp nhất có hiệu quả trong thời gian ngắn nhất."
+    },
+    {
+      "thuoc": ["Lopinavir", "Ritonavir"],
+      "muc_do": 4,
+      "phan_tich": "Lopinavir/ritonavir ức chế CYP3A4 mạnh làm giảm chuyển hóa của ergometrin. Tăng nồng độ của ergometrin trong huyết thanh, tăng nguy cơ độc tính (nôn, buồn nôn, hoại tử đầu chi, thiếu máu cục bộ do co thắt mạch…)",
+      "xu_ly": "Tốt nhất nên tránh phối hợp. Đối với trường hợp điều trị băng huyết sau sinh, nếu không còn thuốc khác thay thế ở người bệnh đang sử dụng lopinavir/ritonavir, sử dụng ergometrin chỉ khi lợi ích vượt trội nguy cơ và sử dụng liều thấp nhất có hiệu quả trong thời gian ngắn nhất."
+    },
+    {
+      "thuoc": ["Indinavir", "Ritonavir"],
+      "muc_do": 4,
+      "phan_tich": "Indinavir ức chế CYP3A4 mạnh làm giảm chuyển hóa của ergometrin. Tăng nồng độ của ergometrin trong huyết thanh, tăng nguy cơ độc tính (nôn, buồn nôn, hoại tử đầu chi, thiếu máu cục bộ do co thắt mạch…)",
+      "xu_ly": "Tốt nhất nên tránh phối hợp. Đối với trường hợp điều trị băng huyết sau sinh, nếu không còn thuốc khác thay thế ở người bệnh đang sử dụng indinavir, sử dụng ergometrin chỉ khi lợi ích vượt trội nguy cơ và sử dụng liều thấp nhất có hiệu quả trong thời gian ngắn nhất."
+    }
+  ]
+},
+{
+  "hoat_chat": "Ergotamin",
+  "cac_thuoc_trong_nhom": ["Ergotamin"],
+  "tuong_tac": [
+    {
+      "thuoc": ["Sumatriptan"],
+      "muc_do": 4,
+      "phan_tich": "Hiệp đồng tác dụng co mạch. Co thắt mạch kéo dài",
+      "xu_ly": "Chống chỉ định phối hợp. Hai thuốc cách nhau ít nhất 24 giờ."
+    },
+    {
+      "thuoc": ["Roxithromycin"],
+      "muc_do": 4,
+      "phan_tich": "Roxithromycin ức chế CYP3A4 mạnh làm giảm chuyển hóa của ergotamin. Tăng nồng độ của ergotamin trong huyết thanh, tăng nguy cơ độc tính (nôn, buồn nôn, hoại tử đầu chi, thiếu máu cục bộ do co thắt mạch…)",
+      "xu_ly": "Chống chỉ định phối hợp"
+    },
+    {
+      "thuoc": ["Erythromycin"],
+      "muc_do": 4,
+      "phan_tich": "Erythromycin ức chế CYP3A4 mạnh làm giảm chuyển hóa của ergotamin. Tăng nồng độ của ergotamin trong huyết thanh, tăng nguy cơ độc tính (nôn, buồn nôn, hoại tử đầu chi, thiếu máu cục bộ do co thắt mạch…)",
+      "xu_ly": "Chống chỉ định phối hợp"
+    },
+    {
+      "thuoc": ["Voriconazol"],
+      "muc_do": 4,
+      "phan_tich": "Voriconazol ức chế CYP3A4 mạnh làm giảm chuyển hóa của ergotamin. Tăng nồng độ của ergotamin trong huyết thanh, tăng nguy cơ độc tính (nôn, buồn nôn, hoại tử đầu chi, thiếu máu cục bộ do co thắt mạch…)",
+      "xu_ly": "Chống chỉ định phối hợp"
+    },
+    {
+      "thuoc": ["Posaconazol"],
+      "muc_do": 4,
+      "phan_tich": "Posaconazol ức chế CYP3A4 mạnh làm giảm chuyển hóa của ergotamin. Tăng nồng độ của ergotamin trong huyết thanh, tăng nguy cơ độc tính (nôn, buồn nôn, hoại tử đầu chi, thiếu máu cục bộ do co thắt mạch…)",
+      "xu_ly": "Chống chỉ định phối hợp"
+    },
+    {
+      "thuoc": ["Itraconazol"],
+      "muc_do": 4,
+      "phan_tich": "Itraconazol ức chế CYP3A4 mạnh làm giảm chuyển hóa của ergotamin. Tăng nồng độ của ergotamin trong huyết thanh, tăng nguy cơ độc tính (nôn, buồn nôn, hoại tử đầu chi, thiếu máu cục bộ do co thắt mạch…)",
+      "xu_ly": "Chống chỉ định phối hợp"
+    },
+    {
+      "thuoc": ["Saquinavir", "Ritonavir"],
+      "muc_do": 4,
+      "phan_tich": "Saquinavir ức chế CYP3A4 mạnh làm giảm chuyển hóa của ergotamin. Tăng nồng độ của ergotamin trong huyết thanh, tăng nguy cơ độc tính (nôn, buồn nôn, hoại tử đầu chi, thiếu máu cục bộ do co thắt mạch…)",
+      "xu_ly": "Chống chỉ định phối hợp"
+    },
+    {
+      "thuoc": ["Lopinavir", "Ritonavir"],
+      "muc_do": 4,
+      "phan_tich": "Lopinavir/ritonavir ức chế CYP3A4 mạnh làm giảm chuyển hóa của ergotamin. Tăng nồng độ của ergotamin trong huyết thanh, tăng nguy cơ độc tính (nôn, buồn nôn, hoại tử đầu chi, thiếu máu cục bộ do co thắt mạch…)",
+      "xu_ly": "Chống chỉ định phối hợp"
+    },
+    {
+      "thuoc": ["Indinavir", "Ritonavir"],
+      "muc_do": 4,
+      "phan_tich": "Indinavir ức chế CYP3A4 mạnh làm giảm chuyển hóa của ergotamin. Tăng nồng độ của ergotamin trong huyết thanh, tăng nguy cơ độc tính (nôn, buồn nôn, hoại tử đầu chi, thiếu máu cục bộ do co thắt mạch…)",
+      "xu_ly": "Chống chỉ định phối hợp"
+    }
+  ]
+},
+{
+  "hoat_chat": "Erythromycin",
+  "cac_thuoc_trong_nhom": ["Erythromycin"],
+  "tuong_tac": [
+    {
+      "thuoc": ["Thioridazin"],
+      "muc_do": 4,
+      "phan_tich": "Hiệp đồng tăng tác dụng. Tăng nguy cơ kéo dài khoảng QT, xoắn đỉnh",
+      "xu_ly": "1. Chống chỉ định phối hợp ở các bệnh nhân có hội chứng QT kéo dài do di truyền hoặc mắc phải.<br> 2. Trên các đối tượng bệnh nhân khác, tốt nhất nên tránh phối hợp các thuốc này. Trong trường hợp cần thiết phối hợp, cần đánh giá cẩn thận nguy cơ/lợi ích và lượng giá các yếu tố nguy cơ trên từng bệnh nhân, đặc biệt là rối loạn điện giải (hạ kali máu, hạ magie máu, hạ calci máu), nhịp tim chậm, nữ giới trước khi quyết định kê đơn."
+    },
+    {
+      "thuoc": ["Fluconazol"],
+      "muc_do": 4,
+      "phan_tich": "Hiệp đồng tăng tác dụng. Tăng nguy cơ kéo dài khoảng QT, xoắn đỉnh",
+      "xu_ly": "1. Chống chỉ định phối hợp ở các bệnh nhân có hội chứng QT kéo dài do di truyền hoặc mắc phải.<br> 2. Trên các đối tượng bệnh nhân khác, tốt nhất nên tránh phối hợp các thuốc này. Trong trường hợp cần thiết phối hợp, cần đánh giá cẩn thận nguy cơ/lợi ích và lượng giá các yếu tố nguy cơ trên từng bệnh nhân, đặc biệt là rối loạn điện giải (hạ kali máu, hạ magie máu, hạ calci máu), nhịp tim chậm, nữ giới trước khi quyết định kê đơn."
+    },
+    {
+      "thuoc": ["Piperaquin", "Dihydroartemisinin", "Piperaquin"],
+      "muc_do": 4,
+      "phan_tich": "Hiệp đồng tăng tác dụng. Tăng nguy cơ kéo dài khoảng QT, xoắn đỉnh",
+      "xu_ly": "1. Chống chỉ định phối hợp ở các bệnh nhân có hội chứng QT kéo dài do di truyền hoặc mắc phải.<br> 2. Trên các đối tượng bệnh nhân khác, tốt nhất nên tránh phối hợp các thuốc này. Trong trường hợp cần thiết phối hợp, cần đánh giá cẩn thận nguy cơ/lợi ích và lượng giá các yếu tố nguy cơ trên từng bệnh nhân, đặc biệt là rối loạn điện giải (hạ kali máu, hạ magie máu, hạ calci máu), nhịp tim chậm, nữ giới trước khi quyết định kê đơn."
+    },
+    {
+      "thuoc": ["Lovastatin"],
+      "muc_do": 4,
+      "phan_tich": "Erythromycin ức chế CYP3A4 mạnh làm giảm chuyển hóa của lovastatin. Tăng nồng độ của lovastatin trong huyết thanh, tăng nguy cơ bệnh cơ hoặc tiêu cơ vân cấp",
+      "xu_ly": "Chống chỉ định phối hợp. Cân nhắc thay đổi sang các thuốc nhóm khác có cùng chỉ định và ít có nguy cơ tương tác hơn:<br> - Trong trường hợp bắt buộc sử dụng kháng sinh macrolid, thay erythromycin bằng azithromycin HOẶC<br> - Trong trường hợp bắt buộc sử dụng dẫn chất statin, thay lovastatin bằng các dẫn chất statin khác (thận trọng khi phối hợp với pravastatin)."
+    },
+    {
+      "thuoc": ["Simvastatin"],
+      "muc_do": 4,
+      "phan_tich": "Erythromycin ức chế CYP3A4 mạnh làm giảm chuyển hóa của simvastatin. Tăng nồng độ của simvastatin trong huyết thanh, tăng nguy cơ bệnh cơ hoặc tiêu cơ vân cấp",
+      "xu_ly": "Chống chỉ định phối hợp. Cân nhắc thay đổi sang các thuốc nhóm khác có cùng chỉ định và ít có nguy cơ tương tác hơn:<br> - Trong trường hợp bắt buộc sử dụng kháng sinh macrolid, thay erythromycin bằng azithromycin HOẶC<br> - Trong trường hợp bắt buộc sử dụng dẫn chất statin, thay simvastatin bằng các dẫn chất statin khác (thận trọng khi phối hợp với pravastatin)."
+    },
+    {
+      "thuoc": ["Methylergometrin"],
+      "muc_do": 4,
+      "phan_tich": "Erythromycin ức chế CYP3A4 mạnh làm giảm chuyển hóa của methylergometrin. Tăng nồng độ của methylergometrin trong huyết thanh, tăng nguy cơ độc tính (nôn, buồn nôn, hoại tử đầu chi, thiếu máu cục bộ do co thắt mạch…)",
+      "xu_ly": "Chống chỉ định phối hợp"
+    },
+    {
+      "thuoc": ["Ivabradin"],
+      "muc_do": 4,
+      "phan_tich": "Erythromycin ức chế CYP3A4 mạnh làm giảm chuyển hóa của ivabradin. Tăng nồng độ ivabradin trong huyết thanh, tăng nguy cơ kéo dài khoảng QT và chậm nhịp tim",
+      "xu_ly": "Chống chỉ định phối hợp. Cân nhắc thay đổi sang các thuốc nhóm khác có cùng chỉ định và ít có nguy cơ tương tác hơn: Trong trường hợp bắt buộc sử dụng kháng sinh macrolid, thay erythromycin bằng azithromycin."
+    },
+    {
+      "thuoc": ["Saquinavir", "Ritonavir"],
+      "muc_do": 4,
+      "phan_tich": "Erythromycin ức chế CYP3A4 và P-gp, làm giảm chuyển hóa và thải trừ saquinavir. Saquinavir cũng ức chế CYP3A4 làm giảm chuyển hóa của erythromycin. Tăng nồng độ erythromycin, tăng nồng độ saquinavir, tăng nguy cơ kéo dài khoảng QT và xoắn đỉnh.",
+      "xu_ly": "1. Chống chỉ định phối hợp ở bệnh nhân có QTc > 450 ms và saquinavir ở dạng phối hợp ritonavir.<br> 2. Trong trường hợp bắt buộc phối hợp, định kỳ đo điện tâm đồ mỗi 3-4 ngày. Nếu QTc > 480 ms hoặc tăng > 20 ms so với ban đầu, ngừng 1 trong 2 hoặc cả 2 thuốc."
+    },
+    {
+      "thuoc": ["Sparfloxacin"],
+      "muc_do": 4,
+      "phan_tich": "Hiệp đồng tăng tác dụng. Tăng nguy cơ kéo dài khoảng QT, xoắn đỉnh",
+      "xu_ly": "1. Chống chỉ định phối hợp ở các bệnh nhân có hội chứng QT kéo dài do di truyền hoặc mắc phải.<br> 2. Trên các đối tượng bệnh nhân khác, tốt nhất nên tránh phối hợp các thuốc này. Trong trường hợp cần thiết phối hợp, cần đánh giá cẩn thận nguy cơ/lợi ích và lượng giá các yếu tố nguy cơ trên từng bệnh nhân, đặc biệt là rối loạn điện giải (hạ kali máu, hạ magie máu, hạ calci máu), nhịp tim chậm, nữ giới trước khi quyết định kê đơn."
+    }
+  ]
+},
+{
+  "hoat_chat": "Escitalopram",
+  "cac_thuoc_trong_nhom": ["Escitalopram"],
+  "tuong_tac": [
+    {
+      "thuoc": ["Linezolid"],
+      "muc_do": 4,
+      "phan_tich": "Hiệp đồng tác dụng serotonin. Tăng nguy cơ hội chứng serotonin (sốt cao, rối loạn nhận thức, tăng phản xạ, mất phối hợp, rung giật cơ, cứng cơ, co giật, nhịp tim nhanh, tăng huyết áp, tăng thân nhiệt, vã mồ hôi, ảo giác, kích động hoặc bồn chồn…)",
+      "xu_ly": "1. Cố gắng tránh sử dụng đồng thời linezolid và escitalopram. Tốt nhất các thuốc này nên sử dụng cách nhau 2 tuần. Cân nhắc thay đổi sang các thuốc nhóm khác có cùng chỉ định và ít có nguy cơ tương tác hơn.<br> 2. Trong hợp không thể trì hoãn điều trị được 2 tuần, bắt buộc sử dụng dài ngày hoặc khẩn cấp bằng linezolid và không có thuốc khác thay thế, cân bằng lợi ích và nguy cơ xảy ra hội chứng serotonin. Nếu lợi ích vượt trội nguy cơ, vẫn có thể sử dụng đồng thời nhưng cần giám sát chặt chẽ chặt chẽ bệnh nhân, đặc biệt trong tháng đầu tiên sử dụng đồng thời 2 thuốc."
+    },
+    {
+      "thuoc": ["Xanh methylen (sử dụng đường tiêm tĩnh mạch)"],
+      "muc_do": 4,
+      "phan_tich": "Hiệp đồng tác dụng serotonin. Tăng nguy cơ hội chứng serotonin (sốt cao, rối loạn nhận thức, tăng phản xạ, mất phối hợp, rung giật cơ, cứng cơ, co giật, nhịp tim nhanh, tăng huyết áp, tăng thân nhiệt, vã mồ hôi, ảo giác, kích động hoặc bồn chồn…)",
+      "xu_ly": "1. Cố gắng tránh sử dụng đồng thời xanh methylen và methadon. Tốt nhất các thuốc này nên sử dụng cách nhau 2 tuần. Cân nhắc thay đổi sang các thuốc nhóm khác có cùng chỉ định và ít có nguy cơ tương tác hơn. Trong trường hợp bắt buộc sử dụng opioid, có thể đổi sang các opiod khác không có hoạt tính ức chế thu hồi serotonin (morphin, codein, oxycodon, buprenorphin)<br> 2. Trong hợp không thể trì hoãn điều trị được 2 tuần, bắt buộc sử dụng dài ngày hoặc khẩn cấp bằng xanh methylen và không có thuốc khác thay thế, cân bằng lợi ích và nguy cơ xảy ra hội chứng serotonin. Nếu lợi ích vượt trội nguy cơ, vẫn có thể sử dụng đồng thời nhưng cần giám sát chặt chẽ chặt chẽ bệnh nhân, đặc biệt trong tháng đầu tiên sử dụng đồng thời 2 thuốc."
+    },
+    {
+      "thuoc": ["Thioridazin"],
+      "muc_do": 4,
+      "phan_tich": "Hiệp đồng tăng tác dụng. Tăng nguy cơ kéo dài khoảng QT, xoắn đỉnh",
+      "xu_ly": "1. Chống chỉ định phối hợp ở các bệnh nhân có hội chứng QT kéo dài do di truyền hoặc mắc phải.<br> 2. Trên các đối tượng bệnh nhân khác, tốt nhất nên tránh phối hợp các thuốc này. Trong trường hợp cần thiết phối hợp, cần đánh giá cẩn thận nguy cơ/lợi ích và lượng giá các yếu tố nguy cơ trên từng bệnh nhân, đặc biệt là rối loạn điện giải (hạ kali máu, hạ magie máu, hạ calci máu), nhịp tim chậm, nữ giới trước khi quyết định kê đơn."
+    },
+    {
+      "thuoc": ["Moxifloxacin"],
+      "muc_do": 4,
+      "phan_tich": "Hiệp đồng tăng tác dụng. Tăng nguy cơ kéo dài khoảng QT, xoắn đỉnh",
+      "xu_ly": "1. Chống chỉ định phối hợp ở các bệnh nhân có hội chứng QT kéo dài do di truyền hoặc mắc phải.<br> 2. Trên các đối tượng bệnh nhân khác, tốt nhất nên tránh phối hợp các thuốc này. Trong trường hợp cần thiết phối hợp, cần đánh giá cẩn thận nguy cơ/lợi ích và lượng giá các yếu tố nguy cơ trên từng bệnh nhân, đặc biệt là rối loạn điện giải (hạ kali máu, hạ magie máu, hạ calci máu), nhịp tim chậm, nữ giới trước khi quyết định kê đơn."
+    },
+    {
+      "thuoc": ["Fluconazol"],
+      "muc_do": 4,
+      "phan_tich": "Hiệp đồng tăng tác dụng. Tăng nguy cơ kéo dài khoảng QT, xoắn đỉnh",
+      "xu_ly": "1. Chống chỉ định phối hợp ở các bệnh nhân có hội chứng QT kéo dài do di truyền hoặc mắc phải.<br> 2. Trên các đối tượng bệnh nhân khác, tốt nhất nên tránh phối hợp các thuốc này. Trong trường hợp cần thiết phối hợp, cần đánh giá cẩn thận nguy cơ/lợi ích và lượng giá các yếu tố nguy cơ trên từng bệnh nhân, đặc biệt là rối loạn điện giải (hạ kali máu, hạ magie máu, hạ calci máu), nhịp tim chậm, nữ giới trước khi quyết định kê đơn."
+    },
+    {
+      "thuoc": ["Haloperidol"],
+      "muc_do": 4,
+      "phan_tich": "Hiệp đồng tăng tác dụng. Tăng nguy cơ kéo dài khoảng QT, xoắn đỉnh",
+      "xu_ly": "1. Chống chỉ định phối hợp ở các bệnh nhân có hội chứng QT kéo dài do di truyền hoặc mắc phải.<br> 2. Trên các đối tượng bệnh nhân khác, tốt nhất nên tránh phối hợp các thuốc này. Trong trường hợp cần thiết phối hợp, cần đánh giá cẩn thận nguy cơ/lợi ích và lượng giá các yếu tố nguy cơ trên từng bệnh nhân, đặc biệt là rối loạn điện giải (hạ kali máu, hạ magie máu, hạ calci máu), nhịp tim chậm, nữ giới trước khi quyết định kê đơn."
+    },
+    {
+      "thuoc": ["Sotalol"],
+      "muc_do": 4,
+      "phan_tich": "Hiệp đồng tăng tác dụng. Tăng nguy cơ kéo dài khoảng QT, xoắn đỉnh",
+      "xu_ly": "1. Chống chỉ định phối hợp ở các bệnh nhân có hội chứng QT kéo dài do di truyền hoặc mắc phải.<br> 2. Trên các đối tượng bệnh nhân khác, tốt nhất nên tránh phối hợp các thuốc này. Trong trường hợp cần thiết phối hợp, cần đánh giá cẩn thận nguy cơ/lợi ích và lượng giá các yếu tố nguy cơ trên từng bệnh nhân, đặc biệt là rối loạn điện giải (hạ kali máu, hạ magie máu, hạ calci máu), nhịp tim chậm, nữ giới trước khi quyết định kê đơn."
+    },
+    {
+      "thuoc": ["Furazolidon"],
+      "muc_do": 4,
+      "phan_tich": "Hiệp đồng tác dụng serotonin. Tác dụng ức chế MAO của furazolidon do chất chuyển hóa của thuốc, xuất hiện chậm sau 5 - 10 ngày. Tăng nguy cơ hội chứng serotonin (sốt cao, rối loạn nhận thức, tăng phản xạ, mất phối hợp, rung giật cơ, cứng cơ, co giật, nhịp tim nhanh, tăng huyết áp, tăng thân nhiệt, vã mồ hôi, ảo giác, kích động hoặc bồn chồn…)",
+      "xu_ly": "1. Cố gắng tránh sử dụng đồng thời furazolidon và escitalopram. Tốt nhất các thuốc này nên sử dụng cách nhau 2 tuần. Cân nhắc thay đổi sang các thuốc nhóm khác có cùng chỉ định và ít có nguy cơ tương tác hơn.<br> 2. Trong hợp không thể trì hoãn điều trị được 2 tuần, bắt buộc sử dụng dài ngày hoặc khẩn cấp bằng furazolidon và không có thuốc khác thay thế, cân bằng lợi ích và nguy cơ xảy ra hội chứng serotonin. Nếu lợi ích vượt trội nguy cơ, vẫn có thể sử dụng đồng thời nhưng cần giám sát chặt chẽ chặt chẽ bệnh nhân, đặc biệt trong tháng đầu tiên sử dụng đồng thời 2 thuốc."
+    },
+    {
+      "thuoc": ["Sparfloxacin"],
+      "muc_do": 4,
+      "phan_tich": "Hiệp đồng tăng tác dụng. Tăng nguy cơ kéo dài khoảng QT, xoắn đỉnh",
+      "xu_ly": "1. Chống chỉ định phối hợp ở các bệnh nhân có hội chứng QT kéo dài do di truyền hoặc mắc phải.<br> 2. Trên các đối tượng bệnh nhân khác, tốt nhất nên tránh phối hợp các thuốc này. Trong trường hợp cần thiết phối hợp, cần đánh giá cẩn thận nguy cơ/lợi ích và lượng giá các yếu tố nguy cơ trên từng bệnh nhân, đặc biệt là rối loạn điện giải (hạ kali máu, hạ magie máu, hạ calci máu), nhịp tim chậm, nữ giới trước khi quyết định kê đơn."
+    }
+  ]
+},
+{
+  "hoat_chat": "Etodolac",
+  "cac_thuoc_trong_nhom": ["Etodolac"],
+  "tuong_tac": [
+    {
+      "thuoc": ["Ketorolac"],
+      "muc_do": 4,
+      "phan_tich": "Hiệp đồng tác dụng kích ứng đường tiêu hóa. Tăng nguy cơ xuất huyết tiêu hóa nghiêm trọng (sử dụng đồng thời ketorolac với 1 NSAID khác làm tăng nguy cơ xuất huyết tiêu hóa gấp 5 lần so với phối hợp 2 NSAID khác)",
+      "xu_ly": "Chống chỉ định phối hợp. Cần đặc biệt lưu ý nguy cơ tương tác trong trường hợp giảm đau hậu phẫu."
+    }
+  ]
+},
+{
+  "hoat_chat": "Etoricoxib",
+  "cac_thuoc_trong_nhom": ["Etoricoxib"],
+  "tuong_tac": [
+    {
+      "thuoc": ["Ketorolac"],
+      "muc_do": 4,
+      "phan_tich": "Hiệp đồng tác dụng kích ứng đường tiêu hóa. Tăng nguy cơ xuất huyết tiêu hóa nghiêm trọng (sử dụng đồng thời ketorolac với 1 NSAID khác làm tăng nguy cơ xuất huyết tiêu hóa gấp 5 lần so với phối hợp 2 NSAID khác)",
+      "xu_ly": "Chống chỉ định phối hợp. Cần đặc biệt lưu ý nguy cơ tương tác trong trường hợp giảm đau hậu phẫu."
+    }
+  ]
+},
+{
+  "hoat_chat": "Everolimus",
+  "cac_thuoc_trong_nhom": ["Everolimus"],
+  "tuong_tac": [
+    {
+      "thuoc": ["Lopinavir", "Ritonavir"],
+      "muc_do": 4,
+      "phan_tich": "Ritonavir ức chế mạnh CP3A4 làm giảm chuyển hóa của everolimus ở gan, đồng thời, ức chế P-gp làm giảm thải trừ everolimus khỏi cơ thể. Tăng nồng độ everolimus trong huyết thanh, tăng tác dụng bất lợi liên quan đến ức chế miễn dịch",
+      "xu_ly": "Chống chỉ định phối hợp"
+    },
+    {
+      "thuoc": ["Indinavir", "Ritonavir"],
+      "muc_do": 4,
+      "phan_tich": "Ritonavir ức chế mạnh CP3A4 làm giảm chuyển hóa của everolimus ở gan, đồng thời, ức chế P-gp làm giảm thải trừ everolimus khỏi cơ thể. Tăng nồng độ everolimus trong huyết thanh, tăng tác dụng bất lợi liên quan đến ức chế miễn dịch",
+      "xu_ly": "Chống chỉ định phối hợp"
+    },
+    {
+      "thuoc": ["Saquinavir", "Ritonavir"],
+      "muc_do": 4,
+      "phan_tich": "Ritonavir ức chế mạnh CP3A4 làm giảm chuyển hóa của everolimus ở gan, đồng thời, ức chế P-gp làm giảm thải trừ everolimus khỏi cơ thể. Tăng nồng độ everolimus trong huyết thanh, tăng tác dụng bất lợi liên quan đến ức chế miễn dịch",
+      "xu_ly": "Chống chỉ định phối hợp"
+    },
+    {
+      "thuoc": ["Itraconazol"],
+      "muc_do": 4,
+      "phan_tich": "Itraconazol ức chế mạnh CP3A4 làm giảm chuyển hóa của everolimus ở gan, đồng thời, ức chế P-gp làm giảm thải trừ everolimus khỏi cơ thể. Tăng nồng độ everolimus trong huyết thanh, tăng tác dụng bất lợi liên quan đến ức chế miễn dịch",
+      "xu_ly": "Chống chỉ định phối hợp"
+    }
+  ]
+},
+{
+  "hoat_chat": "Felodipin",
+  "cac_thuoc_trong_nhom": ["Felodipin"],
+  "tuong_tac": [
+    {
+      "thuoc": ["Lopinavir", "Ritonavir"],
+      "muc_do": 4,
+      "phan_tich": "Lopinavir/ritonavir ức chế CYP3A4 mạnh làm giảm chuyển hóa của felodipin. Tăng nồng độ felodipin, tăng nguy cơ hạ huyết áp nghiêm trọng",
+      "xu_ly": "Chống chỉ định phối hợp"
+    },
+    {
+      "thuoc": ["Indinavir", "Ritonavir"],
+      "muc_do": 4,
+      "phan_tich": "Indinavir ức chế CYP3A4 mạnh làm giảm chuyển hóa của felodipin. Tăng nồng độ felodipin, tăng nguy cơ hạ huyết áp nghiêm trọng",
+      "xu_ly": "Chống chỉ định phối hợp"
+    },
+    {
+      "thuoc": ["Saquinavir", "Ritonavir"],
+      "muc_do": 4,
+      "phan_tich": "Saquinavir ức chế CYP3A4 mạnh làm giảm chuyển hóa của felodipin. Tăng nồng độ felodipin, tăng nguy cơ hạ huyết áp nghiêm trọng",
+      "xu_ly": "Chống chỉ định phối hợp"
+    },
+    {
+      "thuoc": ["Itraconazol"],
+      "muc_do": 4,
+      "phan_tich": "Itraconazol ức chế CYP3A4 mạnh làm giảm chuyển hóa của felodipin. Tăng nồng độ felodipin, tăng nguy cơ hạ huyết áp nghiêm trọng",
+      "xu_ly": "Chống chỉ định phối hợp. <br> 1. Chỉ bắt đầu sử dụng felodipin sau khi ngừng itraconazol ít nhất 2 tuần HOẶC<br> 2. Cân nhắc thay đổi sang các thuốc nhóm khác có cùng chỉ định và ít có nguy cơ tương tác hơn: Trong trường hợp bắt buộc sử dụng thuốc kháng nấm azol, thay itraconazol bằng fluconazol (nhưng tránh dùng liều cao, có tác dụng ức chế mạnh CYP3A4)."
+    },
+    {
+      "thuoc": ["Posaconazol"],
+      "muc_do": 4,
+      "phan_tich": "Posaconazol ức chế CYP3A4 mạnh làm giảm chuyển hóa của felodipin. Tăng nồng độ felodipin, tăng nguy cơ hạ huyết áp nghiêm trọng",
+      "xu_ly": "Chống chỉ định phối hợp. Cân nhắc thay đổi sang các thuốc nhóm khác có cùng chỉ định và ít có nguy cơ tương tác hơn: Trong trường hợp bắt buộc sử dụng thuốc kháng nấm azol, thay posaconazol bằng fluconazol (nhưng tránh dùng liều cao, có tác dụng ức chế mạnh CYP3A4)."
+    },
+    {
+      "thuoc": ["Voriconazol"],
+      "muc_do": 4,
+      "phan_tich": "Voriconazol ức chế CYP3A4 mạnh làm giảm chuyển hóa của felodipin. Tăng nồng độ felodipin, tăng nguy cơ hạ huyết áp nghiêm trọng",
+      "xu_ly": "Chống chỉ định phối hợp. Cân nhắc thay đổi sang các thuốc nhóm khác có cùng chỉ định và ít có nguy cơ tương tác hơn: Trong trường hợp bắt buộc sử dụng thuốc kháng nấm azol, thay voriconazol bằng fluconazol (nhưng tránh dùng liều cao, có tác dụng ức chế mạnh CYP3A4)."
+    }
+  ]
+},
+{
+  "hoat_chat": "Fentanyl",
+  "cac_thuoc_trong_nhom": ["Fentanyl"],
+  "tuong_tac": [
+    {
+      "thuoc": ["Linezolid"],
+      "muc_do": 4,
+      "phan_tich": "Hiệp đồng tác dụng serotonin. Tăng nguy cơ hội chứng serotonin (sốt cao, rối loạn nhận thức, tăng phản xạ, mất phối hợp, rung giật cơ, cứng cơ, co giật, nhịp tim nhanh, tăng huyết áp, tăng thân nhiệt, vã mồ hôi, ảo giác, kích động hoặc bồn chồn…)",
+      "xu_ly": "1. Cố gắng tránh sử dụng đồng thời linezolid và fentanyl. Tốt nhất các thuốc này nên sử dụng cách nhau 2 tuần. Cân nhắc thay đổi sang các thuốc nhóm khác có cùng chỉ định và ít có nguy cơ tương tác hơn. Trong trường hợp bắt buộc sử dụng opioid, có thể đổi sang các opiod khác không có hoạt tính ức chế thu hồi serotonin (morphin, codein, oxycodon, buprenorphin)<br> 2. Trong hợp không thể trì hoãn điều trị được 2 tuần, bắt buộc sử dụng dài ngày hoặc khẩn cấp bằng linezolid và không có thuốc khác thay thế, cân bằng lợi ích và nguy cơ xảy ra hội chứng serotonin. Nếu lợi ích vượt trội nguy cơ, vẫn có thể sử dụng đồng thời nhưng cần giám sát chặt chẽ chặt chẽ bệnh nhân, đặc biệt trong tháng đầu tiên sử dụng đồng thời 2 thuốc."
+    },
+    {
+      "thuoc": ["Xanh methylen (sử dụng đường tiêm tĩnh mạch)"],
+      "muc_do": 4,
+      "phan_tich": "Hiệp đồng tác dụng serotonin. Tăng nguy cơ hội chứng serotonin (sốt cao, rối loạn nhận thức, tăng phản xạ, mất phối hợp, rung giật cơ, cứng cơ, co giật, nhịp tim nhanh, tăng huyết áp, tăng thân nhiệt, vã mồ hôi, ảo giác, kích động hoặc bồn chồn…)",
+      "xu_ly": "1. Cố gắng tránh sử dụng đồng thời xanh methylen và fentanyl. Tốt nhất các thuốc này nên sử dụng cách nhau 2 tuần. Cân nhắc thay đổi sang các thuốc nhóm khác có cùng chỉ định và ít có nguy cơ tương tác hơn. Trong trường hợp bắt buộc sử dụng opioid, có thể đổi sang các opiod khác không có hoạt tính ức chế thu hồi serotonin (morphin, codein, oxycodon, buprenorphin)<br> 2. Trong hợp không thể trì hoãn điều trị được 2 tuần, bắt buộc sử dụng dài ngày hoặc khẩn cấp bằng xanh methylen và không có thuốc khác thay thế, cân bằng lợi ích và nguy cơ xảy ra hội chứng serotonin. Nếu lợi ích vượt trội nguy cơ, vẫn có thể sử dụng đồng thời nhưng cần giám sát chặt chẽ chặt chẽ bệnh nhân, đặc biệt trong tháng đầu tiên sử dụng đồng thời 2 thuốc."
+    },
+    {
+      "thuoc": ["Furazolidon"],
+      "muc_do": 4,
+      "phan_tich": "Hiệp đồng tác dụng serotonin. Tác dụng ức chế MAO của furazolidon do chất chuyển hóa của thuốc, xuất hiện chậm sau 5 - 10 ngày. Tăng nguy cơ hội chứng serotonin (sốt cao, rối loạn nhận thức, tăng phản xạ, mất phối hợp, rung giật cơ, cứng cơ, co giật, nhịp tim nhanh, tăng huyết áp, tăng thân nhiệt, vã mồ hôi, ảo giác, kích động hoặc bồn chồn…)",
+      "xu_ly": "1. Cố gắng tránh sử dụng đồng thời furazolidon và fentanyl. Tốt nhất các thuốc này nên sử dụng cách nhau 2 tuần. Cân nhắc thay đổi sang các thuốc nhóm khác có cùng chỉ định và ít có nguy cơ tương tác hơn. Trong trường hợp bắt buộc sử dụng opioid, có thể đổi sang các opiod khác không có hoạt tính ức chế thu hồi serotonin (morphin, codein, oxycodon, buprenorphin)<br> 2. Trong hợp không thể trì hoãn điều trị được 2 tuần, bắt buộc sử dụng dài ngày hoặc khẩn cấp bằng furazolidon và không có thuốc khác thay thế, cân bằng lợi ích và nguy cơ xảy ra hội chứng serotonin. Nếu lợi ích vượt trội nguy cơ, vẫn có thể sử dụng đồng thời nhưng cần giám sát chặt chẽ chặt chẽ bệnh nhân, đặc biệt trong tháng đầu tiên sử dụng đồng thời 2 thuốc."
+    }
+  ]
+},
+{
+  "hoat_chat": "Floctafenin",
+  "cac_thuoc_trong_nhom": ["Floctafenin"],
+  "tuong_tac": [
+    {
+      "thuoc": ["Ketorolac"],
+      "muc_do": 4,
+      "phan_tich": "Hiệp đồng tác dụng kích ứng đường tiêu hóa. Tăng nguy cơ xuất huyết tiêu hóa nghiêm trọng (sử dụng đồng thời ketorolac với 1 NSAID khác làm tăng nguy cơ xuất huyết tiêu hóa gấp 5 lần so với phối hợp 2 NSAID khác)",
+      "xu_ly": "Chống chỉ định phối hợp. Cần đặc biệt lưu ý nguy cơ tương tác trong trường hợp giảm đau hậu phẫu."
+    }
+  ]
+},
+{
+  "hoat_chat": "Fluconazol",
+  "cac_thuoc_trong_nhom": ["Fluconazol"],
+  "tuong_tac": [
+    {
+      "thuoc": ["Thioridazin"],
+      "muc_do": 4,
+      "phan_tich": "Hiệp đồng tăng tác dụng. Tăng nguy cơ kéo dài khoảng QT, xoắn đỉnh",
+      "xu_ly": "1. Chống chỉ định phối hợp ở các bệnh nhân có hội chứng QT kéo dài do di truyền hoặc mắc phải.<br> 2. Trên các đối tượng bệnh nhân khác, tốt nhất nên tránh phối hợp các thuốc này. Trong trường hợp cần thiết phối hợp, cần đánh giá cẩn thận nguy cơ/lợi ích và lượng giá các yếu tố nguy cơ trên từng bệnh nhân, đặc biệt là rối loạn điện giải (hạ kali máu, hạ magie máu, hạ calci máu), nhịp tim chậm, nữ giới trước khi quyết định kê đơn."
+    },
+    {
+      "thuoc": ["Ondansetron"],
+      "muc_do": 4,
+      "phan_tich": "Hiệp đồng tăng tác dụng. Tăng nguy cơ kéo dài khoảng QT, xoắn đỉnh",
+      "xu_ly": "1. Chống chỉ định phối hợp ở các bệnh nhân có hội chứng QT kéo dài do di truyền hoặc mắc phải.<br> 2. Trên các đối tượng bệnh nhân khác, tốt nhất nên tránh phối hợp các thuốc này. Trong trường hợp cần thiết phối hợp, cần đánh giá cẩn thận nguy cơ/lợi ích và lượng giá các yếu tố nguy cơ trên từng bệnh nhân, đặc biệt là rối loạn điện giải (hạ kali máu, hạ magie máu, hạ calci máu), nhịp tim chậm, nữ giới trước khi quyết định kê đơn."
+    },
+    {
+      "thuoc": ["Methadon"],
+      "muc_do": 4,
+      "phan_tich": "Hiệp đồng tăng tác dụng. Tăng nguy cơ kéo dài khoảng QT, xoắn đỉnh",
+      "xu_ly": "1. Chống chỉ định phối hợp ở các bệnh nhân có hội chứng QT kéo dài do di truyền hoặc mắc phải.<br> 2. Trên các đối tượng bệnh nhân khác, tốt nhất nên tránh phối hợp các thuốc này. Trong trường hợp cần thiết phối hợp, cần đánh giá cẩn thận nguy cơ/lợi ích và lượng giá các yếu tố nguy cơ trên từng bệnh nhân, đặc biệt là rối loạn điện giải (hạ kali máu, hạ magie máu, hạ calci máu), nhịp tim chậm, nữ giới trước khi quyết định kê đơn."
+    },
+    {
+      "thuoc": ["Haloperidol"],
+      "muc_do": 4,
+      "phan_tich": "Hiệp đồng tăng tác dụng. Tăng nguy cơ kéo dài khoảng QT, xoắn đỉnh",
+      "xu_ly": "1. Chống chỉ định phối hợp ở các bệnh nhân có hội chứng QT kéo dài do di truyền hoặc mắc phải.<br> 2. Trên các đối tượng bệnh nhân khác, tốt nhất nên tránh phối hợp các thuốc này. Trong trường hợp cần thiết phối hợp, cần đánh giá cẩn thận nguy cơ/lợi ích và lượng giá các yếu tố nguy cơ trên từng bệnh nhân, đặc biệt là rối loạn điện giải (hạ kali máu, hạ magie máu, hạ calci máu), nhịp tim chậm, nữ giới trước khi quyết định kê đơn."
+    },
+    {
+      "thuoc": ["Sparfloxacin"],
+      "muc_do": 4,
+      "phan_tich": "Hiệp đồng tăng tác dụng. Tăng nguy cơ kéo dài khoảng QT, xoắn đỉnh",
+      "xu_ly": "1. Chống chỉ định phối hợp ở các bệnh nhân có hội chứng QT kéo dài do di truyền hoặc mắc phải.<br> 2. Trên các đối tượng bệnh nhân khác, tốt nhất nên tránh phối hợp các thuốc này. Trong trường hợp cần thiết phối hợp, cần đánh giá cẩn thận nguy cơ/lợi ích và lượng giá các yếu tố nguy cơ trên từng bệnh nhân, đặc biệt là rối loạn điện giải (hạ kali máu, hạ magie máu, hạ calci máu), nhịp tim chậm, nữ giới trước khi quyết định kê đơn."
+    }
+  ]
+},
+{
+  "hoat_chat": "Fluoxetin",
+  "cac_thuoc_trong_nhom": ["Fluoxetin"],
+  "tuong_tac": [
+    {
+      "thuoc": ["Linezolid"],
+      "muc_do": 4,
+      "phan_tich": "Hiệp đồng tác dụng serotonin. Tăng nguy cơ hội chứng serotonin (sốt cao, rối loạn nhận thức, tăng phản xạ, mất phối hợp, rung giật cơ, cứng cơ, co giật, nhịp tim nhanh, tăng huyết áp, tăng thân nhiệt, vã mồ hôi, ảo giác, kích động hoặc bồn chồn…)",
+      "xu_ly": "1. Cố gắng tránh sử dụng đồng thời linezolid và fluoxetin. Tốt nhất các thuốc này nên sử dụng cách nhau 5 tuần. Cân nhắc thay đổi sang các thuốc nhóm khác có cùng chỉ định và ít có nguy cơ tương tác hơn.<br> 2. Trong hợp không thể trì hoãn điều trị được 5 tuần, bắt buộc sử dụng dài ngày hoặc khẩn cấp bằng linezolid và không có thuốc khác thay thế, cân bằng lợi ích và nguy cơ xảy ra hội chứng serotonin. Nếu lợi ích vượt trội nguy cơ, vẫn có thể sử dụng đồng thời nhưng cần giám sát chặt chẽ chặt chẽ bệnh nhân, đặc biệt trong tháng đầu tiên sử dụng đồng thời 2 thuốc."
+    },
+    {
+      "thuoc": ["Xanh methylen (sử dụng đường tiêm tĩnh mạch)"],
+      "muc_do": 4,
+      "phan_tich": "Hiệp đồng tác dụng serotonin. Tăng nguy cơ hội chứng serotonin (sốt cao, rối loạn nhận thức, tăng phản xạ, mất phối hợp, rung giật cơ, cứng cơ, co giật, nhịp tim nhanh, tăng huyết áp, tăng thân nhiệt, vã mồ hôi, ảo giác, kích động hoặc bồn chồn…)",
+      "xu_ly": "1. Cố gắng tránh sử dụng đồng thời xanh methylen và dextromethorphan. Tốt nhất các thuốc này nên sử dụng cách nhau 2 tuần. Cân nhắc thay đổi sang các thuốc nhóm khác có cùng chỉ định và ít có nguy cơ tương tác hơn. Trong trường hợp bắt buộc sử dụng opioid, có thể đổi sang các opiod khác không có hoạt tính ức chế thu hồi serotonin (morphin, codein, oxycodon, buprenorphin)<br> 2. Trong hợp không thể trì hoãn điều trị được 2 tuần, bắt buộc sử dụng dài ngày hoặc khẩn cấp bằng xanh methylen và không có thuốc khác thay thế, cân bằng lợi ích và nguy cơ xảy ra hội chứng serotonin. Nếu lợi ích vượt trội nguy cơ, vẫn có thể sử dụng đồng thời nhưng cần giám sát chặt chẽ chặt chẽ bệnh nhân, đặc biệt trong tháng đầu tiên sử dụng đồng thời 2 thuốc."
+    },
+    {
+      "thuoc": ["Furazolidon"],
+      "muc_do": 4,
+      "phan_tich": "Hiệp đồng tác dụng serotonin. Tác dụng ức chế MAO của furazolidon do chất chuyển hóa của thuốc, xuất hiện chậm sau 5 - 10 ngày. Tăng nguy cơ hội chứng serotonin (sốt cao, rối loạn nhận thức, tăng phản xạ, mất phối hợp, rung giật cơ, cứng cơ, co giật, nhịp tim nhanh, tăng huyết áp, tăng thân nhiệt, vã mồ hôi, ảo giác, kích động hoặc bồn chồn…)",
+      "xu_ly": "1. Cố gắng tránh sử dụng đồng thời furazolidon và fluoxetin. Tốt nhất các thuốc này nên sử dụng cách nhau 5 tuần. Cân nhắc thay đổi sang các thuốc nhóm khác có cùng chỉ định và ít có nguy cơ tương tác hơn.<br> 2. Trong hợp không thể trì hoãn điều trị được 5 tuần, bắt buộc sử dụng dài ngày hoặc khẩn cấp bằng furazolidon và không có thuốc khác thay thế, cân bằng lợi ích và nguy cơ xảy ra hội chứng serotonin. Nếu lợi ích vượt trội nguy cơ, vẫn có thể sử dụng đồng thời nhưng cần giám sát chặt chẽ chặt chẽ bệnh nhân, đặc biệt trong tháng đầu tiên sử dụng đồng thời 2 thuốc."
+    }
+  ]
+},
+{
+  "hoat_chat": "Flurbiprofen",
+  "cac_thuoc_trong_nhom": ["Flurbiprofen"],
+  "tuong_tac": [
+    {
+      "thuoc": ["Ketorolac"],
+      "muc_do": 4,
+      "phan_tich": "Hiệp đồng tác dụng kích ứng đường tiêu hóa. Tăng nguy cơ xuất huyết tiêu hóa nghiêm trọng (sử dụng đồng thời ketorolac với 1 NSAID khác làm tăng nguy cơ xuất huyết tiêu hóa gấp 5 lần so với phối hợp 2 NSAID khác)",
+      "xu_ly": "Chống chỉ định phối hợp. Cần đặc biệt lưu ý nguy cơ tương tác trong trường hợp giảm đau hậu phẫu."
+    }
+  ]
+},
+{
+  "hoat_chat": "Fluvastatin",
+  "cac_thuoc_trong_nhom": ["Fluvastatin"],
+  "tuong_tac": [
+    {
+      "thuoc": ["Gemfibrozil"],
+      "muc_do": 4,
+      "phan_tich": "Gemfibrozil ức chế OATP1B1 làm giảm vận chuyển fluvastatin vào gan. Tăng nồng độ fluvastatin trong huyết thanh, tăng nguy cơ bệnh cơ hoặc tiêu cơ vân cấp",
+      "xu_ly": "Chống chỉ định phối hợp. Trong trường hợp bắt buộc sử dụng dẫn chất fibrat, thay thế gemfibrozil bằng fenofibrat nhưng cần thận trọng khi phối hợp."
+    }
+  ]
+},
+{
+  "hoat_chat": "Fluvoxamin",
+  "cac_thuoc_trong_nhom": ["Fluvoxamin"],
+  "tuong_tac": [
+    {
+      "thuoc": ["Linezolid"],
+      "muc_do": 4,
+      "phan_tich": "Hiệp đồng tác dụng serotonin. Tăng nguy cơ hội chứng serotonin (sốt cao, rối loạn nhận thức, tăng phản xạ, mất phối hợp, rung giật cơ, cứng cơ, co giật, nhịp tim nhanh, tăng huyết áp, tăng thân nhiệt, vã mồ hôi, ảo giác, kích động hoặc bồn chồn…)",
+      "xu_ly": "1. Cố gắng tránh sử dụng đồng thời linezolid và fluvoxamin. Tốt nhất các thuốc này nên sử dụng cách nhau 2 tuần. Cân nhắc thay đổi sang các thuốc nhóm khác có cùng chỉ định và ít có nguy cơ tương tác hơn.<br> 2. Trong hợp không thể trì hoãn điều trị được 2 tuần, bắt buộc sử dụng dài ngày hoặc khẩn cấp bằng linezolid và không có thuốc khác thay thế, cân bằng lợi ích và nguy cơ xảy ra hội chứng serotonin. Nếu lợi ích vượt trội nguy cơ, vẫn có thể sử dụng đồng thời nhưng cần giám sát chặt chẽ chặt chẽ bệnh nhân, đặc biệt trong tháng đầu tiên sử dụng đồng thời 2 thuốc."
+    },
+    {
+      "thuoc": ["Xanh methylen (sử dụng đường tiêm tĩnh mạch)"],
+      "muc_do": 4,
+      "phan_tich": "Hiệp đồng tác dụng serotonin. Tăng nguy cơ hội chứng serotonin (sốt cao, rối loạn nhận thức, tăng phản xạ, mất phối hợp, rung giật cơ, cứng cơ, co giật, nhịp tim nhanh, tăng huyết áp, tăng thân nhiệt, vã mồ hôi, ảo giác, kích động hoặc bồn chồn…)",
+      "xu_ly": "1. Cố gắng tránh sử dụng đồng thời xanh methylen và fentanyl. Tốt nhất các thuốc này nên sử dụng cách nhau 2 tuần. Cân nhắc thay đổi sang các thuốc nhóm khác có cùng chỉ định và ít có nguy cơ tương tác hơn. Trong trường hợp bắt buộc sử dụng opioid, có thể đổi sang các opiod khác không có hoạt tính ức chế thu hồi serotonin (morphin, codein, oxycodon, buprenorphin)<br> 2. Trong hợp không thể trì hoãn điều trị được 2 tuần, bắt buộc sử dụng dài ngày hoặc khẩn cấp bằng xanh methylen và không có thuốc khác thay thế, cân bằng lợi ích và nguy cơ xảy ra hội chứng serotonin. Nếu lợi ích vượt trội nguy cơ, vẫn có thể sử dụng đồng thời nhưng cần giám sát chặt chẽ chặt chẽ bệnh nhân, đặc biệt trong tháng đầu tiên sử dụng đồng thời 2 thuốc."
+    },
+    {
+      "thuoc": ["Tizanidin"],
+      "muc_do": 4,
+      "phan_tich": "Fluvoxamin ức chế CYP1A2 mạnh làm giảm chuyển hóa của tizanidin. Tăng nồng độ của tizanidin trong huyết thanh, tăng nguy cơ tác dụng bất lợi (hạ huyết áp, buồn ngủ, nhịp tim chậm...)",
+      "xu_ly": "Chống chỉ định phối hợp"
+    },
+    {
+      "thuoc": ["Furazolidon"],
+      "muc_do": 4,
+      "phan_tich": "Hiệp đồng tác dụng serotonin. Tác dụng ức chế MAO của furazolidon do chất chuyển hóa của thuốc, xuất hiện chậm sau 5 - 10 ngày. Tăng nguy cơ hội chứng serotonin (sốt cao, rối loạn nhận thức, tăng phản xạ, mất phối hợp, rung giật cơ, cứng cơ, co giật, nhịp tim nhanh, tăng huyết áp, tăng thân nhiệt, vã mồ hôi, ảo giác, kích động hoặc bồn chồn…)",
+      "xu_ly": "1. Cố gắng tránh sử dụng đồng thời furazolidon và fluvoxamin. Tốt nhất các thuốc này nên sử dụng cách nhau 2 tuần. Cân nhắc thay đổi sang các thuốc nhóm khác có cùng chỉ định và ít có nguy cơ tương tác hơn.<br> 2. Trong hợp không thể trì hoãn điều trị được 2 tuần, bắt buộc sử dụng dài ngày hoặc khẩn cấp bằng furazolidon và không có thuốc khác thay thế, cân bằng lợi ích và nguy cơ xảy ra hội chứng serotonin. Nếu lợi ích vượt trội nguy cơ, vẫn có thể sử dụng đồng thời nhưng cần giám sát chặt chẽ chặt chẽ bệnh nhân, đặc biệt trong tháng đầu tiên sử dụng đồng thời 2 thuốc."
+    }
+  ]
+},
+{
+  "hoat_chat": "Furazolidon",
+  "cac_thuoc_trong_nhom": ["Furazolidon"],
+  "tuong_tac": [
+    {
+      "thuoc": ["Paroxetin"],
+      "muc_do": 4,
+      "phan_tich": "Hiệp đồng tác dụng serotonin. Tác dụng ức chế MAO của furazolidon do chất chuyển hóa của thuốc, xuất hiện chậm sau 5 - 10 ngày. Tăng nguy cơ hội chứng serotonin (sốt cao, rối loạn nhận thức, tăng phản xạ, mất phối hợp, rung giật cơ, cứng cơ, co giật, nhịp tim nhanh, tăng huyết áp, tăng thân nhiệt, vã mồ hôi, ảo giác, kích động hoặc bồn chồn…)",
+      "xu_ly": "1. Cố gắng tránh sử dụng đồng thời furazolidon và paroxetin. Tốt nhất các thuốc này nên sử dụng cách nhau 2 tuần. Cân nhắc thay đổi sang các thuốc nhóm khác có cùng chỉ định và ít có nguy cơ tương tác hơn.<br> 2. Trong hợp không thể trì hoãn điều trị được 2 tuần, bắt buộc sử dụng dài ngày hoặc khẩn cấp bằng furazolidon và không có thuốc khác thay thế, cân bằng lợi ích và nguy cơ xảy ra hội chứng serotonin. Nếu lợi ích vượt trội nguy cơ, vẫn có thể sử dụng đồng thời nhưng cần giám sát chặt chẽ chặt chẽ bệnh nhân, đặc biệt trong tháng đầu tiên sử dụng đồng thời 2 thuốc."
+    },
+    {
+      "thuoc": ["Sertralin"],
+      "muc_do": 4,
+      "phan_tich": "Hiệp đồng tác dụng serotonin. Tác dụng ức chế MAO của furazolidon do chất chuyển hóa của thuốc, xuất hiện chậm sau 5 - 10 ngày. Tăng nguy cơ hội chứng serotonin (sốt cao, rối loạn nhận thức, tăng phản xạ, mất phối hợp, rung giật cơ, cứng cơ, co giật, nhịp tim nhanh, tăng huyết áp, tăng thân nhiệt, vã mồ hôi, ảo giác, kích động hoặc bồn chồn…)",
+      "xu_ly": "1. Cố gắng tránh sử dụng đồng thời furazolidon và sertralin. Tốt nhất các thuốc này nên sử dụng cách nhau 2 tuần. Cân nhắc thay đổi sang các thuốc nhóm khác có cùng chỉ định và ít có nguy cơ tương tác hơn.<br> 2. Trong hợp không thể trì hoãn điều trị được 2 tuần, bắt buộc sử dụng dài ngày hoặc khẩn cấp bằng furazolidon và không có thuốc khác thay thế, cân bằng lợi ích và nguy cơ xảy ra hội chứng serotonin. Nếu lợi ích vượt trội nguy cơ, vẫn có thể sử dụng đồng thời nhưng cần giám sát chặt chẽ chặt chẽ bệnh nhân, đặc biệt trong tháng đầu tiên sử dụng đồng thời 2 thuốc."
+    },
+    {
+      "thuoc": ["Venlafaxin"],
+      "muc_do": 4,
+      "phan_tich": "Hiệp đồng tác dụng serotonin. Tác dụng ức chế MAO của furazolidon do chất chuyển hóa của thuốc, xuất hiện chậm sau 5 - 10 ngày. Tăng nguy cơ hội chứng serotonin (sốt cao, rối loạn nhận thức, tăng phản xạ, mất phối hợp, rung giật cơ, cứng cơ, co giật, nhịp tim nhanh, tăng huyết áp, tăng thân nhiệt, vã mồ hôi, ảo giác, kích động hoặc bồn chồn…)",
+      "xu_ly": "1. Cố gắng tránh sử dụng đồng thời furazolidon và venlafaxin. Tốt nhất các thuốc này nên sử dụng cách nhau 2 tuần. Cân nhắc thay đổi sang các thuốc nhóm khác có cùng chỉ định và ít có nguy cơ tương tác hơn.<br> 2. Trong hợp không thể trì hoãn điều trị được 2 tuần, bắt buộc sử dụng dài ngày hoặc khẩn cấp bằng furazolidon và không có thuốc khác thay thế, cân bằng lợi ích và nguy cơ xảy ra hội chứng serotonin. Nếu lợi ích vượt trội nguy cơ, vẫn có thể sử dụng đồng thời nhưng cần giám sát chặt chẽ chặt chẽ bệnh nhân, đặc biệt trong tháng đầu tiên sử dụng đồng thời 2 thuốc."
+    },
+    {
+      "thuoc": ["Milnacipran"],
+      "muc_do": 4,
+      "phan_tich": "Hiệp đồng tác dụng serotonin. Tác dụng ức chế MAO của furazolidon do chất chuyển hóa của thuốc, xuất hiện chậm sau 5 - 10 ngày. Tăng nguy cơ hội chứng serotonin (sốt cao, rối loạn nhận thức, tăng phản xạ, mất phối hợp, rung giật cơ, cứng cơ, co giật, nhịp tim nhanh, tăng huyết áp, tăng thân nhiệt, vã mồ hôi, ảo giác, kích động hoặc bồn chồn…)",
+      "xu_ly": "1. Cố gắng tránh sử dụng đồng thời furazolidon và milnacriptan. Tốt nhất các thuốc này nên sử dụng cách nhau 2 tuần. Cân nhắc thay đổi sang các thuốc nhóm khác có cùng chỉ định và ít có nguy cơ tương tác hơn.<br> 2. Trong hợp không thể trì hoãn điều trị được 2 tuần, bắt buộc sử dụng dài ngày hoặc khẩn cấp bằng furazolidon và không có thuốc khác thay thế, cân bằng lợi ích và nguy cơ xảy ra hội chứng serotonin. Nếu lợi ích vượt trội nguy cơ, vẫn có thể sử dụng đồng thời nhưng cần giám sát chặt chẽ chặt chẽ bệnh nhân, đặc biệt trong tháng đầu tiên sử dụng đồng thời 2 thuốc."
+    },
+    {
+      "thuoc": ["Trazodon"],
+      "muc_do": 4,
+      "phan_tich": "Hiệp đồng tác dụng serotonin. Tác dụng ức chế MAO của furazolidon do chất chuyển hóa của thuốc, xuất hiện chậm sau 5 - 10 ngày. Tăng nguy cơ hội chứng serotonin (sốt cao, rối loạn nhận thức, tăng phản xạ, mất phối hợp, rung giật cơ, cứng cơ, co giật, nhịp tim nhanh, tăng huyết áp, tăng thân nhiệt, vã mồ hôi, ảo giác, kích động hoặc bồn chồn…)",
+      "xu_ly": "1. Cố gắng tránh sử dụng đồng thời furazolidon và trazodon. Tốt nhất các thuốc này nên sử dụng cách nhau 2 tuần. Cân nhắc thay đổi sang các thuốc nhóm khác có cùng chỉ định và ít có nguy cơ tương tác hơn.<br> 2. Trong hợp không thể trì hoãn điều trị được 2 tuần, bắt buộc sử dụng dài ngày hoặc khẩn cấp bằng furazolidon và không có thuốc khác thay thế, cân bằng lợi ích và nguy cơ xảy ra hội chứng serotonin. Nếu lợi ích vượt trội nguy cơ, vẫn có thể sử dụng đồng thời nhưng cần giám sát chặt chẽ chặt chẽ bệnh nhân, đặc biệt trong tháng đầu tiên sử dụng đồng thời 2 thuốc."
+    },
+    {
+      "thuoc": ["Methylphenidat"],
+      "muc_do": 4,
+      "phan_tich": "Hiệp đồng tác dụng serotonin. Tác dụng ức chế MAO của furazolidon do chất chuyển hóa của thuốc, xuất hiện chậm sau 5 - 10 ngày. Tăng nguy cơ hội chứng serotonin (sốt cao, rối loạn nhận thức, tăng phản xạ, mất phối hợp, rung giật cơ, cứng cơ, co giật, nhịp tim nhanh, tăng huyết áp, tăng thân nhiệt, vã mồ hôi, ảo giác, kích động hoặc bồn chồn…)",
+      "xu_ly": "1. Cố gắng tránh sử dụng đồng thời furazolidon và methylphenidat. Tốt nhất các thuốc này nên sử dụng cách nhau 2 tuần. Cân nhắc thay đổi sang các thuốc nhóm khác có cùng chỉ định và ít có nguy cơ tương tác hơn.<br> 2. Trong hợp không thể trì hoãn điều trị được 2 tuần, bắt buộc sử dụng dài ngày hoặc khẩn cấp bằng furazolidon và không có thuốc khác thay thế, cân bằng lợi ích và nguy cơ xảy ra hội chứng serotonin. Nếu lợi ích vượt trội nguy cơ, vẫn có thể sử dụng đồng thời nhưng cần giám sát chặt chẽ chặt chẽ bệnh nhân, đặc biệt trong tháng đầu tiên sử dụng đồng thời 2 thuốc."
+    },
+    {
+      "thuoc": ["Mirtazapin"],
+      "muc_do": 4,
+      "phan_tich": "Hiệp đồng tác dụng serotonin. Tác dụng ức chế MAO của furazolidon do chất chuyển hóa của thuốc, xuất hiện chậm sau 5 - 10 ngày. Tăng nguy cơ hội chứng serotonin (sốt cao, rối loạn nhận thức, tăng phản xạ, mất phối hợp, rung giật cơ, cứng cơ, co giật, nhịp tim nhanh, tăng huyết áp, tăng thân nhiệt, vã mồ hôi, ảo giác, kích động hoặc bồn chồn…)",
+      "xu_ly": "1. Cố gắng tránh sử dụng đồng thời furazolidon và mirtazapin. Tốt nhất các thuốc này nên sử dụng cách nhau 2 tuần. Cân nhắc thay đổi sang các thuốc nhóm khác có cùng chỉ định và ít có nguy cơ tương tác hơn.<br> 2. Trong hợp không thể trì hoãn điều trị được 2 tuần, bắt buộc sử dụng dài ngày hoặc khẩn cấp bằng furazolidon và không có thuốc khác thay thế, cân bằng lợi ích và nguy cơ xảy ra hội chứng serotonin. Nếu lợi ích vượt trội nguy cơ, vẫn có thể sử dụng đồng thời nhưng cần giám sát chặt chẽ chặt chẽ bệnh nhân, đặc biệt trong tháng đầu tiên sử dụng đồng thời 2 thuốc."
+    },
+    {
+      "thuoc": ["Sumatriptan"],
+      "muc_do": 4,
+      "phan_tich": "Hiệp đồng tác dụng serotonin. Tác dụng ức chế MAO của furazolidon do chất chuyển hóa của thuốc, xuất hiện chậm sau 5 - 10 ngày. Tăng nguy cơ hội chứng serotonin (sốt cao, rối loạn nhận thức, tăng phản xạ, mất phối hợp, rung giật cơ, cứng cơ, co giật, nhịp tim nhanh, tăng huyết áp, tăng thân nhiệt, vã mồ hôi, ảo giác, kích động hoặc bồn chồn…)",
+      "xu_ly": "1. Cố gắng tránh sử dụng đồng thời furazolidon và sumatriptan. Tốt nhất các thuốc này nên sử dụng cách nhau 2 tuần. Cân nhắc thay đổi sang các thuốc nhóm khác có cùng chỉ định và ít có nguy cơ tương tác hơn.<br> 2. Trong hợp không thể trì hoãn điều trị được 2 tuần, bắt buộc sử dụng dài ngày hoặc khẩn cấp bằng furazolidon và không có thuốc khác thay thế, cân bằng lợi ích và nguy cơ xảy ra hội chứng serotonin. Nếu lợi ích vượt trội nguy cơ, vẫn có thể sử dụng đồng thời nhưng cần giám sát chặt chẽ chặt chẽ bệnh nhân, đặc biệt trong tháng đầu tiên sử dụng đồng thời 2 thuốc."
+    },
+    {
+      "thuoc": ["Pethidin"],
+      "muc_do": 4,
+      "phan_tich": "Hiệp đồng tác dụng serotonin. Tác dụng ức chế MAO của furazolidon do chất chuyển hóa của thuốc, xuất hiện chậm sau 5 - 10 ngày. Tăng nguy cơ hội chứng serotonin (sốt cao, rối loạn nhận thức, tăng phản xạ, mất phối hợp, rung giật cơ, cứng cơ, co giật, nhịp tim nhanh, tăng huyết áp, tăng thân nhiệt, vã mồ hôi, ảo giác, kích động hoặc bồn chồn…)",
+      "xu_ly": "1. Cố gắng tránh sử dụng đồng thời furazolidon và pethidin. Tốt nhất các thuốc này nên sử dụng cách nhau 2 tuần. Cân nhắc thay đổi sang các thuốc nhóm khác có cùng chỉ định và ít có nguy cơ tương tác hơn. Trong trường hợp bắt buộc sử dụng opioid, có thể đổi sang các opiod khác không có hoạt tính ức chế thu hồi serotonin (morphin, codein, oxycodon, buprenorphin)<br> 2. Trong hợp không thể trì hoãn điều trị được 2 tuần, bắt buộc sử dụng dài ngày hoặc khẩn cấp bằng furazolidon và không có thuốc khác thay thế, cân bằng lợi ích và nguy cơ xảy ra hội chứng serotonin. Nếu lợi ích vượt trội nguy cơ, vẫn có thể sử dụng đồng thời nhưng cần giám sát chặt chẽ chặt chẽ bệnh nhân, đặc biệt trong tháng đầu tiên sử dụng đồng thời 2 thuốc."
+    },
+    {
+      "thuoc": ["Tramadol"],
+      "muc_do": 4,
+      "phan_tich": "Hiệp đồng tác dụng serotonin. Tác dụng ức chế MAO của furazolidon do chất chuyển hóa của thuốc, xuất hiện chậm sau 5 - 10 ngày. Tăng nguy cơ hội chứng serotonin (sốt cao, rối loạn nhận thức, tăng phản xạ, mất phối hợp, rung giật cơ, cứng cơ, co giật, nhịp tim nhanh, tăng huyết áp, tăng thân nhiệt, vã mồ hôi, ảo giác, kích động hoặc bồn chồn…)",
+      "xu_ly": "1. Cố gắng tránh sử dụng đồng thời furazolidon và tramadol. Tốt nhất các thuốc này nên sử dụng cách nhau 2 tuần. Cân nhắc thay đổi sang các thuốc nhóm khác có cùng chỉ định và ít có nguy cơ tương tác hơn. Trong trường hợp bắt buộc sử dụng opioid, có thể đổi sang các opiod khác không có hoạt tính ức chế thu hồi serotonin (morphin, codein, oxycodon, buprenorphin)<br> 2. Trong hợp không thể trì hoãn điều trị được 2 tuần, bắt buộc sử dụng dài ngày hoặc khẩn cấp bằng furazolidon và không có thuốc khác thay thế, cân bằng lợi ích và nguy cơ xảy ra hội chứng serotonin. Nếu lợi ích vượt trội nguy cơ, vẫn có thể sử dụng đồng thời nhưng cần giám sát chặt chẽ chặt chẽ bệnh nhân, đặc biệt trong tháng đầu tiên sử dụng đồng thời 2 thuốc."
+    },
+    {
+      "thuoc": ["Methadon"],
+      "muc_do": 4,
+      "phan_tich": "Hiệp đồng tác dụng serotonin. Tác dụng ức chế MAO của furazolidon do chất chuyển hóa của thuốc, xuất hiện chậm sau 5 - 10 ngày. Tăng nguy cơ hội chứng serotonin (sốt cao, rối loạn nhận thức, tăng phản xạ, mất phối hợp, rung giật cơ, cứng cơ, co giật, nhịp tim nhanh, tăng huyết áp, tăng thân nhiệt, vã mồ hôi, ảo giác, kích động hoặc bồn chồn…)",
+      "xu_ly": "1. Cố gắng tránh sử dụng đồng thời furazolidon và methadon. Tốt nhất các thuốc này nên sử dụng cách nhau 2 tuần. Cân nhắc thay đổi sang các thuốc nhóm khác có cùng chỉ định và ít có nguy cơ tương tác hơn. Trong trường hợp bắt buộc sử dụng opioid, có thể đổi sang các opiod khác không có hoạt tính ức chế thu hồi serotonin (morphin, codein, oxycodon, buprenorphin)<br> 2. Trong hợp không thể trì hoãn điều trị được 2 tuần, bắt buộc sử dụng dài ngày hoặc khẩn cấp bằng furazolidon và không có thuốc khác thay thế, cân bằng lợi ích và nguy cơ xảy ra hội chứng serotonin. Nếu lợi ích vượt trội nguy cơ, vẫn có thể sử dụng đồng thời nhưng cần giám sát chặt chẽ chặt chẽ bệnh nhân, đặc biệt trong tháng đầu tiên sử dụng đồng thời 2 thuốc."
+    },
+    {
+      "thuoc": ["Levodopa", "Carbidopa", "Entacapon"],
+      "muc_do": 4,
+      "phan_tich": "Tăng tích lũy noradrenalin (norepinephrin) và dopamin. Tác dụng ức chế MAO của furazolidon do chất chuyển hóa của thuốc, xuất hiện chậm sau 5 - 10 ngày. Tăng nguy cơ xuất hiện cơn tăng huyết áp (đau đầu, đánh trống ngực, cứng cổ, tăng huyết áp)",
+      "xu_ly": "Chống chỉ định sử dụng levodopa/carbidopa đồng thời hoặc trong vòng 14 ngày gần đây có sử dụng furazolidon."
+    },
+    {
+      "thuoc": ["Methyldopa"],
+      "muc_do": 4,
+      "phan_tich": "Chưa rõ. Tăng nguy cơ xuất hiện cơn tăng huyết áp (đau đầu, đánh trống ngực, cứng cổ)",
+      "xu_ly": "Chống chỉ định phối hợp"
+    },
+    {
+      "thuoc": ["Pseudoephedrin (sử dụng đường uống)"],
+      "muc_do": 4,
+      "phan_tich": "Tăng tích lũy noradrenalin (norepinephrin). Tác dụng ức chế MAO của furazolidon do chất chuyển hóa của thuốc, xuất hiện chậm sau 5 - 10 ngày. Tăng nguy cơ xuất hiện cơn tăng huyết áp (đau đầu, đánh trống ngực, cứng cổ, tăng huyết áp)",
+      "xu_ly": "Chống chỉ định sử dụng pseudoephedrin (sử dụng đường uống) đồng thời hoặc trong vòng 14 ngày gần đây có sử dụng furazolidon."
+    },
+    {
+      "thuoc": ["Phenylephrin (sử dụng đường uống)"],
+      "muc_do": 4,
+      "phan_tich": "Tăng tích lũy noradrenalin (norepinephrin). Tác dụng ức chế MAO của furazolidon do chất chuyển hóa của thuốc, xuất hiện chậm sau 5 - 10 ngày. Tăng nguy cơ xuất hiện cơn tăng huyết áp (đau đầu, đánh trống ngực, cứng cổ, tăng huyết áp)",
+      "xu_ly": "1. Chống chỉ định sử dụng phenylephrin sử dụng đường uống đồng thời hoặc trong vòng 14 ngày trước đó có sử dụng furazolidon.<br> 2. Đối với phenylephrin sử dụng đường tiêm, cần sử dụng rất thận trọng trên bệnh nhân đang dùng furazolidon trong điều kiện giám sát huyết áp chặt chẽ."
+    },
+    {
+      "thuoc": ["Nefopam"],
+      "muc_do": 4,
+      "phan_tich": "Nefopam ức chế thu hồi noradrenalin (norepinephrin) và serotonin trên hệ thần kinh. Tác dụng ức chế MAO của furazolidon do chất chuyển hóa của thuốc, xuất hiện chậm sau 5 - 10 ngày. Tăng nguy cơ kích thích thần kinh trung ương (co giật, ảo giác và kích động)",
+      "xu_ly": "Chống chỉ định phối hợp"
+    }
+  ]
+},
+{
+  "hoat_chat": "Gemfibrozil",
+  "cac_thuoc_trong_nhom": ["Gemfibrozil"],
+  "tuong_tac": [
+    {
+      "thuoc": ["Repaglinid"],
+      "muc_do": 4,
+      "phan_tich": "Gemfibrozil ức chế CYP2C8 làm giảm chuyển hóa của repaglinid, gemfibrozil cũng ức chế OATP1B1 làm giảm vận chuyển gemfibrozil vào gan. Tăng nồng độ repaglinid trong huyết thanh, tăng nguy cơ hạ đường huyết",
+      "xu_ly": "Chống chỉ định phối hợp"
+    },
+    {
+      "thuoc": ["Simvastatin"],
+      "muc_do": 4,
+      "phan_tich": "Gemfibrozil ức chế OATP1B1 làm giảm vận chuyển simvastatin vào gan. Tăng nồng độ simvastatin trong huyết thanh, tăng nguy cơ bệnh cơ hoặc tiêu cơ vân cấp",
+      "xu_ly": "Chống chỉ định phối hợp. Trong trường hợp bắt buộc sử dụng dẫn chất fibrat, thay thế gemfibrozil bằng fenofibrat nhưng cần thận trọng khi phối hợp."
+    },
+    {
+      "thuoc": ["Lovastatin"],
+      "muc_do": 4,
+      "phan_tich": "Gemfibrozil ức chế OATP1B1 làm giảm vận chuyển lovastatin vào gan. Tăng nồng độ lovastatin trong huyết thanh, tăng nguy cơ bệnh cơ hoặc tiêu cơ vân cấp",
+      "xu_ly": "Chống chỉ định phối hợp. Trong trường hợp bắt buộc sử dụng dẫn chất fibrat, thay thế gemfibrozil bằng fenofibrat nhưng cần thận trọng khi phối hợp."
+    },
+    {
+      "thuoc": ["Pravastatin"],
+      "muc_do": 4,
+      "phan_tich": "Gemfibrozil ức chế OATP1B1 làm giảm vận chuyển pravastatin vào gan. Tăng nồng độ pravastatin trong huyết thanh, tăng nguy cơ bệnh cơ hoặc tiêu cơ vân cấp",
+      "xu_ly": "Chống chỉ định phối hợp. Trong trường hợp bắt buộc sử dụng dẫn chất fibrat, thay thế gemfibrozil bằng fenofibrat nhưng cần thận trọng khi phối hợp."
+    }
+  ]
+},
+{
+  "hoat_chat": "Grazoprevir/elbasvir",
+  "cac_thuoc_trong_nhom": ["Grazoprevir", "Elbasvir"],
+  "tuong_tac": [
+    {
+      "thuoc": ["Phenobarbital"],
+      "muc_do": 4,
+      "phan_tich": "Phenobarbital cảm ứng CYP3A4 mạnh làm tăng chuyển hóa của Grazoprevir/elbasvir. Giảm nồng độ grazoprevir/elbasvir trong huyết thanh, dẫn đến giảm hiệu quả điều trị",
+      "xu_ly": "Chống chỉ định phối hợp."
+    },
+    {
+      "thuoc": ["Phenytoin"],
+      "muc_do": 4,
+      "phan_tich": "Phenytoin cảm ứng CYP3A4 mạnh làm tăng chuyển hóa của Grazoprevir/elbasvir. Giảm nồng độ grazoprevir/elbasvir trong huyết thanh, dẫn đến giảm hiệu quả điều trị",
+      "xu_ly": "Chống chỉ định phối hợp."
+    },
+    {
+      "thuoc": ["Rifampicin"],
+      "muc_do": 4,
+      "phan_tich": "Rifampicin ức chế OATP1B1/3 làm giảm vận chuyển grazoprevir vào gan. Khi dùng rifampicin dài ngày, rifampicin gây cảm ứng CYP3A4 làm giảm nồng độ rifampicin trong huyết thanh. Tăng nồng độ grazoprevir/elbasvir, tăng nguy cơ tăng ALT. Khi dùng rifampicin dài ngày, lại có nguy cơ giảm nồng độ grazoprevir/elbasvir, giảm hiệu quả điều trị.",
+      "xu_ly": "Chống chỉ định phối hợp"
+    },
+    {
+      "thuoc": ["Saquinavir", "Ritonavir"],
+      "muc_do": 4,
+      "phan_tich": "Saquinavir ức chế OATP1B1/3 làm giảm vận chuyển grazoprevir vào gan. Tăng nồng độ grazoprevir/elbasvir, tăng nguy cơ tăng ALT",
+      "xu_ly": "Chống chỉ định phối hợp"
+    },
+    {
+      "thuoc": ["Lopinavir", "Ritonavir"],
+      "muc_do": 4,
+      "phan_tich": "Lopinavir ức chế OATP1B1/3 làm giảm vận chuyển grazoprevir vào gan. Tăng nồng độ grazoprevir/elbasvir, tăng nguy cơ tăng ALT",
+      "xu_ly": "Chống chỉ định phối hợp"
+    }
+  ]
+},
+{
+  "hoat_chat": "Haloperidol",
+  "cac_thuoc_trong_nhom": ["Haloperidol"],
+  "tuong_tac": [
+    {
+      "thuoc": ["Thioridazin"],
+      "muc_do": 4,
+      "phan_tich": "Hiệp đồng tăng tác dụng. Tăng nguy cơ kéo dài khoảng QT, xoắn đỉnh",
+      "xu_ly": "1. Chống chỉ định phối hợp ở các bệnh nhân có hội chứng QT kéo dài do di truyền hoặc mắc phải.<br> 2. Trên các đối tượng bệnh nhân khác, tốt nhất nên tránh phối hợp các thuốc này. Trong trường hợp cần thiết phối hợp, cần đánh giá cẩn thận nguy cơ/lợi ích và lượng giá các yếu tố nguy cơ trên từng bệnh nhân, đặc biệt là rối loạn điện giải (hạ kali máu, hạ magie máu, hạ calci máu), nhịp tim chậm, nữ giới trước khi quyết định kê đơn."
+    },
+    {
+      "thuoc": ["Moxifloxacin"],
+      "muc_do": 4,
+      "phan_tich": "Hiệp đồng tăng tác dụng. Tăng nguy cơ kéo dài khoảng QT, xoắn đỉnh",
+      "xu_ly": "1. Chống chỉ định phối hợp ở các bệnh nhân có hội chứng QT kéo dài do di truyền hoặc mắc phải.<br> 2. Trên các đối tượng bệnh nhân khác, tốt nhất nên tránh phối hợp các thuốc này. Trong trường hợp cần thiết phối hợp, cần đánh giá cẩn thận nguy cơ/lợi ích và lượng giá các yếu tố nguy cơ trên từng bệnh nhân, đặc biệt là rối loạn điện giải (hạ kali máu, hạ magie máu, hạ calci máu), nhịp tim chậm, nữ giới trước khi quyết định kê đơn."
+    },
+    {
+      "thuoc": ["Sotalol"],
+      "muc_do": 4,
+      "phan_tich": "Hiệp đồng tăng tác dụng. Tăng nguy cơ kéo dài khoảng QT, xoắn đỉnh",
+      "xu_ly": "1. Chống chỉ định phối hợp ở các bệnh nhân có hội chứng QT kéo dài do di truyền hoặc mắc phải.<br> 2. Trên các đối tượng bệnh nhân khác, tốt nhất nên tránh phối hợp các thuốc này. Trong trường hợp cần thiết phối hợp, cần đánh giá cẩn thận nguy cơ/lợi ích và lượng giá các yếu tố nguy cơ trên từng bệnh nhân, đặc biệt là rối loạn điện giải (hạ kali máu, hạ magie máu, hạ calci máu), nhịp tim chậm, nữ giới trước khi quyết định kê đơn."
+    },
+    {
+      "thuoc": ["Levofloxacin"],
+      "muc_do": 4,
+      "phan_tich": "Hiệp đồng tăng tác dụng. Tăng nguy cơ kéo dài khoảng QT, xoắn đỉnh",
+      "xu_ly": "1. Chống chỉ định phối hợp ở các bệnh nhân có hội chứng QT kéo dài do di truyền hoặc mắc phải.<br> 2. Trên các đối tượng bệnh nhân khác, tốt nhất nên tránh phối hợp các thuốc này. Trong trường hợp cần thiết phối hợp, cần đánh giá cẩn thận nguy cơ/lợi ích và lượng giá các yếu tố nguy cơ trên từng bệnh nhân, đặc biệt là rối loạn điện giải (hạ kali máu, hạ magie máu, hạ calci máu), nhịp tim chậm, nữ giới trước khi quyết định kê đơn."
+    },
+    {
+      "thuoc": ["Piperaquin", "Dihydroartemisinin", "Piperaquin"],
+      "muc_do": 4,
+      "phan_tich": "Hiệp đồng tăng tác dụng. Tăng nguy cơ kéo dài khoảng QT, xoắn đỉnh",
+      "xu_ly": "1. Chống chỉ định phối hợp ở các bệnh nhân có hội chứng QT kéo dài do di truyền hoặc mắc phải.<br> 2. Trên các đối tượng bệnh nhân khác, tốt nhất nên tránh phối hợp các thuốc này. Trong trường hợp cần thiết phối hợp, cần đánh giá cẩn thận nguy cơ/lợi ích và lượng giá các yếu tố nguy cơ trên từng bệnh nhân, đặc biệt là rối loạn điện giải (hạ kali máu, hạ magie máu, hạ calci máu), nhịp tim chậm, nữ giới trước khi quyết định kê đơn."
+    },
+    {
+      "thuoc": ["Sparfloxacin"],
+      "muc_do": 4,
+      "phan_tich": "Hiệp đồng tăng tác dụng. Tăng nguy cơ kéo dài khoảng QT, xoắn đỉnh",
+      "xu_ly": "1. Chống chỉ định phối hợp ở các bệnh nhân có hội chứng QT kéo dài do di truyền hoặc mắc phải.<br> 2. Trên các đối tượng bệnh nhân khác, tốt nhất nên tránh phối hợp các thuốc này. Trong trường hợp cần thiết phối hợp, cần đánh giá cẩn thận nguy cơ/lợi ích và lượng giá các yếu tố nguy cơ trên từng bệnh nhân, đặc biệt là rối loạn điện giải (hạ kali máu, hạ magie máu, hạ calci máu), nhịp tim chậm, nữ giới trước khi quyết định kê đơn."
+    }
+  ]
+},
+{
+  "hoat_chat": "Hydroxycloroquin",
+  "cac_thuoc_trong_nhom": ["Hydroxycloroquin"],
+  "tuong_tac": [
+    {
+      "thuoc": ["Thioridazin"],
+      "muc_do": 4,
+      "phan_tich": "Hiệp đồng tăng tác dụng. Tăng nguy cơ kéo dài khoảng QT, xoắn đỉnh",
+      "xu_ly": "1. Chống chỉ định phối hợp ở các bệnh nhân có hội chứng QT kéo dài do di truyền hoặc mắc phải.<br> 2. Trên các đối tượng bệnh nhân khác, tốt nhất nên tránh phối hợp các thuốc này. Trong trường hợp cần thiết phối hợp, cần đánh giá cẩn thận nguy cơ/lợi ích và lượng giá các yếu tố nguy cơ trên từng bệnh nhân, đặc biệt là rối loạn điện giải (hạ kali máu, hạ magie máu, hạ calci máu), nhịp tim chậm, nữ giới trước khi quyết định kê đơn."
+    },
+    {
+      "thuoc": ["Sparfloxacin"],
+      "muc_do": 4,
+      "phan_tich": "Hiệp đồng tăng tác dụng. Tăng nguy cơ kéo dài khoảng QT, xoắn đỉnh",
+      "xu_ly": "1. Chống chỉ định phối hợp ở các bệnh nhân có hội chứng QT kéo dài do di truyền hoặc mắc phải.<br> 2. Trên các đối tượng bệnh nhân khác, tốt nhất nên tránh phối hợp các thuốc này. Trong trường hợp cần thiết phối hợp, cần đánh giá cẩn thận nguy cơ/lợi ích và lượng giá các yếu tố nguy cơ trên từng bệnh nhân, đặc biệt là rối loạn điện giải (hạ kali máu, hạ magie máu, hạ calci máu), nhịp tim chậm, nữ giới trước khi quyết định kê đơn."
+    }
+  ]
+},
+{
+  "hoat_chat": "Hyoscin butylbromid",
+  "cac_thuoc_trong_nhom": ["Hyoscin butylbromid"],
+  "tuong_tac": [
+    {
+      "thuoc": ["Kali clorid (dạng uống giải phóng kéo dài)"],
+      "muc_do": 4,
+      "phan_tich": "Hyoscin butylbromid kháng cholinergic gây tồn lưu hoặc làm tăng thời gian kali qua đường tiêu hóa khi sử dụng đường uống, gây loét đường tiêu hóa. Tăng nguy cơ loét tiêu hóa",
+      "xu_ly": "1. Tốt nhất nên tránh phối hợp, đặc biệt ở người cao tuổi. Cân nhắc chuyển sang sử dụng kali đường tĩnh mạch.<br> 2. Trong trường hợp bắt buộc sử dụng đồng thời, cân nhắc một số khuyến cáo sau giúp giảm nguy cơ loét tiêu hóa: (1) uống ít nhất 100 mL nước sau khi uống kali, (2) ngồi hoặc đứng thẳng trong ít nhất 5 - 10 phút sau khi uống thuốc."
+    }
+  ]
+},
+{
+  "hoat_chat": "Hyoscyamin",
+  "cac_thuoc_trong_nhom": ["Hyoscyamin"],
+  "tuong_tac": [
+    {
+      "thuoc": ["Kali clorid (dạng uống giải phóng kéo dài)"],
+      "muc_do": 4,
+      "phan_tich": "Hyoscyamin kháng cholinergic gây tồn lưu hoặc làm tăng thời gian kali qua đường tiêu hóa khi sử dụng đường uống, gây loét đường tiêu hóa. Tăng nguy cơ loét tiêu hóa",
+      "xu_ly": "1. Tốt nhất nên tránh phối hợp, đặc biệt ở người cao tuổi. Cân nhắc chuyển sang sử dụng kali đường tĩnh mạch.<br> 2. Trong trường hợp bắt buộc sử dụng đồng thời, cân nhắc một số khuyến cáo sau giúp giảm nguy cơ loét tiêu hóa: (1) uống ít nhất 100 mL nước sau khi uống kali, (2) ngồi hoặc đứng thẳng trong ít nhất 5 - 10 phút sau khi uống thuốc."
+    }
+  ]
 }
 
   // ... tiếp tục cho các hoạt chất khác theo cấu trúc trên
