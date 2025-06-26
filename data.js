@@ -421,6 +421,132 @@ window.tuongTacData = [
       "xu_ly": "1. Chống chỉ định phối hợp ở các bệnh nhân có hội chứng QT kéo dài do di truyền hoặc mắc phải.<br> 2. Trên các đối tượng bệnh nhân khác, tốt nhất nên tránh phối hợp các thuốc này. Trong trường hợp cần thiết phối hợp, cần đánh giá cẩn thận nguy cơ/lợi ích và lượng giá các yếu tố nguy cơ trên từng bệnh nhân, đặc biệt là rối loạn điện giải (hạ kali máu, hạ magie máu, hạ calci máu), nhịp tim chậm, nữ giới trước khi quyết định kê đơn."
     }
   ]
+},
+{
+  "hoat_chat": "Amisulpirid",
+  "cac_thuoc_trong_nhom": ["Amisulpirid"],
+  "tuong_tac": [
+    {
+      "thuoc": ["Thioridazin"],
+      "muc_do": 4,
+      "phan_tich": "Hiệp đồng tăng tác dụng. Tăng nguy cơ kéo dài khoảng QT, xoắn đỉnh",
+      "xu_ly": "1. Chống chỉ định phối hợp ở các bệnh nhân có hội chứng QT kéo dài do di truyền hoặc mắc phải.<br> 2. Trên các đối tượng bệnh nhân khác, tốt nhất nên tránh phối hợp các thuốc này. Trong trường hợp cần thiết phối hợp, cần đánh giá cẩn thận nguy cơ/lợi ích và lượng giá các yếu tố nguy cơ trên từng bệnh nhân, đặc biệt là rối loạn điện giải (hạ kali máu, hạ magie máu, hạ calci máu), nhịp tim chậm, nữ giới trước khi quyết định kê đơn."
+    },
+    {
+      "thuoc": ["Sparfloxacin"],
+      "muc_do": 4,
+      "phan_tich": "Hiệp đồng tăng tác dụng. Tăng nguy cơ kéo dài khoảng QT, xoắn đỉnh",
+      "xu_ly": "1. Chống chỉ định phối hợp ở các bệnh nhân có hội chứng QT kéo dài do di truyền hoặc mắc phải.<br> 2. Trên các đối tượng bệnh nhân khác, tốt nhất nên tránh phối hợp các thuốc này. Trong trường hợp cần thiết phối hợp, cần đánh giá cẩn thận nguy cơ/lợi ích và lượng giá các yếu tố nguy cơ trên từng bệnh nhân, đặc biệt là rối loạn điện giải (hạ kali máu, hạ magie máu, hạ calci máu), nhịp tim chậm, nữ giới trước khi quyết định kê đơn."
+    }
+  ]
+},
+{
+  "hoat_chat": "Amitriptylin",
+  "cac_thuoc_trong_nhom": ["Amitriptylin"],
+  "tuong_tac": [
+    {
+      "thuoc": ["Linezolid"],
+      "muc_do": 4,
+      "phan_tich": "Hiệp đồng tác dụng serotonin. Tăng nguy cơ hội chứng serotonin (sốt cao, rối loạn nhận thức, tăng phản xạ, mất phối hợp, rung giật cơ, cứng cơ, co giật, nhịp tim nhanh, tăng huyết áp, tăng thân nhiệt, vã mồ hôi, ảo giác, kích động hoặc bồn chồn…)",
+      "xu_ly": "1. Cố gắng tránh sử dụng đồng thời linezolid và amitriptylin. Tốt nhất các thuốc này nên sử dụng cách nhau 2 tuần. Cân nhắc thay đổi sang các thuốc nhóm khác có cùng chỉ định và ít có nguy cơ tương tác hơn.<br> 2. Trong hợp không thể trì hoãn điều trị được 2 tuần, bắt buộc sử dụng dài ngày hoặc khẩn cấp bằng linezolid và không có thuốc khác thay thế, cân bằng lợi ích và nguy cơ xảy ra hội chứng serotonin. Nếu lợi ích vượt trội nguy cơ, vẫn có thể sử dụng đồng thời nhưng cần giám sát chặt chẽ chặt chẽ bệnh nhân, đặc biệt trong tháng đầu tiên sử dụng đồng thời 2 thuốc."
+    },
+    {
+      "thuoc": ["Xanh methylen (sử dụng đường tiêm tĩnh mạch)"],
+      "muc_do": 4,
+      "phan_tich": "Hiệp đồng tác dụng serotonin. Tăng nguy cơ hội chứng serotonin (sốt cao, rối loạn nhận thức, tăng phản xạ, mất phối hợp, rung giật cơ, cứng cơ, co giật, nhịp tim nhanh, tăng huyết áp, tăng thân nhiệt, vã mồ hôi, ảo giác, kích động hoặc bồn chồn…)",
+      "xu_ly": "1. Cố gắng tránh sử dụng đồng thời xanh methylen và sumatriptan. Tốt nhất các thuốc này nên sử dụng cách nhau 2 tuần. Cân nhắc thay đổi sang các thuốc nhóm khác có cùng chỉ định và ít có nguy cơ tương tác hơn.<br> 2. Trong hợp không thể trì hoãn điều trị được 2 tuần, bắt buộc sử dụng dài ngày hoặc khẩn cấp bằng xanh methylen và không có thuốc khác thay thế, cân bằng lợi ích và nguy cơ xảy ra hội chứng serotonin. Nếu lợi ích vượt trội nguy cơ, vẫn có thể sử dụng đồng thời nhưng cần giám sát chặt chẽ chặt chẽ bệnh nhân, đặc biệt trong tháng đầu tiên sử dụng đồng thời 2 thuốc."
+    },
+    {
+      "thuoc": ["Furazolidon"],
+      "muc_do": 4,
+      "phan_tich": "Hiệp đồng tác dụng serotonin. Tác dụng ức chế MAO của furazolidon do chất chuyển hóa của thuốc, xuất hiện chậm sau 5 - 10 ngày. Tăng nguy cơ hội chứng serotonin (sốt cao, rối loạn nhận thức, tăng phản xạ, mất phối hợp, rung giật cơ, cứng cơ, co giật, nhịp tim nhanh, tăng huyết áp, tăng thân nhiệt, vã mồ hôi, ảo giác, kích động hoặc bồn chồn…)",
+      "xu_ly": "1. Cố gắng tránh sử dụng đồng thời furazolidon và amitriptylin. Tốt nhất các thuốc này nên sử dụng cách nhau 2 tuần. Cân nhắc thay đổi sang các thuốc nhóm khác có cùng chỉ định và ít có nguy cơ tương tác hơn.<br> 2. Trong hợp không thể trì hoãn điều trị được 2 tuần, bắt buộc sử dụng dài ngày hoặc khẩn cấp bằng furazolidon và không có thuốc khác thay thế, cân bằng lợi ích và nguy cơ xảy ra hội chứng serotonin. Nếu lợi ích vượt trội nguy cơ, vẫn có thể sử dụng đồng thời nhưng cần giám sát chặt chẽ chặt chẽ bệnh nhân, đặc biệt trong tháng đầu tiên sử dụng đồng thời 2 thuốc."
+    }
+  ]
+},
+{
+  "hoat_chat": "Arsenic trioxid",
+  "cac_thuoc_trong_nhom": ["Arsenic trioxid"],
+  "tuong_tac": [
+    {
+      "thuoc": ["Thioridazin"],
+      "muc_do": 4,
+      "phan_tich": "Hiệp đồng tăng tác dụng. Tăng nguy cơ kéo dài khoảng QT, xoắn đỉnh",
+      "xu_ly": "1. Chống chỉ định phối hợp ở các bệnh nhân có hội chứng QT kéo dài do di truyền hoặc mắc phải.<br> 2. Trên các đối tượng bệnh nhân khác, tốt nhất nên tránh phối hợp các thuốc này. Trong trường hợp cần thiết phối hợp, cần đánh giá cẩn thận nguy cơ/lợi ích và lượng giá các yếu tố nguy cơ trên từng bệnh nhân, đặc biệt là rối loạn điện giải (hạ kali máu, hạ magie máu, hạ calci máu), nhịp tim chậm, nữ giới trước khi quyết định kê đơn."
+    },
+    {
+      "thuoc": ["Sparfloxacin"],
+      "muc_do": 4,
+      "phan_tich": "Hiệp đồng tăng tác dụng. Tăng nguy cơ kéo dài khoảng QT, xoắn đỉnh",
+      "xu_ly": "1. Chống chỉ định phối hợp ở các bệnh nhân có hội chứng QT kéo dài do di truyền hoặc mắc phải.<br> 2. Trên các đối tượng bệnh nhân khác, tốt nhất nên tránh phối hợp các thuốc này. Trong trường hợp cần thiết phối hợp, cần đánh giá cẩn thận nguy cơ/lợi ích và lượng giá các yếu tố nguy cơ trên từng bệnh nhân, đặc biệt là rối loạn điện giải (hạ kali máu, hạ magie máu, hạ calci máu), nhịp tim chậm, nữ giới trước khi quyết định kê đơn."
+    },
+    {
+      "thuoc": ["Domperidon"],
+      "muc_do": 4,
+      "phan_tich": "Hiệp đồng tăng tác dụng. Tăng nguy cơ kéo dài khoảng QT, xoắn đỉnh",
+      "xu_ly": "Chống chỉ định phối hợp."
+    }
+  ]
+},
+{
+  "hoat_chat": "Artemether/lumefantrin",
+  "cac_thuoc_trong_nhom": ["Artemether/lumefantrin"],
+  "tuong_tac": [
+    {
+      "thuoc": ["Posaconazol"],
+      "muc_do": 4,
+      "phan_tich": "Hiệp đồng tăng tác dụng. Tăng nguy cơ kéo dài khoảng QT, xoắn đỉnh",
+      "xu_ly": "1. Chống chỉ định phối hợp ở các bệnh nhân có hội chứng QT kéo dài do di truyền hoặc mắc phải.<br> 2. Trên các đối tượng bệnh nhân khác, tốt nhất nên tránh phối hợp các thuốc này. Trong trường hợp cần thiết phối hợp, cần đánh giá cẩn thận nguy cơ/lợi ích và lượng giá các yếu tố nguy cơ trên từng bệnh nhân, đặc biệt là rối loạn điện giải (hạ kali máu, hạ magie máu, hạ calci máu), nhịp tim chậm, nữ giới trước khi quyết định kê đơn."
+    },
+    {
+      "thuoc": ["Fluconazol"],
+      "muc_do": 4,
+      "phan_tich": "Hiệp đồng tăng tác dụng. Tăng nguy cơ kéo dài khoảng QT, xoắn đỉnh",
+      "xu_ly": "1. Chống chỉ định phối hợp ở các bệnh nhân có hội chứng QT kéo dài do di truyền hoặc mắc phải.<br> 2. Trên các đối tượng bệnh nhân khác, tốt nhất nên tránh phối hợp các thuốc này. Trong trường hợp cần thiết phối hợp, cần đánh giá cẩn thận nguy cơ/lợi ích và lượng giá các yếu tố nguy cơ trên từng bệnh nhân, đặc biệt là rối loạn điện giải (hạ kali máu, hạ magie máu, hạ calci máu), nhịp tim chậm, nữ giới trước khi quyết định kê đơn."
+    },
+    {
+      "thuoc": ["Domperidon"],
+      "muc_do": 4,
+      "phan_tich": "Hiệp đồng tăng tác dụng. Tăng nguy cơ kéo dài khoảng QT, xoắn đỉnh",
+      "xu_ly": "Chống chỉ định phối hợp."
+    },
+    {
+      "thuoc": ["Rifampicin"],
+      "muc_do": 4,
+      "phan_tich": "Rifampicin cảm ứng CYP3A4 làm tăng chuyển hóa của artemether/lumefantrin. Giảm nồng độ của artemether/lumefantrin trong huyết thanh, dẫn đến giảm hiệu quả điều trị",
+      "xu_ly": "Chống chỉ định phối hợp."
+    },
+    {
+      "thuoc": ["Enzalutamid"],
+      "muc_do": 4,
+      "phan_tich": "Enzalutamid cảm ứng CYP3A4 làm tăng chuyển hóa của artemether/lumefantrin. Giảm nồng độ của artemether/lumefantrin trong huyết thanh, dẫn đến giảm hiệu quả điều trị",
+      "xu_ly": "Chống chỉ định phối hợp."
+    },
+    {
+      "thuoc": ["Carbamazepin"],
+      "muc_do": 4,
+      "phan_tich": "Carbamazepin cảm ứng CYP3A4 mạnh làm tăng chuyển hóa của artemether/lumefantrin. Giảm nồng độ của artemether/lumefantrin trong huyết thanh, dẫn đến giảm hiệu quả điều trị",
+      "xu_ly": "Chống chỉ định phối hợp."
+    },
+    {
+      "thuoc": ["Phenobarbital"],
+      "muc_do": 4,
+      "phan_tich": "Phenobarbital cảm ứng CYP3A4 mạnh làm tăng chuyển hóa của artemether/lumefantrin. Giảm nồng độ của artemether/lumefantrin trong huyết thanh, dẫn đến giảm hiệu quả điều trị",
+      "xu_ly": "Chống chỉ định phối hợp."
+    },
+    {
+      "thuoc": ["Phenytoin"],
+      "muc_do": 4,
+      "phan_tich": "Phenytoin cảm ứng CYP3A4 mạnh làm tăng chuyển hóa của artemether/lumefantrin. Giảm nồng độ của artemether/lumefantrin trong huyết thanh, dẫn đến giảm hiệu quả điều trị",
+      "xu_ly": "Chống chỉ định phối hợp."
+    },
+    {
+      "thuoc": ["Sparfloxacin"],
+      "muc_do": 4,
+      "phan_tich": "Hiệp đồng tăng tác dụng. Tăng nguy cơ kéo dài khoảng QT, xoắn đỉnh",
+      "xu_ly": "1. Chống chỉ định phối hợp ở các bệnh nhân có hội chứng QT kéo dài do di truyền hoặc mắc phải.<br> 2. Trên các đối tượng bệnh nhân khác, tốt nhất nên tránh phối hợp các thuốc này. Trong trường hợp cần thiết phối hợp, cần đánh giá cẩn thận nguy cơ/lợi ích và lượng giá các yếu tố nguy cơ trên từng bệnh nhân, đặc biệt là rối loạn điện giải (hạ kali máu, hạ magie máu, hạ calci máu), nhịp tim chậm, nữ giới trước khi quyết định kê đơn."
+    }
+  ]
 }
 
   // ... tiếp tục cho các hoạt chất khác theo cấu trúc trên
