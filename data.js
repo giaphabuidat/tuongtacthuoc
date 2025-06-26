@@ -3984,6 +3984,852 @@ window.tuongTacData = [
       "xu_ly": "1. Cố gắng tránh sử dụng đồng thời xanh methylen và milnacriptan. Tốt nhất các thuốc này nên sử dụng cách nhau 2 tuần. Cân nhắc thay đổi sang các thuốc nhóm khác có cùng chỉ định và ít có nguy cơ tương tác hơn.<br> 2. Trong hợp không thể trì hoãn điều trị được 2 tuần, bắt buộc sử dụng dài ngày hoặc khẩn cấp bằng xanh methylen và không có thuốc khác thay thế, cân bằng lợi ích và nguy cơ xảy ra hội chứng serotonin. Nếu lợi ích vượt trội nguy cơ, vẫn có thể sử dụng đồng thời nhưng cần giám sát chặt chẽ chặt chẽ bệnh nhân, đặc biệt trong tháng đầu tiên sử dụng đồng thời 2 thuốc."
     }
   ]
+},
+  {
+  "hoat_chat": "Minocyclin",
+  "cac_thuoc_trong_nhom": ["Minocyclin"],
+  "tuong_tac": [
+    {
+      "thuoc": ["Tretinoin"],
+      "muc_do": 4,
+      "phan_tich": "Hiệp đồng tăng độc tính. Tăng nguy cơ tăng áp nội sọ lành tính (phù gai thị, đau đầu, buồn nôn và nôn, và rối loạn thị giác)",
+      "xu_ly": "Chống chỉ định phối hợp"
+    }
+  ]
+},
+{
+  "hoat_chat": "Mirtazapin",
+  "cac_thuoc_trong_nhom": ["Mirtazapin"],
+  "tuong_tac": [
+    {
+      "thuoc": ["Xanh methylen (sử dụng đường tiêm tĩnh mạch)"],
+      "muc_do": 4,
+      "phan_tich": "Hiệp đồng tác dụng serotonin. Tăng nguy cơ hội chứng serotonin (sốt cao, rối loạn nhận thức, tăng phản xạ, mất phối hợp, rung giật cơ, cứng cơ, co giật, nhịp tim nhanh, tăng huyết áp, tăng thân nhiệt, vã mồ hôi, ảo giác, kích động hoặc bồn chồn…)",
+      "xu_ly": "1. Cố gắng tránh sử dụng đồng thời xanh methylen và mirtazapin. Tốt nhất các thuốc này nên sử dụng cách nhau 2 tuần. Cân nhắc thay đổi sang các thuốc nhóm khác có cùng chỉ định và ít có nguy cơ tương tác hơn.<br> 2. Trong hợp không thể trì hoãn điều trị được 2 tuần, bắt buộc sử dụng dài ngày hoặc khẩn cấp bằng xanh methylen và không có thuốc khác thay thế, cân bằng lợi ích và nguy cơ xảy ra hội chứng serotonin. Nếu lợi ích vượt trội nguy cơ, vẫn có thể sử dụng đồng thời nhưng cần giám sát chặt chẽ chặt chẽ bệnh nhân, đặc biệt trong tháng đầu tiên sử dụng đồng thời 2 thuốc."
+    }
+  ]
+},
+{
+  "hoat_chat": "Moxifloxacin",
+  "cac_thuoc_trong_nhom": ["Moxifloxacin"],
+  "tuong_tac": [
+    {
+      "thuoc": ["Thioridazin"],
+      "muc_do": 4,
+      "phan_tich": "Hiệp đồng tăng tác dụng. Tăng nguy cơ kéo dài khoảng QT, xoắn đỉnh",
+      "xu_ly": "1. Chống chỉ định phối hợp ở các bệnh nhân có hội chứng QT kéo dài do di truyền hoặc mắc phải.<br> 2. Trên các đối tượng bệnh nhân khác, tốt nhất nên tránh phối hợp các thuốc này. Trong trường hợp cần thiết phối hợp, cần đánh giá cẩn thận nguy cơ/lợi ích và lượng giá các yếu tố nguy cơ trên từng bệnh nhân, đặc biệt là rối loạn điện giải (hạ kali máu, hạ magie máu, hạ calci máu), nhịp tim chậm, nữ giới trước khi quyết định kê đơn."
+    },
+    {
+      "thuoc": ["Piperaquin", "Dihydroartemisinin", "Piperaquin"],
+      "muc_do": 4,
+      "phan_tich": "Hiệp đồng tăng tác dụng. Tăng nguy cơ kéo dài khoảng QT, xoắn đỉnh",
+      "xu_ly": "1. Chống chỉ định phối hợp ở các bệnh nhân có hội chứng QT kéo dài do di truyền hoặc mắc phải.<br> 2. Trên các đối tượng bệnh nhân khác, tốt nhất nên tránh phối hợp các thuốc này. Trong trường hợp cần thiết phối hợp, cần đánh giá cẩn thận nguy cơ/lợi ích và lượng giá các yếu tố nguy cơ trên từng bệnh nhân, đặc biệt là rối loạn điện giải (hạ kali máu, hạ magie máu, hạ calci máu), nhịp tim chậm, nữ giới trước khi quyết định kê đơn."
+    },
+    {
+      "thuoc": ["Sotalol"],
+      "muc_do": 4,
+      "phan_tich": "Hiệp đồng tăng tác dụng. Tăng nguy cơ kéo dài khoảng QT, xoắn đỉnh",
+      "xu_ly": "1. Chống chỉ định phối hợp ở các bệnh nhân có hội chứng QT kéo dài do di truyền hoặc mắc phải.<br> 2. Trên các đối tượng bệnh nhân khác, tốt nhất nên tránh phối hợp các thuốc này. Trong trường hợp cần thiết phối hợp, cần đánh giá cẩn thận nguy cơ/lợi ích và lượng giá các yếu tố nguy cơ trên từng bệnh nhân, đặc biệt là rối loạn điện giải (hạ kali máu, hạ magie máu, hạ calci máu), nhịp tim chậm, nữ giới trước khi quyết định kê đơn."
+    }
+  ]
+},
+{
+  "hoat_chat": "Nefopam",
+  "cac_thuoc_trong_nhom": ["Nefopam"],
+  "tuong_tac": [
+    {
+      "thuoc": ["Xanh methylen (sử dụng đường tiêm tĩnh mạch)"],
+      "muc_do": 4,
+      "phan_tich": "Nefopam ức chế thu hồi noradrenalin (norepinephrin) và serotonin trên hệ thần kinh. Tăng nguy cơ kích thích thần kinh trung ương (co giật, ảo giác và kích động)",
+      "xu_ly": "Chống chỉ định phối hợp"
+    }
+  ]
+},
+{
+  "hoat_chat": "Nicoradil",
+  "cac_thuoc_trong_nhom": ["Nicoradil"],
+  "tuong_tac": [
+    {
+      "thuoc": ["Sildenafil"],
+      "muc_do": 4,
+      "phan_tich": "Hiệp đồng tăng nồng độ guanosine monophosphate (cGMP) vòng có dụng giãn mạch. Tăng tác dụng hạ huyết áp nghiêm trọng",
+      "xu_ly": "Chống chỉ định phối hợp. Hai thuốc cách nhau ít nhất 24 giờ."
+    },
+    {
+      "thuoc": ["Vardenafil"],
+      "muc_do": 4,
+      "phan_tich": "Hiệp đồng tăng nồng độ guanosine monophosphate (cGMP) vòng có dụng giãn mạch. Tăng tác dụng hạ huyết áp nghiêm trọng",
+      "xu_ly": "Chống chỉ định phối hợp. Hai thuốc cách nhau ít nhất 24 giờ."
+    },
+    {
+      "thuoc": ["Tadalafil"],
+      "muc_do": 4,
+      "phan_tich": "Hiệp đồng tăng nồng độ guanosine monophosphate (cGMP) vòng có dụng giãn mạch. Tăng tác dụng hạ huyết áp nghiêm trọng",
+      "xu_ly": "Chống chỉ định phối hợp. Hai thuốc cách nhau ít nhất 48 giờ."
+    }
+  ]
+},
+{
+  "hoat_chat": "Nifedipin",
+  "cac_thuoc_trong_nhom": ["Nifedipin"],
+  "tuong_tac": [
+    {
+      "thuoc": ["Rifampicin"],
+      "muc_do": 4,
+      "phan_tich": "Rifampicin cảm ứng CYP3A4 làm tăng chuyển hóa của nifedipin. Giảm nồng độ nifedipin, giảm hiệu quả điều trị",
+      "xu_ly": "Chống chỉ định phối hợp"
+    }
+  ]
+},
+{
+  "hoat_chat": "Nitroglycerin",
+  "cac_thuoc_trong_nhom": ["Nitroglycerin"],
+  "tuong_tac": [
+    {
+      "thuoc": ["Sildenafil"],
+      "muc_do": 4,
+      "phan_tich": "Hiệp đồng tăng nồng độ guanosine monophosphate (cGMP) vòng có dụng giãn mạch. Tăng tác dụng hạ huyết áp nghiêm trọng",
+      "xu_ly": "Chống chỉ định phối hợp. Hai thuốc cách nhau ít nhất 24 giờ."
+    },
+    {
+      "thuoc": ["Vardenafil"],
+      "muc_do": 4,
+      "phan_tich": "Hiệp đồng tăng nồng độ guanosine monophosphate (cGMP) vòng có dụng giãn mạch. Tăng tác dụng hạ huyết áp nghiêm trọng",
+      "xu_ly": "Chống chỉ định phối hợp. Hai thuốc cách nhau ít nhất 24 giờ."
+    },
+    {
+      "thuoc": ["Tadalafil"],
+      "muc_do": 4,
+      "phan_tich": "Hiệp đồng tăng nồng độ guanosine monophosphate (cGMP) vòng có dụng giãn mạch. Tăng tác dụng hạ huyết áp nghiêm trọng",
+      "xu_ly": "Chống chỉ định phối hợp. Hai thuốc cách nhau ít nhất 48 giờ."
+    }
+  ]
+},
+{
+  "hoat_chat": "Esomeprazol",
+  "cac_thuoc_trong_nhom": ["Esomeprazol"],
+  "tuong_tac": [
+    {
+      "thuoc": ["Rilpivirin"],
+      "muc_do": 4,
+      "phan_tich": "Giảm hấp thu rilpivirin do tăng pH dạ dày. Giảm nồng độ rilpivirin trong huyết thanh, giảm hiệu quả điều trị",
+      "xu_ly": "Chống chỉ định phối hợp. Trong trường hợp thay thế bằng thuốc kháng H2, sử dụng các thuốc H2 ít nhất 12 giờ trước hoặc 4 giờ sau khi uống rilpivirin."
+    }
+  ]
+},
+{
+  "hoat_chat": "Omeprazol",
+  "cac_thuoc_trong_nhom": ["Omeprazol"],
+  "tuong_tac": [
+    {
+      "thuoc": ["Rilpivirin"],
+      "muc_do": 4,
+      "phan_tich": "Giảm hấp thu rilpivirin do tăng pH dạ dày. Giảm nồng độ rilpivirin trong huyết thanh, giảm hiệu quả điều trị",
+      "xu_ly": "Chống chỉ định phối hợp. Trong trường hợp thay thế bằng thuốc kháng H2, sử dụng các thuốc H2 ít nhất 12 giờ trước hoặc 4 giờ sau khi uống rilpivirin."
+    }
+  ]
+},
+{
+  "hoat_chat": "Ondansetron",
+  "cac_thuoc_trong_nhom": ["Ondansetron"],
+  "tuong_tac": [
+    {
+      "thuoc": ["Thioridazin"],
+      "muc_do": 4,
+      "phan_tich": "Hiệp đồng tăng tác dụng. Tăng nguy cơ kéo dài khoảng QT, xoắn đỉnh",
+      "xu_ly": "1. Chống chỉ định phối hợp ở các bệnh nhân có hội chứng QT kéo dài do di truyền hoặc mắc phải.<br> 2. Trên các đối tượng bệnh nhân khác, tốt nhất nên tránh phối hợp các thuốc này. Trong trường hợp cần thiết phối hợp, cần đánh giá cẩn thận nguy cơ/lợi ích và lượng giá các yếu tố nguy cơ trên từng bệnh nhân, đặc biệt là rối loạn điện giải (hạ kali máu, hạ magie máu, hạ calci máu), nhịp tim chậm, nữ giới trước khi quyết định kê đơn."
+    },
+    {
+      "thuoc": ["Sparfloxacin"],
+      "muc_do": 4,
+      "phan_tich": "Hiệp đồng tăng tác dụng. Tăng nguy cơ kéo dài khoảng QT, xoắn đỉnh",
+      "xu_ly": "1. Chống chỉ định phối hợp ở các bệnh nhân có hội chứng QT kéo dài do di truyền hoặc mắc phải.<br> 2. Trên các đối tượng bệnh nhân khác, tốt nhất nên tránh phối hợp các thuốc này. Trong trường hợp cần thiết phối hợp, cần đánh giá cẩn thận nguy cơ/lợi ích và lượng giá các yếu tố nguy cơ trên từng bệnh nhân, đặc biệt là rối loạn điện giải (hạ kali máu, hạ magie máu, hạ calci máu), nhịp tim chậm, nữ giới trước khi quyết định kê đơn."
+    }
+  ]
+},
+{
+  "hoat_chat": "Oxaliplatin",
+  "cac_thuoc_trong_nhom": ["Oxaliplatin"],
+  "tuong_tac": [
+    {
+      "thuoc": ["Thioridazin"],
+      "muc_do": 4,
+      "phan_tich": "Hiệp đồng tăng tác dụng. Tăng nguy cơ kéo dài khoảng QT, xoắn đỉnh",
+      "xu_ly": "1. Chống chỉ định phối hợp ở các bệnh nhân có hội chứng QT kéo dài do di truyền hoặc mắc phải.<br> 2. Trên các đối tượng bệnh nhân khác, tốt nhất nên tránh phối hợp các thuốc này. Trong trường hợp cần thiết phối hợp, cần đánh giá cẩn thận nguy cơ/lợi ích và lượng giá các yếu tố nguy cơ trên từng bệnh nhân, đặc biệt là rối loạn điện giải (hạ kali máu, hạ magie máu, hạ calci máu), nhịp tim chậm, nữ giới trước khi quyết định kê đơn."
+    },
+    {
+      "thuoc": ["Sparfloxacin"],
+      "muc_do": 4,
+      "phan_tich": "Hiệp đồng tăng tác dụng. Tăng nguy cơ kéo dài khoảng QT, xoắn đỉnh",
+      "xu_ly": "1. Chống chỉ định phối hợp ở các bệnh nhân có hội chứng QT kéo dài do di truyền hoặc mắc phải.<br> 2. Trên các đối tượng bệnh nhân khác, tốt nhất nên tránh phối hợp các thuốc này. Trong trường hợp cần thiết phối hợp, cần đánh giá cẩn thận nguy cơ/lợi ích và lượng giá các yếu tố nguy cơ trên từng bệnh nhân, đặc biệt là rối loạn điện giải (hạ kali máu, hạ magie máu, hạ calci máu), nhịp tim chậm, nữ giới trước khi quyết định kê đơn."
+    }
+  ]
+},
+{
+  "hoat_chat": "Oxcarbamazepin",
+  "cac_thuoc_trong_nhom": ["Oxcarbamazepin"],
+  "tuong_tac": [
+    {
+      "thuoc": ["Rilpivirin"],
+      "muc_do": 4,
+      "phan_tich": "Oxcarbamazepin cảm ứng CYP3A4 mạnh làm tăng chuyển hóa của rilpivirin. Giảm nồng độ của rilpivirin trong huyết thanh, dẫn đến giảm hiệu quả điều trị",
+      "xu_ly": "Chống chỉ định phối hợp."
+    }
+  ]
+},
+{
+  "hoat_chat": "Pantoprazol",
+  "cac_thuoc_trong_nhom": ["Pantoprazol"],
+  "tuong_tac": [
+    {
+      "thuoc": ["Rilpivirin"],
+      "muc_do": 4,
+      "phan_tich": "Giảm hấp thu rilpivirin do tăng pH dạ dày. Giảm nồng độ rilpivirin trong huyết thanh, giảm hiệu quả điều trị",
+      "xu_ly": "Chống chỉ định phối hợp. Trong trường hợp thay thế bằng thuốc kháng H2, sử dụng các thuốc H2 ít nhất 12 giờ trước hoặc 4 giờ sau khi uống rilpivirin."
+    }
+  ]
+},
+{
+    "hoat_chat": "Paroxetin",
+    "cac_thuoc_trong_nhom": ["Paroxetin"],
+    "tuong_tac": [
+      {
+        "thuoc": ["Xanh methylen (sử dụng đường tiêm tĩnh mạch)"],
+        "muc_do": 4,
+        "phan_tich": "Hiệp đồng tác dụng serotonin. Tăng nguy cơ hội chứng serotonin (sốt cao, rối loạn nhận thức, tăng phản xạ, mất phối hợp, rung giật cơ, cứng cơ, co giật, nhịp tim nhanh, tăng huyết áp, tăng thân nhiệt, vã mồ hôi, ảo giác, kích động hoặc bồn chồn…)",
+        "xu_ly": "1. Cố gắng tránh sử dụng đồng thời xanh methylen và tramadol. Tốt nhất các thuốc này nên sử dụng cách nhau 2 tuần. Cân nhắc thay đổi sang các thuốc nhóm khác có cùng chỉ định và ít có nguy cơ tương tác hơn. Trong trường hợp bắt buộc sử dụng opioid, có thể đổi sang các opiod khác không có hoạt tính ức chế thu hồi serotonin (morphin, codein, oxycodon, buprenorphin)<br> 2. Trong hợp không thể trì hoãn điều trị được 2 tuần, bắt buộc sử dụng dài ngày hoặc khẩn cấp bằng xanh methylen và không có thuốc khác thay thế, cân bằng lợi ích và nguy cơ xảy ra hội chứng serotonin. Nếu lợi ích vượt trội nguy cơ, vẫn có thể sử dụng đồng thời nhưng cần giám sát chặt chẽ chặt chẽ bệnh nhân, đặc biệt trong tháng đầu tiên sử dụng đồng thời 2 thuốc."
+      },
+      {
+        "thuoc": ["Thioridazin"],
+        "muc_do": 4,
+        "phan_tich": "Paroxetin ức chế CYP2D6 làm giảm chuyển hóa của thioridazin. Tăng nồng độ thioridazin, tăng nguy cơ kéo dài khoảng QT",
+        "xu_ly": "Chống chỉ định phối hợp"
+      }
+    ]
+  },
+  {
+    "hoat_chat": "Peginterferon- alpha (2a hoặc 2b)",
+    "cac_thuoc_trong_nhom": ["Peginterferon- alpha (2a hoặc 2b)"],
+    "tuong_tac": [
+      {
+        "thuoc": ["Telbivudin"],
+        "muc_do": 4,
+        "phan_tich": "Chưa rõ. Tăng nguy cơ viêm thần kinh nội vi liên quan đến telbivudin.",
+        "xu_ly": "Chống chỉ định phối hợp"
+      }
+    ]
+  },
+  {
+    "hoat_chat": "Perindopril",
+    "cac_thuoc_trong_nhom": ["Perindopril"],
+    "tuong_tac": [
+      {
+        "thuoc": ["Sacubitril", "Valsartan", "Sacubitril"],
+        "muc_do": 4,
+        "phan_tich": "Tăng tích lũy bradykinin gây phù mạch. Tăng nguy cơ phù mạch",
+        "xu_ly": "Chống chỉ định phối hợp. Chỉ bắt đầu sử dụng Sacubitril/valsartan (sacubitril) sau khi ngừng perindopril ít nhất 36 giờ."
+      }
+    ]
+  },
+  {
+    "hoat_chat": "Pethidin",
+    "cac_thuoc_trong_nhom": ["Pethidin"],
+    "tuong_tac": [
+      {
+        "thuoc": ["Xanh methylen (sử dụng đường tiêm tĩnh mạch)"],
+        "muc_do": 4,
+        "phan_tich": "Hiệp đồng tác dụng serotonin. Tăng nguy cơ hội chứng serotonin (sốt cao, rối loạn nhận thức, tăng phản xạ, mất phối hợp, rung giật cơ, cứng cơ, co giật, nhịp tim nhanh, tăng huyết áp, tăng thân nhiệt, vã mồ hôi, ảo giác, kích động hoặc bồn chồn…)",
+        "xu_ly": "1. Cố gắng tránh sử dụng đồng thời xanh methylen và pethidin. Tốt nhất các thuốc này nên sử dụng cách nhau 2极. Cân nhắc thay đổi sang các thuốc nhóm khác có cùng chỉ định và ít có nguy cơ tương tác hơn. Trong trường hợp bắt buộc sử dụng opioid, có thể đổi sang các opiod khác không có hoạt tính ức chế thu hồi serotonin (morphin, codein, oxycodon, buprenorphin)<br> 2. Trong hợp không thể trì hoãn điều trị được 2 tuần, bắt buộc sử dụng dài ngày hoặc khẩn cấp bằng xanh methylen và không có thuốc khác thay thế, cân bằng lợi ích và nguy cơ xảy ra hội chứng serotonin. Nếu lợi ích vượt trội nguy cơ, vẫn có thể sử dụng đồng thời nhưng cần giám sát chặt chẽ chặt chẽ bệnh nhân, đặc biệt trong tháng đầu tiên sử dụng đồng thời 2 thuốc."
+      }
+    ]
+  },
+  {
+    "hoat_chat": "Phenobarbital",
+    "cac_thuoc_trong_nhom": ["Phenobarbital"],
+    "极ong_tac": [
+      {
+        "thuoc": ["Praziquantel"],
+        "muc_do": 4,
+        "phan_tich": "Phenobarbital cảm ứng CYP3A4 mạnh làm tăng chuyển hóa của praziquantel. Giảm nồng độ của praziquantel trong huyết thanh, dẫn đến giảm hiệu quả điều trị",
+        "xu_ly": "Chống chỉ định phối hợp."
+      },
+      {
+        "thuoc": ["Rilpivirin"],
+        "muc_do": 4,
+        "phan_tich": "Phenobarbital cảm ứng CYP3A4 mạnh làm tăng chuyển hóa của rilpivirin. Giảm nồng độ của rilpivirin trong huyết thanh, dẫn đến giảm hiệu quả điều trị",
+        "xu_ly": "Chống chỉ định phối hợp."
+      },
+      {
+        "thuoc": ["Voriconazol"],
+        "muc_do": 4,
+        "phan_tich": "Phenobarbital cảm ứng CYP3A4 mạnh làm tăng chuyển hóa của voriconazol. Giảm nồng độ của voriconazol trong huyết thanh, dẫn đến giảm hiệu quả điều trị",
+        "xu_ly": "Chống chỉ định phối hợp."
+      },
+      {
+        "thuoc": ["Ranolazin"],
+        "muc_do": 4,
+        "phan_tich": "Phenobarbital cảm ứng CYP3A4 và P-gp làm tăng chuyển hóa của ranolazin và thải trừ của ranolazin. Giảm nồng độ ranolazin trong huyết thanh, giảm hiệu quả điều trị",
+        "xu_ly": "Chống chỉ định phối hợp"
+      }
+    ]
+  },
+  {
+    "hoat_chat": "Phenylephrin (sử dụng đường uống)",
+    "cac_thuoc_trong_nhom": ["Phenylephrin (sử dụng đường uống)"],
+    "tuong_tac": [
+      {
+        "thuoc": ["Xanh methylen (sử dụng đường tiêm tĩnh mạch)"],
+        "muc_do": 4,
+        "phan_tich": "Tăng tích lũy noradrenalin (norepinephrin). Tăng nguy cơ xuất hiện cơn tăng huyết áp (đau đầu, đánh trống ngực, cứng cổ, tăng huyết áp)",
+        "xu_ly": "1. Chống chỉ định sử dụng phenylephrin sử dụng đường uống đồng thời hoặc trong vòng 14 ngày trước đó có sử dụng xanh methylen.<br> 2. Đối với phenylephrin sử dụng đường tiêm, cần sử dụng rất thận trọng trên bệnh nhân đang dùng xanh methylen trong điều kiện giám sát huyết áp chặt chẽ."
+      }
+    ]
+  },
+  {
+    "hoat_chat": "Phenytoin",
+    "cac_thuoc_trong_nhom": ["Phenytoin"],
+    "tuong_tac": [
+      {
+        "thuoc": ["Praziquantel"],
+        "muc_do": 4,
+        "phan_tich": "Phenytoin cảm ứng CYP3A4 mạnh làm tăng chuyển hóa của praziquantel. Giảm nồng độ của praziquantel trong huyết thanh, dẫn đến giảm hiệu quả điều trị",
+        "xu_ly": "Chống chỉ định phối hợp."
+      },
+      {
+        "thu极": ["Rilpivirin"],
+        "muc_do": 4,
+        "phan_tich": "Phenytoin cảm ứng CYP3A4 mạnh làm tăng chuyển hóa của rilpivirin. Giảm nồng độ của rilpivirin trong huyết thanh, dẫn đến giảm hiệu quả điều trị",
+        "xu_ly": "Chống chỉ định phối hợp."
+      },
+      {
+        "thuoc": ["Ranolazin"],
+        "muc_do": 4,
+        "phan_tich": "Phenytoin cảm ứng CYP3A4 và P-gp làm tăng chuyển hóa của ranolazin và thải trừ của ranolazin. Giảm nồng độ ranolazin trong huyết thanh, giảm hiệu quả điều trị",
+        "xu_ly": "Chống chỉ định phối hợp"
+      }
+    ]
+  },
+  {
+    "hoat_chat": "Piperaquin/dihydroartemisinin (piperaquin)",
+    "cac_thuoc_trong_nhom": ["Piperaquin", "Dihydroartemisinin", "Piperaquin"],
+    "tuong_tac": [
+      {
+        "thuoc": ["Thioridazin"],
+        "muc_do": 4,
+        "phan_tich": "Hiệp đồng tăng tác dụng. Tăng nguy cơ kéo dài khoảng QT, xoắn đỉnh",
+        "xu_ly": "1. Chống chỉ định phối hợp ở các bệnh nhân có hội chứng QT kéo dài do di truyền hoặc mắc phải.<br> 2. Trên các đối tượng bệnh nhân khác, tốt nhất nên tránh phối hợp các thuốc này. Trong trường hợp cần thiết phối hợp, cần đánh giá cẩn thận nguy cơ/lợi ích và lượng giá các yếu tố nguy cơ trên từng bệnh nhân, đặc biệt là rối loạn điện giải (hạ kali máu, hạ magie máu, hạ calci máu), nhịp tim chậm, nữ giới trước khi quyết định kê đơn."
+      },
+      {
+        "thuoc": ["Sotalol"],
+        "muc_do": 4,
+        "phan_tich": "Hiệp đồng tăng tác dụng. Tăng nguy cơ kéo dài khoảng QT, xoắn đỉnh",
+        "xu_ly": "1. Chống chỉ định phối hợp ở các bệnh nhân có hội chứng QT kéo dài do di truyền hoặc mắc phải.<br> 2. Trên các đối tượng bệnh nhân khác, tốt nhất nên tránh phối hợp các thuốc này. Trong trường hợp cần thiết phối hợp, cần đánh giá cẩn thận nguy cơ/lợi ích và lượng giá các yếu tố nguy cơ trên từng bệnh nhân, đặc biệt là rối loạn điện giải (hạ kali máu, hạ magie máu, hạ calci máu), nhịp tim chậm, nữ giới trước khi quyết định kê đơn."
+      },
+      {
+        "thuoc": ["Saquinavir", "Ritonavir"],
+        "muc_do": 4,
+        "phan_tich": "Hiệp đồng tăng tác dụng. Tăng nguy cơ kéo dài khoảng QT, xoắn đỉnh",
+        "xu_ly": "1. Chống chỉ định phối hợp ở các bệnh nhân có hội chứng QT kéo dài do di truyền hoặc mắc phải.<br> 2. Trên các đối tượng bệnh nhân khác, tốt nhất nên tránh phối hợp các thuốc này. Trong trường hợp cần thiết phối hợp, cần đánh giá cẩn thận nguy cơ/lợi ích và lượng giá các yếu tố nguy cơ trên từng bệnh nhân, đặc biệt là rối loạn điện giải (hạ kali máu, hạ magie máu, hạ calci máu), nhịp tim chậm, nữ giới trước khi quyết định kê đơn."
+      },
+      {
+        "thuoc": ["Sparfloxacin"],
+        "muc_do": 4,
+        "phan_tich": "Hiệp đồng tăng tác dụng. Tăng nguy cơ kéo dài khoảng QT, xoắn đỉnh",
+        "xu_ly": "1. Chống chỉ định phối hợp ở các bệnh nhân có hội chứng QT kéo dài do di truyền hoặc mắc phải.<br> 2. Trên các đối tượng bệnh nhân khác, tốt nhất nên tránh phối hợp các thuốc này. Trong trường hợp cần thiết ph极 hợp, cần đánh giá cẩn thận nguy cơ/lợi ích và lượng giá các yếu tố nguy cơ trên từng bệnh nhân, đặc biệt là rối loạn điện giải (hạ kali máu, hạ magie máu, hạ calci máu), nhịp tim chậm, nữ giới trước khi quyết định kê đơn."
+      }
+    ]
+  },
+  {
+    "hoat_chat": "Piribedil",
+    "cac_thuoc_trong_nhom": ["Piribedil"],
+    "tuong_tac": [
+      {
+        "thuoc": ["Sulpirid"],
+        "muc_do": 4,
+        "phan_tich": "Đối kháng tác dụng của nhau. Giảm hiệu quả của cả hai thuốc",
+        "xu_ly": "Chống chỉ định phối hợp"
+      }
+    ]
+  },
+  {
+    "hoat_chat": "Posaconazol",
+    "cac_thuoc_trong_nhom": ["Posaconazol"],
+    "tuong_tac": [
+      {
+        "thuoc": ["Simvastatin"],
+        "muc_do": 4,
+        "phan_tich": "Posaconazol ức chế CYP3A4 mạnh làm giảm chuyển hóa của simvastatin. Tăng nồng độ của simvastatin trong huyết thanh, tăng nguy cơ bệnh cơ hoặc tiêu cơ vân cấp",
+        "xu_ly": "Chống chỉ định phối hợp. Cân nhắc thay đổi sang các thuốc nhóm khác có cùng chỉ định và ít có nguy cơ tương tác hơn:<br> - Trong trường hợp bắt buộc sử dụng thuốc kháng nấm azol, thay posaconazol bằng fluconazol (nhưng tránh dùng liều cao, có tác dụng ức chế mạnh CYP3A4) HOẶC<br> - Trong trường hợp bắt buộc sử dụng dẫn chất statin, thay simvastatin bằng các dẫn chất statin khác (ngoại trừ lovastatin)."
+      },
+      {
+        "thuoc": ["Ticagrelor"],
+        "muc_do": 4,
+        "phan_tich": "Posaconazol ức chế CYP3A4 mạnh làm giảm chuyển hóa của ticagrelor. Tăng nồng độ của ticagrelor trong huyết thanh, tăng nguy cơ xuất huyết",
+        "xu_ly": "Chống chỉ định phối hợp. Cân nhắc thay đổi sang các thuốc nhóm khác có cùng chỉ định và ít có nguy cơ tương tác hơn: Trong trường hợp bắt buộc sử dụng thuốc kháng nấm azol, thay posaconazol bằng fluconazol (nhưng tránh dùng liều cao, có tác dụng ức chế mạnh CYP3A4)."
+      },
+      {
+        "thuoc": ["Ranolazin"],
+        "muc_do": 4,
+        "phan_tich": "Posaconazol ức chế CYP3A4 mạnh làm giảm chuyển hóa của ranolazin. Tăng nồng độ ranolazin trong huyết thanh, tăng nguy cơ kéo dài khoảng QT",
+        "xu_ly": "Chống chỉ định phối hợp. Cân nhắc thay đổi sang các thuốc nhóm khác có cùng chỉ định và ít có nguy cơ tương tác hơn: Trong trường hợp bắt buộc sử dụng thuốc kháng nấm azol, thay posaconazol bằng fluconazol (nhưng tránh dùng liều cao, có tác dụng ức chế mạnh CYP3A4)."
+      },
+      {
+        "thuoc": ["Tolvaptan"],
+        "muc_do": 4,
+        "phan_tich": "Posaconazol ức chế CYP3A4 mạnh làm giảm chuyển hóa của tolvaptan. Tăng nồng độ tolvaptan trong huyết thanh, tăng nguy cơ tác dụng không mong muốn (tăng nồng độ natri huyết thanh, đa niệu, khát nước, giảm thể tích tuần hoàn...)",
+        "xu_ly": "Chống chỉ định phối hợp. Cân nhắc thay đổi sang các thuốc nhóm khác có cùng chỉ định và ít có nguy cơ tương tác hơn: Trong trường hợp bắt buộc sử dụng thuốc kháng nấm azol, thay posaconazol bằng fluconazol (nhưng tránh dùng liều cao, có tác dụng ức chế mạnh CYP3A4)."
+      },
+      {
+        "thuoc": ["Quetiapin"],
+        "muc_do": 4,
+        "phan_tich": "Posaconazol ức chế CYP3A4 mạnh làm giảm chuyển hóa của quetiapin. Tăng nồng độ của quetiapin, tăng nguy cơ kéo dài khoảng QT",
+        "xu_ly": "Chống chỉ định phối hợp. Cân nhắc thay đổi sang các thuốc nhóm khác có cùng chỉ định và ít có nguy cơ tương tác hơn: Trong trường hợp bắt buộc sử dụng thuốc kháng nấm azol, thay posaconazol bằng fluconazol (nhưng tránh dùng liều cao, có tác dụng ức chế mạnh CYP3A4)."
+      }
+    ]
+  },
+  {
+    "hoat_chat": "Pramipexol",
+    "cac_thuoc_trong_nhom": ["Pramipexol"],
+    "tuong_tac": [
+      {
+        "thuoc": ["Sulpirid"],
+        "muc_do": 4,
+        "phan_tich": "Đối kháng tác dụng của nhau. Giảm hiệu quả của cả hai thuốc",
+        "xu_ly": "Chống chỉ định phối hợp"
+      }
+    ]
+  },
+  {
+    "hoat_chat": "Praziquantel",
+    "cac_thuoc_trong_nhom": ["Praziquantel"],
+    "tuong_tac": [
+      {
+        "thuoc": ["Rifampicin"],
+        "muc_do": 4,
+        "phan_tich": "Rifampicin cảm ứng CYP3A4 làm tăng chuyển hóa của praziquantel. Giảm nồng độ của praziquantel trong huyết thanh, dẫn đến giảm hiệu quả điều trị",
+        "xu_ly": "Chống chỉ định phối hợp. Với rifampicin, chỉ bắt đầu sử dụng praziquantel sau khi ngừng rifampicin ít nhất 4 tuần. Rifampicin có thể sử dụng lại sau 1 ngày dừng praziquantel."
+      }
+    ]
+  },
+  {
+    "hoat_chat": "Propafenon",
+    "cac_thuoc_trong_nhom": ["Propafenon"],
+    "tuong_tac": [
+      {
+        "thuoc": ["Saquinavir", "Ritonavir"],
+        "muc_do": 4,
+        "phan_tich": "Ritonavir ức chế chuyển hóa của propafenon qua CYP3A4 và CYP2D6. Tăng nồng độ, dẫn đến tăng độc tính của propafenon (đặc biệt là loạn nhịp tim).",
+        "xu_ly": "Chống chỉ định phối hợp."
+      }
+    ]
+  },
+  {
+    "hoat_chat": "Pseudoephedrin (sử dụng đường uống)",
+    "cac_thuoc_trong_nhom": ["Pseudoephedrin (sử dụng đường uống)"],
+    "tuong_tac": [
+      {
+        "thuoc": ["Xanh methylen (sử dụng đường tiêm tĩnh mạch)"],
+        "muc_do": 4,
+        "phan_tich": "Tăng tích lũy noradrenalin (norepinephrin). Tăng nguy cơ xuất hiện cơn tăng huyết áp (đau đầu, đánh trống ngực, cứng cổ, tăng huyết áp)",
+        "xu_ly": "Chống chỉ định sử dụng pseudoephedrin (sử dụng đường uống) đồng thời hoặc trong vòng 14 ngày trước đó có sử dụng xanh methylen."
+      }
+    ]
+  },
+  {
+    "hoat_chat": "Quetiapin",
+    "cac_thuoc_trong_nhom": ["Quetiapin"],
+    "tuong_tac": [
+      {
+        "thuoc": ["Saquinavir", "Ritonavir"],
+        "muc_do": 4,
+        "phan_tich": "Saquinavir ức chế CYP3A4 mạnh làm giảm chuyển hóa của quetiapin. Tăng nồng độ của quetiapin, tăng nguy cơ kéo dài khoảng QT",
+        "xu_ly": "Tốt nhất nên tránh phối hợp. Trong trường hợp bắt buộc sử dụng saquinavir, giảm liều quetiapin còn 1/6 li极 so với li极 bình thường."
+      },
+      {
+        "thuoc": ["Voriconazol"],
+        "muc_do": 4,
+        "phan_tich": "Voriconazol ức chế CYP3A4 mạnh làm giảm chuyển hóa của quetiapin. Tăng nồng độ của quetiapin, tăng nguy cơ kéo dài khoảng QT",
+        "xu_ly": "Chống chỉ định phối hợp. Cân nhắc thay đổi sang các thuốc nhóm khác có cùng chỉ định và ít có nguy cơ tương tác hơn: Trong trường hợp bắt buộc sử dụng thuốc kháng nấm azol, thay voriconazol bằng fluconazol (nhưng tránh dùng liều cao, có tác dụng ức chế mạnh CYP3A4)."
+      }
+    ]
+  },
+  {
+    "hoat_chat": "Quinapril",
+    "cac_thuoc_trong_nhom": ["Quinapril"],
+    "tuong_tac": [
+      {
+        "thuoc": ["Sacubitril", "Valsartan", "Sacubitril"],
+        "muc_do": 4,
+        "phan_tich": "Tăng tích lũy bradykinin gây phù mạch. Tăng nguy cơ phù mạch",
+        "xu_ly": "Chống chỉ định phối hợp. Chỉ bắt đầu sử dụng Sacubitril/valsartan (sacubitril) sau khi ngừng quinapril ít nhất 36 giờ."
+      }
+    ]
+  },
+  {
+    "hoat_chat": "Rabeprazol",
+    "cac_thuoc_trong_nhom": ["Rabeprazol"],
+    "tuong_tac": [
+      {
+        "thuoc": ["Rilpivirin"],
+        "muc_do": 4,
+        "phan_tich": "Giảm hấp thu rilpivirin do tăng pH dạ dày. Giảm nồng độ rilpivirin trong huyết thanh, giảm hiệu quả điều trị",
+        "xu_ly": "Chống chỉ định phối hợp. Trong trường hợp thay thế bằng thuốc kháng H2, sử dụng các thuốc H2 ít nhất 12 giờ trước hoặc 4 giờ sau khi uống rilpivirin."
+      }
+    ]
+  },
+  {
+    "hoat_chat": "Ramipril",
+    "cac_thuoc_trong_nhom": ["Ramipril"],
+    "tuong_tac": [
+      {
+        "thuoc": ["Sacubitril", "Valsartan", "Sacubitril"],
+        "muc_do": 4,
+        "phan_tich": "Tăng tích lũy bradykinin gây phù mạch. Tăng nguy cơ phù mạch",
+        "xu_ly": "Chống chỉ định phối hợp. Chỉ bắt đầu sử dụng Sacubitril/valsartan (sacubitril) sau khi ngừng ramipril ít nhất 36 giờ."
+      }
+    ]
+  },
+  {
+    "hoat_chat": "Ranolazin",
+    "cac_thuoc_trong_nhom": ["Ranolazin"],
+    "tuong_tac": [
+      {
+        "thuoc": ["Saquinavir", "Ritonavir"],
+        "muc_do": 4,
+        "phan_tich": "Saquinavir ức chế CYP3A4 mạnh làm giảm chuyển hóa của ranolazin. Tăng nồng độ ranolazin trong huyết thanh, tăng nguy cơ kéo dài khoảng QT",
+        "xu_ly": "Chống chỉ định phối hợp"
+      },
+      {
+        "thuoc": ["Voriconazol"],
+        "muc_do": 4,
+        "phan_tich": "Voriconazol ức chế CYP3A4 mạnh làm giảm chuyển hóa của ranolazin. Tăng nồng độ ranolazin trong huyết thanh, tăng nguy cơ kéo dài khoảng QT",
+        "xu_ly": "Chống chỉ định phối hợp. Cân nhắc thay đổi sang các thuốc nhóm khác có cùng chỉ định và ít có nguy cơ tương tác hơn: Trong trường hợp bắt buộc sử dụng thuốc kháng nấm azol, thay voriconazol bằng fluconazol (nhưng tránh dùng liều cao, có tác dụng ức chế mạnh CYP3A4)."
+      },
+      {
+        "thuoc": ["Rifampicin"],
+        "muc_do": 4,
+        "phan_tich": "Rifampicin cảm ứng CYP3A4 và P-gp làm tăng chuyển hóa của ranolazin và thải trừ của ranolazin. Giảm nồng độ ranolazin trong huyết thanh, giảm hiệu quả điều trị",
+        "xu_ly": "Chống chỉ định phối hợp"
+      }
+    ]
+  },
+  {
+  "hoat_chat": "Rifampicin",
+  "cac_thuoc_trong_nhom": ["Rifampicin"],
+  "tuong_tac": [
+    {
+      "thuoc": ["Rilpivirin"],
+      "muc_do": 4,
+      "phan_tich": "Rifampicin cảm ứng CYP3A4 làm tăng chuyển hóa của rilpivirin. Giảm nồng độ của rilpivirin trong huyết thanh, dẫn đến giảm hiệu quả điều trị",
+      "xu_ly": "Chống chỉ định phối hợp."
+    },
+    {
+      "thuoc": ["Voriconazol"],
+      "muc_do": 4,
+      "phan_tich": "Rifampicin cảm ứng CYP3A4 làm tăng chuyển hóa của voriconazol. Giảm nồng độ của voriconazol trong huyết thanh, dẫn đến giảm hiệu quả điều trị",
+      "xu_ly": "Chống chỉ định phối hợp. Trong trường hợp bắt buộc sử dụng voriconazol, cân nhắc thay đổi phác đồ chống lao cho bệnh nhân."
+    },
+    {
+      "thuoc": ["Sofosbuvir"],
+      "muc_do": 4,
+      "phan_tich": "Rifampicin cảm ứng P-gp làm tăng thải trừ của sofusbuvir. Giảm nồng độ của sofosbuvir trong huyết thanh, dẫn đến giảm hiệu quả điều trị",
+      "xu_ly": "Chống chỉ định phối hợp"
+    },
+    {
+      "thuoc": ["Saquinavir", "Ritonavir"],
+      "muc_do": 4,
+      "phan_tich": "Rifampicin cảm ứng CYP3A4 làm tăng chuyển hóa của saquinavir. Giảm nồng độ saquinavir trong huyết thanh, giảm hiệu quả điều trị",
+      "xu_ly": "Chống chỉ định phối hợp"
+    }
+  ]
+},
+{
+  "hoat_chat": "Rosuvastatin",
+  "cac_thuoc_trong_nhom": ["Rosuvastatin"],
+  "tuong_tac": [
+    {
+      "thuoc": ["Sofosbuvir", "Ledipasvir", "Ledipasvir"],
+      "muc_do": 4,
+      "phan_tich": "Ledipasvir ức chế BCRP và P-gp làm giảm thải trừ rosuvastatin khỏi cơ thể. Tăng nồng độ rosuvastatin trong huyết thanh, tăng nguy cơ bệnh cơ hoặc tiêu cơ vân cấp",
+      "xu_ly": "Chống chỉ định phối hợp"
+    }
+  ]
+},
+{
+  "hoat_chat": "Rotigotin",
+  "cac_thuoc_trong_nhom": ["Rotigotin"],
+  "tuong_tac": [
+    {
+      "thuoc": ["Sulpirid"],
+      "muc_do": 4,
+      "phan_tich": "Đối kháng tác dụng của nhau. Giảm hiệu quả của cả hai thuốc",
+      "xu_ly": "Chống chỉ định phối hợp"
+    }
+  ]
+},
+{
+  "hoat_chat": "Sacubitril/valsartan (sacubitril)",
+  "cac_thuoc_trong_nhom": ["Sacubitril", "Valsartan", "Sacubitril"],
+  "tuong_tac": [
+    {
+      "thuoc": ["Trandolapril"],
+      "muc_do": 4,
+      "phan_tich": "Tăng tích lũy bradykinin gây phù mạch. Tăng nguy cơ phù mạch",
+      "xu_ly": "Chống chỉ định phối hợp. Chỉ bắt đầu sử dụng Sacubitril/valsartan (sacubitril) sau khi ngừng trandolapril ít nhất 36 giờ."
+    },
+    {
+      "thuoc": ["Zofenopril"],
+      "muc_do": 4,
+      "phan_tich": "Tăng tích lũy bradykinin gây phù mạch. Tăng nguy cơ phù mạch",
+      "xu_ly": "Chống chỉ định phối hợp. Chỉ bắt đầu sử dụng Sacubitril/valsartan (sacubitril) sau khi ngừng zofenopril ít nhất 36 giờ."
+    }
+  ]
+},
+{
+  "hoat_chat": "Saquinavir",
+  "cac_thuoc_trong_nhom": ["Saquinavir", "Ritonavir"],
+  "tuong_tac": [
+    {
+      "thuoc": ["Simvastatin"],
+      "muc_do": 4,
+      "phan_tich": "Saquinavir ức chế CYP3A4 mạnh làm giảm chuyển hóa của simvastatin. Tăng nồng độ của simvastatin trong huyết thanh, tăng nguy cơ bệnh cơ hoặc tiêu cơ vân cấp",
+      "xu_ly": "Chống chỉ định phối hợp. Trong trường hợp bắt buộc sử dụng dẫn chất statin, thay simvastatin bằng các dẫn chất statin khác (ngoại trừ lovastatin) sử dụng liều thấp nhất có hiệu quả, atorvastatin không vượt quá 20 mg/ngày, pitavastatin và pravastatin không cần hiệu chỉnh liều khi phối hợp."
+    },
+    {
+      "thuoc": ["Ticagrelor"],
+      "muc_do": 4,
+      "phan_tich": "Saquinavir ức chế CYP3A4 mạnh làm giảm chuyển hóa của ticagrelor. Tăng nồng độ của ticagrelor trong huyết thanh, tăng nguy cơ xuất huyết",
+      "xu_ly": "Chống chỉ định phối hợp"
+    },
+    {
+      "thuoc": ["Tolvaptan"],
+      "muc_do": 4,
+      "phan_tich": "Saquinavir ức chế CYP3A4 mạnh làm giảm chuyển hóa của tolvaptan. Tăng nồng độ tolvaptan trong huyết thanh, tăng nguy cơ tác dụng không mong muốn (tăng nồng độ natri huyết thanh, đa niệu, khát nước, giảm thể tích tuần hoàn...)",
+      "xu_ly": "Chống chỉ định phối hợp"
+    },
+    {
+      "thuoc": ["Sildenafil"],
+      "muc_do": 4,
+      "phan_tich": "Saquinavir ức chế CYP3A4 làm giảm chuyển hóa của sildenafil. Tăng nồng độ sildenafil trong huyết thanh, tăng nguy cơ độc tính (hạ huyết áp, ngất, rối loạn thị giác)",
+      "xu_ly": "1. Chống chỉ định phối hợp trong trường hợp sử dụng sildenafil điều trị tăng áp động mạch phổi.<br> 2. Trong trường hợp sử dụng sildenafil điều trị rối loạn cương dương, liều sildenafil không vượt quá 25 mg mỗi 48 giờ ở người đang sử dụng saquinavir."
+    }
+  ]
+},
+{
+  "hoat_chat": "Ritonavir",
+  "cac_thuoc_trong_nhom": ["Ritonavir"],
+  "tuong_tac": [
+    {
+      "thuoc": ["Vardenafil"],
+      "muc_do": 4,
+      "phan_tich": "Ritonavir ức chế CYP3A4 làm giảm chuyển hóa của vardenafil. Tăng nồng độ vardenafil trong huyết thanh, tăng nguy cơ kéo dài khoảng QT",
+      "xu_ly": "Chống chỉ định phối hợp"
+    },
+    {
+      "thuoc": ["Voriconazol"],
+      "muc_do": 4,
+      "phan_tich": "Ritonavir cảm ứng CYP2C19 (hoặc ức chế CYP3A4 ở người thiếu hoặc giảm hoạt tính CYP2C19) làm tăng (hoặc giảm) chuyển hóa của voriconazol tùy thuộc từng cá thể (voriconazol là cơ chất của cả CYP3A4 và CYP2C19). Giảm (hoặc tăng) nồng độ voriconazol.",
+      "xu_ly": "1. Việc phối hợp voriconazol và ritonavir liều cao (400mg mỗi 12 giờ) làm giảm rõ rệt nồng độ voriconazol, vì vậy, chống chỉ định phối hợp voriconazol với ritonavir ở mức liều này.<br> 2. Việc phối hợp voriconazol với ritonavir liều thấp (100mg mỗi 12 giờ) cũng đã cho thấy làm giảm nồng độ voriconazol mặc dù mức độ ít hơn so với liều cao ritonavir, vì vậy, nên tránh phối hợp thuốc trừ khi lợi ích vượt trội nguy cơ."
+    }
+  ]
+},
+{
+  "hoat_chat": "Sertralin",
+  "cac_thuoc_trong_nhom": ["Sertralin"],
+  "tuong_tac": [
+    {
+      "thuoc": ["Xanh methylen (sử dụng đường tiêm tĩnh mạch)"],
+      "muc_do": 4,
+      "phan_tich": "Hiệp đồng tác dụng serotonin. Tăng nguy cơ hội chứng serotonin (sốt cao, rối loạn nhận thức, tăng phản xạ, mất phối hợp, rung giật cơ, cứng cơ, co giật, nhịp tim nhanh, tăng huyết áp, tăng thân nhiệt, vã mồ hôi, ảo giác, kích động hoặc bồn chồn…)",
+      "xu_ly": "1. Cố gắng tránh sử dụng đồng thời xanh methylen và sertralin. Tốt nhất các thuốc này nên sử dụng cách nhau 2 tuần. Cân nhắc thay đổi sang các thuốc nhóm khác có cùng chỉ định và ít có nguy cơ tương tác hơn.<br> 2. Nếu không thể trì hoãn điều trị được 2 tuần, bắt buộc sử dụng dài ngày hoặc khẩn cấp bằng xanh methylen và không có thuốc khác thay thế, cân bằng lợi ích và nguy cơ xảy ra hội chứng serotonin. Nếu lợi ích vượt trội nguy cơ, vẫn có thể sử dụng đồng thời nhưng cần giám sát chặt chẽ bệnh nhân, đặc biệt trong tháng đầu tiên sử dụng đồng thời 2 thuốc."
+    }
+  ]
+},
+{
+  "hoat_chat": "Sevofluran",
+  "cac_thuoc_trong_nhom": ["Sevofluran"],
+  "tuong_tac": [
+    {
+      "thuoc": ["Thioridazin"],
+      "muc_do": 4,
+      "phan_tich": "Hiệp đồng tăng tác dụng. Tăng nguy cơ kéo dài khoảng QT, xoắn đỉnh",
+      "xu_ly": "1. Chống chỉ định phối hợp ở các bệnh nhân có hội chứng QT kéo dài do di truyền hoặc mắc phải.<br> 2. Trên các đối tượng bệnh nhân khác, tốt nhất nên tránh phối hợp các thuốc này. Trong trường hợp cần thiết phối hợp, cần đánh giá cẩn thận nguy cơ/lợi ích và lượng giá các yếu tố nguy cơ trên từng bệnh nhân, đặc biệt là rối loạn điện giải (hạ kali máu, hạ magie máu, hạ calci máu), nhịp tim chậm, nữ giới trước khi quyết định kê đơn."
+    },
+    {
+      "thuoc": ["Sparfloxacin"],
+      "muc_do": 4,
+      "phan_tich": "Hiệp đồng tăng tác dụng. Tăng nguy cơ kéo dài khoảng QT, xoắn đỉnh",
+      "xu_ly": "1. Chống chỉ định phối hợp ở các bệnh nhân có hội chứng QT kéo dài do di truyền hoặc mắc phải.<br> 2. Trên các đối tượng bệnh nhân khác, tốt nhất nên tránh phối hợp các thuốc này. Trong trường hợp cần thiết phối hợp, cần đánh giá cẩn thận nguy cơ/lợi ích và lượng giá các yếu tố nguy cơ trên từng bệnh nhân, đặc biệt là rối loạn điện giải (hạ kali máu, hạ magie máu, hạ calci máu), nhịp tim chậm, nữ giới trước khi quyết định kê đơn."
+    }
+  ]
+},
+{
+  "hoat_chat": "Simvastatin",
+  "cac_thuoc_trong_nhom": ["Simvastatin"],
+  "tuong_tac": [
+    {
+      "thuoc": ["Voriconazol"],
+      "muc_do": 4,
+      "phan_tich": "Voriconazol ức chế CYP3A4 mạnh làm giảm chuyển hóa của simvastatin. Tăng nồng độ của simvastatin trong huyết thanh, tăng nguy cơ bệnh cơ hoặc tiêu cơ vân cấp",
+      "xu_ly": "Chống chỉ định phối hợp. Cân nhắc thay đổi sang các thuốc nhóm khác có cùng chỉ định và ít có nguy cơ tương tác hơn:<br> - Trong trường hợp bắt buộc sử dụng thuốc kháng nấm azol, thay voriconazol bằng fluconazol (nhưng tránh dùng liều cao, có tác dụng ức chế mạnh CYP3A4) HOẶC<br> - Trong trường hợp bắt buộc sử dụng dẫn chất statin, thay simvastatin bằng các dẫn chất statin khác (ngoại trừ lovastatin)."
+    }
+  ]
+},
+{
+  "hoat_chat": "Sotalol",
+  "cac_thuoc_trong_nhom": ["Sotalol"],
+  "tuong_tac": [
+    {
+      "thuoc": ["Thioridazin"],
+      "muc_do": 4,
+      "phan_tich": "Hiệp đồng tăng tác dụng. Tăng nguy cơ kéo dài khoảng QT, xoắn đỉnh",
+      "xu_ly": "1. Chống chỉ định phối hợp ở các bệnh nhân có hội chứng QT kéo dài do di truyền hoặc mắc phải.<br> 2. Trên các đối tượng bệnh nhân khác, tốt nhất nên tránh phối hợp các thuốc này. Trong trường hợp cần thiết phối hợp, cần đánh giá cẩn thận nguy cơ/lợi ích và lượng giá các yếu tố nguy cơ trên từng bệnh nhân, đặc biệt là rối loạn điện giải (hạ kali máu, hạ magie máu, hạ calci máu), nhịp tim chậm, nữ giới trước khi quyết định kê đơn."
+    },
+    {
+      "thuoc": ["Sparfloxacin"],
+      "muc_do": 4,
+      "phan_tich": "Hiệp đồng tăng tác dụng. Tăng nguy cơ kéo dài khoảng QT, xoắn đỉnh",
+      "xu_ly": "1. Chống chỉ định phối hợp ở các bệnh nhân có hội chứng QT kéo dài do di truyền hoặc mắc phải.<br> 2. Trên các đối tượng bệnh nhân khác, tốt nhất nên tránh phối hợp các thuốc này. Trong trường hợp cần thiết phối hợp, cần đánh giá cẩn thận nguy cơ/lợi ích và lượng giá các yếu tố nguy cơ trên từng bệnh nhân, đặc biệt là rối loạn điện giải (hạ kali máu, hạ magie máu, hạ calci máu), nhịp tim chậm, nữ giới trước khi quyết định kê đơn."
+    }
+  ]
+},
+{
+  "hoat_chat": "Sparfloxacin",
+  "cac_thuoc_trong_nhom": ["Sparfloxacin"],
+  "tuong_tac": [
+    {
+      "thuoc": ["Sulpirid"],
+      "muc_do": 4,
+      "phan_tich": "Hiệp đồng tăng tác dụng. Tăng nguy cơ kéo dài khoảng QT, xoắn đỉnh",
+      "xu_ly": "1. Chống chỉ định phối hợp ở các bệnh nhân có hội chứng QT kéo dài do di truyền hoặc mắc phải.<br> 2. Trên các đối tượng bệnh nhân khác, tốt nhất nên tránh phối hợp các thuốc này. Trong trường hợp cần thiết phối hợp, cần đánh giá cẩn thận nguy cơ/lợi ích và lượng giá các yếu tố nguy cơ trên từng bệnh nhân, đặc biệt là rối loạn điện giải (hạ kali máu, hạ magie máu, hạ calci máu), nhịp tim chậm, nữ giới trước khi quyết định kê đơn."
+    },
+    {
+      "thuoc": ["Thioridazin"],
+      "muc_do": 4,
+      "phan_tich": "Hiệp đồng tăng tác dụng. Tăng nguy cơ kéo dài khoảng QT, xoắn đỉnh",
+      "xu_ly": "1. Chống chỉ định phối hợp ở các bệnh nhân có hội chứng QT kéo dài do di truyền hoặc mắc phải.<br> 2. Trên các đối tượng bệnh nhân khác, tốt nhất nên tránh phối hợp các thuốc này. Trong trường hợp cần thiết phối hợp, cần đánh giá cẩn thận nguy cơ/lợi ích và lượng giá các yếu tố nguy cơ trên từng bệnh nhân, đặc biệt là rối loạn điện giải (hạ kali máu, hạ magie máu, hạ calci máu), nhịp tim chậm, nữ giới trước khi quyết định kê đơn."
+    }
+  ]
+},
+{
+  "hoat_chat": "Sulpirid",
+  "cac_thuoc_trong_nhom": ["Sulpirid"],
+  "tuong_tac": [
+    {
+      "thuoc": ["Thioridazin"],
+      "muc_do": 4,
+      "phan_tich": "Hiệp đồng tăng tác dụng. Tăng nguy cơ kéo dài khoảng QT, xoắn đỉnh",
+      "xu_ly": "1. Chống chỉ định phối hợp ở các bệnh nhân có hội chứng QT kéo dài do di truyền hoặc mắc phải.<br> 2. Trên các đối tượng bệnh nhân khác, tốt nhất nên tránh phối hợp các thuốc này. Trong trường hợp cần thiết phối hợp, cần đánh giá cẩn thận nguy cơ/lợi ích và lượng giá các yếu tố nguy cơ trên từng bệnh nhân, đặc biệt là rối loạn điện giải (hạ kali máu, hạ magie máu, hạ calci máu), nhịp tim chậm, nữ giới trước khi quyết định kê đơn."
+    }
+  ]
+},
+{
+  "hoat_chat": "Sumatriptan",
+  "cac_thuoc_trong_nhom": ["Sumatriptan"],
+  "tuong_tac": [
+    {
+      "thuoc": ["Xanh methylen (sử dụng đường tiêm tĩnh mạch)"],
+      "muc_do": 4,
+      "phan_tich": "Hiệp đồng tác dụng serotonin. Tăng nguy cơ hội chứng serotonin (sốt cao, rối loạn nhận thức, tăng phản xạ, mất phối hợp, rung giật cơ, cứng cơ, co giật, nhịp tim nhanh, tăng huyết áp, tăng thân nhiệt, vã mồ hôi, ảo giác, kích động hoặc bồn chồn…)",
+      "xu_ly": "1. Cố gắng tránh sử dụng đồng thời xanh methylen và sumatriptan. Tốt nhất các thuốc này nên sử dụng cách nhau 2 tuần. Cân nhắc thay đổi sang các thuốc nhóm khác có cùng chỉ định và ít có nguy cơ tương tác hơn.<br> 2. Nếu không thể trì hoãn điều trị được 2 tuần, bắt buộc sử dụng dài ngày hoặc khẩn cấp bằng xanh methylen và không có thuốc khác thay thế, cân bằng lợi ích và nguy cơ xảy ra hội chứng serotonin. Nếu lợi ích vượt trội nguy cơ, vẫn có thể sử dụng đồng thời nhưng cần giám sát chặt chẽ bệnh nhân, đặc biệt trong tháng đầu tiên sử dụng đồng thời 2 thuốc."
+    }
+  ]
+},
+{
+  "hoat_chat": "Tamoxifen",
+  "cac_thuoc_trong_nhom": ["Tamoxifen"],
+  "tuong_tac": [
+    {
+      "thuoc": ["Warfarin"],
+      "muc_do": 4,
+      "phan_tich": "Tamoxifen ức chế CYP2C9 làm giảm chuyển hóa của warfarin. Tăng nguy cơ xuất huyết",
+      "xu_ly": "1. Chống chỉ định phối hợp ở bệnh nhân sử dụng tamoxifen dự phòng tiên phát ung thư vú.<br> 2. Ở bệnh nhân ung thư vú, nên cân nhắc sử dụng heparin trọng lượng phân tử thấp (LMWH) hoặc các thuốc chống đông đường uống tác động trực tiếp (DOAC) thay thế acenocoumarol để điều trị thuyên tắc tĩnh mạch do huyết khối. Trong trường hợp bắt buộc sử dụng đồng thời tamoxifen với acenocoumarol, cần giảm liều acenocoumarol và theo dõi chặt chẽ bệnh nhân."
+    }
+  ]
+},
+{
+  "hoat_chat": "Tetracyclin",
+  "cac_thuoc_trong_nhom": ["Tetracyclin"],
+  "tuong_tac": [
+    {
+      "thuoc": ["Tretinoin"],
+      "muc_do": 4,
+      "phan_tich": "Hiệp đồng tăng độc tính. Tăng nguy cơ tăng áp nội sọ lành tính (phù gai thị, đau đầu, buồn nôn và nôn, và rối loạn thị giác)",
+      "xu_ly": "Chống chỉ định phối hợp"
+    }
+  ]
+},
+{
+  "hoat_chat": "Ticagrelor",
+  "cac_thuoc_trong_nhom": ["Ticagrelor"],
+  "tuong_tac": [
+    {
+      "thuoc": ["Voriconazol"],
+      "muc_do": 4,
+      "phan_tich": "Voriconazol ức chế CYP3A4 mạnh làm giảm chuyển hóa của ticagrelor. Tăng nồng độ của ticagrelor trong huyết thanh, tăng nguy cơ xuất huyết",
+      "xu_ly": "Chống chỉ định phối hợp. Cân nhắc thay đổi sang các thuốc nhóm khác có cùng chỉ định và ít có nguy cơ tương tác hơn: Trong trường hợp bắt buộc sử dụng thuốc kháng nấm azol, thay voriconazol bằng fluconazol (nhưng tránh dùng liều cao, có tác dụng ức chế mạnh CYP3A4)."
+    }
+  ]
+},
+{
+  "hoat_chat": "Tigecyclin",
+  "cac_thuoc_trong_nhom": ["Tigecyclin"],
+  "tuong_tac": [
+    {
+      "thuoc": ["Tretinoin"],
+      "muc_do": 4,
+      "phan_tich": "Hiệp đồng tăng độc tính. Tăng nguy cơ tăng áp nội sọ lành tính (phù gai thị, đau đầu, buồn nôn và nôn, và rối loạn thị giác)",
+      "xu_ly": "Chống chỉ định phối hợp"
+    }
+  ]
+},
+{
+  "hoat_chat": "Tolvaptan",
+  "cac_thuoc_trong_nhom": ["Tolvaptan"],
+  "tuong_tac": [
+    {
+      "thuoc": ["Voriconazol"],
+      "muc_do": 4,
+      "phan_tich": "Voriconazol ức chế CYP3A4 mạnh làm giảm chuyển hóa của tolvaptan. Tăng nồng độ tolvaptan trong huyết thanh, tăng nguy cơ tác dụng không mong muốn (tăng nồng độ natri huyết thanh, đa niệu, khát nước, giảm thể tích tuần hoàn...)",
+      "xu_ly": "Chống chỉ định phối hợp. Cân nhắc thay đổi sang các thuốc nhóm khác có cùng chỉ định và ít có nguy cơ tương tác hơn: Trong trường hợp bắt buộc sử dụng thuốc kháng nấm azol, thay voriconazol bằng fluconazol (nhưng tránh dùng liều cao, có tác dụng ức chế mạnh CYP3A4)."
+    }
+  ]
+},
+{
+  "hoat_chat": "Tramadol",
+  "cac_thuoc_trong_nhom": ["Tramadol"],
+  "tuong_tac": [
+    {
+      "thuoc": ["Xanh methylen (sử dụng đường tiêm tĩnh mạch)"],
+      "muc_do": 4,
+      "phan_tich": "Hiệp đồng tác dụng serotonin. Tăng nguy cơ hội chứng serotonin (sốt cao, rối loạn nhận thức, tăng phản xạ, mất phối hợp, rung giật cơ, cứng cơ, co giật, nhịp tim nhanh, tăng huyết áp, tăng thân nhiệt, vã mồ hôi, ảo giác, kích động hoặc bồn chồn…)",
+      "xu_ly": "1. Cố gắng tránh sử dụng đồng thời xanh methylen và tramadol. Tốt nhất các thuốc này nên sử dụng cách nhau 2 tuần. Cân nhắc thay đổi sang các thuốc nhóm khác có cùng chỉ định và ít có nguy cơ tương tác hơn. Trong trường hợp bắt buộc sử dụng opioid, có thể đổi sang các opiod khác không có hoạt tính ức chế thu hồi serotonin (morphin, codein, oxycodon, buprenorphin)<br> 2. Nếu không thể trì hoãn điều trị được 2 tuần, bắt buộc sử dụng dài ngày hoặc khẩn cấp bằng xanh methylen và không có thuốc khác thay thế, cân bằng lợi ích và nguy cơ xảy ra hội chứng serotonin. Nếu lợi ích vượt trội nguy cơ, vẫn có thể sử dụng đồng thời nhưng cần giám sát chặt chẽ bệnh nhân, đặc biệt trong tháng đầu tiên sử dụng đồng thời 2 thuốc."
+    }
+  ]
+},
+{
+  "hoat_chat": "Trazodon",
+  "cac_thuoc_trong_nhom": ["Trazodon"],
+  "tuong_tac": [
+    {
+      "thuoc": ["Xanh methylen (sử dụng đường tiêm tĩnh mạch)"],
+      "muc_do": 4,
+      "phan_tich": "Hiệp đồng tác dụng serotonin. Tăng nguy cơ hội chứng serotonin (sốt cao, rối loạn nhận thức, tăng phản xạ, mất phối hợp, rung giật cơ, cứng cơ, co giật, nhịp tim nhanh, tăng huyết áp, tăng thân nhiệt, vã mồ hôi, ảo giác, kích động hoặc bồn chồn…)",
+      "xu_ly": "1. Cố gắng tránh sử dụng đồng thời xanh methylen và trazodon. Tốt nhất các thuốc này nên sử dụng cách nhau 2 tuần. Cân nhắc thay đổi sang các thuốc nhóm khác có cùng chỉ định và ít có nguy cơ tương tác hơn.<br> 2. Nếu không thể trì hoãn điều trị được 2 tuần, bắt buộc sử dụng dài ngày hoặc khẩn cấp bằng xanh methylen và không có thuốc khác thay thế, cân bằng lợi ích và nguy cơ xảy ra hội chứng serotonin. Nếu lợi ích vượt trội nguy cơ, vẫn có thể sử dụng đồng thời nhưng cần giám sát chặt chẽ bệnh nhân, đặc biệt trong tháng đầu tiên sử dụng đồng thời 2 thuốc."
+    }
+  ]
+},
+{
+  "hoat_chat": "Venlafaxin",
+  "cac_thuoc_trong_nhom": ["Venlafaxin"],
+  "tuong_tac": [
+    {
+      "thuoc": ["Xanh methylen (sử dụng đường tiêm tĩnh mạch)"],
+      "muc_do": 4,
+      "phan_tich": "Hiệp đồng tác dụng serotonin. Tăng nguy cơ hội chứng serotonin (sốt cao, rối loạn nhận thức, tăng phản xạ, mất phối hợp, rung giật cơ, cứng cơ, co giật, nhịp tim nhanh, tăng huyết áp, tăng thân nhiệt, vã mồ hôi, ảo giác, kích động hoặc bồn chồn…)",
+      "xu_ly": "1. Cố gắng tránh sử dụng đồng thời xanh methylen và venlafaxin. Tốt nhất các thuốc này nên sử dụng cách nhau 2 tuần. Cân nhắc thay đổi sang các thuốc nhóm khác có cùng chỉ định và ít có nguy cơ tương tác hơn.<br> 2. Nếu không thể trì hoãn điều trị được 2 tuần, bắt buộc sử dụng dài ngày hoặc khẩn cấp bằng xanh methylen và không có thuốc khác thay thế, cân bằng lợi ích và nguy cơ xảy ra hội chứng serotonin. Nếu lợi ích vượt trội nguy cơ, vẫn có thể sử dụng đồng thời nhưng cần giám sát chặt chẽ bệnh nhân, đặc biệt trong tháng đầu tiên sử dụng đồng thời 2 thuốc."
+    }
+  ]
 }
 
   // ... tiếp tục cho các hoạt chất khác theo cấu trúc trên
