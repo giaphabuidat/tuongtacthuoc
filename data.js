@@ -37580,7 +37580,7 @@ window.tuongTacData = [
         "thuoc": ["Sparfloxacin"],
         "muc_do": 4,
         "phan_tich": "Hiệp đồng tăng tác dụng. Tăng nguy cơ kéo dài khoảng QT, xoắn đỉnh",
-        "xu_ly": "1. Chống chỉ định phối hợp ở các bệnh nhân có hội chứng QT kéo dài do di truyền hoặc mắc phải.<br> 2. Trên các đối tượng bệnh nhân khác, tốt nhất nên tránh phối hợp các thuốc này. Trong trường hợp cần thiết ph极 hợp, cần đánh giá cẩn thận nguy cơ/lợi ích và lượng giá các yếu tố nguy cơ trên từng bệnh nhân, đặc biệt là rối loạn điện giải (hạ kali máu, hạ magie máu, hạ calci máu), nhịp tim chậm, nữ giới trước khi quyết định kê đơn."
+        "xu_ly": "1. Chống chỉ định phối hợp ở các bệnh nhân có hội chứng QT kéo dài do di truyền hoặc mắc phải.<br> 2. Trên các đối tượng bệnh nhân khác, tốt nhất nên tránh phối hợp các thuốc này. Trong trường hợp cần thiết phối hợp, cần đánh giá cẩn thận nguy cơ/lợi ích và lượng giá các yếu tố nguy cơ trên từng bệnh nhân, đặc biệt là rối loạn điện giải (hạ kali máu, hạ magie máu, hạ calci máu), nhịp tim chậm, nữ giới trước khi quyết định kê đơn."
       }
     ]
   },
@@ -37688,7 +37688,7 @@ window.tuongTacData = [
         "thuoc": ["Saquinavir", "Ritonavir"],
         "muc_do": 4,
         "phan_tich": "Saquinavir ức chế CYP3A4 mạnh làm giảm chuyển hóa của quetiapin. Tăng nồng độ của quetiapin, tăng nguy cơ kéo dài khoảng QT",
-        "xu_ly": "Tốt nhất nên tránh phối hợp. Trong trường hợp bắt buộc sử dụng saquinavir, giảm liều quetiapin còn 1/6 li极 so với li极 bình thường."
+        "xu_ly": "Tốt nhất nên tránh phối hợp. Trong trường hợp bắt buộc sử dụng saquinavir, giảm liều quetiapin còn 1/6 liều so với liều bình thường."
       },
       {
         "thuoc": ["Voriconazol"],
