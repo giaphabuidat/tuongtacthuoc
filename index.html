@@ -1,39 +1,14 @@
 <!DOCTYPE html>
-<!--
-    Ứng dụng tra cứu thông tin thuốc/hoạt chất
-    © 2025 Bản quyền thuộc về Bùi Đạt Hiếu
-    Liên hệ: dathieu102@email.com
-    Phiên bản: 1.0
-    Ngày cập nhật: 26/05/2025
-    Mọi quyền được bảo lưu.
--->
 <html lang="vi">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Tra cứu thông tin thuốc | Dược lý & An toàn kê đơn</title>
     <meta name="description" content="Tra cứu nhanh thông tin thuốc/hoạt chất, cảnh báo nguy hiểm và hướng xử trí. Công cụ hỗ trợ dược sĩ, bác sĩ, sinh viên y dược.">
-    <meta name="keywords" content="tra cứu thuốc, thông tin thuốc, dược lý, an toàn kê đơn, dược sĩ, bác sĩ, thuốc, hoạt chất">
-    <meta name="author" content="Bùi Đạt Hiếu">
-    <meta name="copyright" content="Bùi Đạt Hiếu">
-    <meta name="robots" content="index,follow">
-    <link rel="canonical" href="https://tuongtacthuoc.vn/">
     <link rel="stylesheet" href="style.css">
     <link rel="icon" href="favicon.ico" type="image/x-icon">
-    <!-- Mở rộng: Open Graph cho Facebook/Zalo -->
-    <meta property="og:title" content="Tra cứu thông tin thuốc | Dược lý & An toàn kê đơn">
-    <meta property="og:description" content="Tra cứu nhanh thông tin thuốc/hoạt chất, cảnh báo nguy hiểm và hướng xử trí. Công cụ hỗ trợ dược sĩ, bác sĩ, sinh viên y dược.">
-    <meta property="og:type" content="website">
-    <meta property="og:url" content="https://tuongtacthuoc.vn/">
-    <meta property="og:image" content="https://tuongtacthuoc.vn/og-image.png">
-    <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="Tra cứu thông tin thuốc | Dược lý & An toàn kê đơn">
-    <meta name="twitter:description" content="Tra cứu nhanh thông tin thuốc/hoạt chất, cảnh báo nguy hiểm và hướng xử trí.">
-    <meta name="twitter:image" content="https://tuongtacthuoc.vn/og-image.png">
 </head>
-
 <body>
-    <!-- Menu Hamburger -->
     <nav class="main-menu">
         <div class="menu-toggle" id="menu-toggle">
             <span></span>
@@ -58,41 +33,6 @@
             <div id="results"></div>
         </div>
     </div>
-    
-    <!-- FAQ Section -->
-    <div id="faq-section">
-      <h2 class="faq-title">Câu hỏi thường gặp</h2>
-      <div class="faq-list">
-        <div class="faq-item">
-          <button class="faq-question">
-            Thông tin trên trang có đáng tin cậy không?
-            <span class="icon">+</span>
-          </button>
-          <div class="faq-answer" style="display:none;">
-            Thông tin được tổng hợp từ các nguồn y khoa uy tín, cập nhật thường xuyên. Tuy nhiên, bạn nên tham khảo ý kiến bác sĩ/dược sĩ trước khi quyết định sử dụng thuốc.
-          </div>
-        </div>
-        <div class="faq-item">
-          <button class="faq-question">
-            Tôi có thể tra cứu bằng tên biệt dược hay hoạt chất?
-            <span class="icon">+</span>
-          </button>
-          <div class="faq-answer" style="display:none;">
-            Bạn có thể nhập tên biệt dược hoặc hoạt chất vào ô tìm kiếm. Hệ thống sẽ tự động gợi ý và hỗ trợ bạn tra cứu nhanh chóng.
-          </div>
-        </div>
-        <div class="faq-item">
-          <button class="faq-question">
-            Nếu phát hiện lỗi hoặc muốn đóng góp thông tin thì làm thế nào?
-            <span class="icon">+</span>
-          </button>
-          <div class="faq-answer" style="display:none;">
-            Bạn vui lòng gửi email về <b>tuongtacthuoc.vn@gmail.com</b> hoặc sử dụng mục Liên hệ trên website. Chúng tôi rất trân trọng mọi ý kiến đóng góp!
-          </div>
-        </div>
-      </div>
-    </div>
-
     <footer class="footer">
       <div class="footer-inner">
         <div class="footer-brand">
@@ -115,7 +55,6 @@
         </div>
       </div>
     </footer>
-
     <button id="toggle-dark" style="position:fixed;bottom:24px;right:24px;z-index:999;background:var(--primary);color:#fff;border:none;border-radius:50%;width:44px;height:44px;cursor:pointer;font-size:1.3em;box-shadow:0 2px 8px rgba(25,118,210,0.14);">🌙</button>
     <script>
     document.getElementById('menu-toggle').onclick = function() {
@@ -137,28 +76,5 @@
     </script>
     <script src="data.js"></script>
     <script src="app.js"></script>
-    <script>
-      // FAQ accordion logic
-      const questions = document.querySelectorAll('.faq-question');
-      questions.forEach((btn) => {
-        btn.addEventListener('click', function() {
-          const answer = this.nextElementSibling;
-          const icon = this.querySelector('.icon');
-          questions.forEach(q => {
-            if(q !== this) {
-              q.nextElementSibling.style.display = 'none';
-              q.querySelector('.icon').textContent = '+';
-            }
-          });
-          if(answer.style.display === 'block') {
-            answer.style.display = 'none';
-            icon.textContent = '+';
-          } else {
-            answer.style.display = 'block';
-            icon.textContent = '-';
-          }
-        });
-      });
-    </script>
 </body>
 </html>
