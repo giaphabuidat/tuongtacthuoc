@@ -3,48 +3,25 @@
 
 document.addEventListener("DOMContentLoaded", function() {
     const data = window.tuongTacData;
-    const allDrugs = new Set(); // Lưu tên thuốc đúng chuẩn (không bắt buộc lowercase)
-    const allDrugsLower = new Set(); // Lưu tên thuốc dạng lowercase để so sánh
+    const allDrugs = new Set();
 
-    // Tạo danh sách tất cả thuốc trong nhóm và thuốc tương tác (KHÔNG thêm hoat_chat)
+    // Chỉ lấy thuốc trong cac_thuoc_trong_nhom
     data.forEach(item => {
-        // Thêm cac_thuoc_trong_nhom
         if (item.cac_thuoc_trong_nhom) {
-            const drugs = Array.isArray(item.cac_thuoc_trong_nhom) 
-                ? item.cac_thuoc_trong_nhom 
+            const drugs = Array.isArray(item.cac_thuoc_trong_nhom)
+                ? item.cac_thuoc_trong_nhom
                 : [item.cac_thuoc_trong_nhom];
             drugs.forEach(d => {
                 if (d) {
                     allDrugs.add(String(d));
-                    allDrugsLower.add(String(d).toLowerCase());
                 }
             });
         }
-        // Thêm các thuốc tương tác
-        item.tuong_tac.forEach(t => {
-            if (t.thuoc) {
-                if (Array.isArray(t.thuoc)) {
-                    t.thuoc.forEach(th => {
-                        if (th) {
-                            allDrugs.add(String(th));
-                            allDrugsLower.add(String(th).toLowerCase());
-                        }
-                    });
-                } else {
-                    allDrugs.add(String(t.thuoc));
-                    allDrugsLower.add(String(t.thuoc).toLowerCase());
-                }
-            }
-        });
     });
 
     const input = document.getElementById('search-input');
     const suggestions = document.getElementById('suggestions');
     const results = document.getElementById('results');
-    const selectedContainer = document.getElementById('selected-drugs');
-    const selectedCount = document.getElementById('selected-count');
-    const selectedDrugs = new Set();
-    const selectedDrugsLower = new Set(); // Lưu tên thuốc đã chọn dạng lowercase
 
     // Autocomplete & chọn hoạt chất
     input.addEventListener('input', debounce(function(e) {
@@ -55,10 +32,9 @@ document.addEventListener("DOMContentLoaded", function() {
             return;
         }
 
-        // Lọc các thuốc có chứa query (không phân biệt hoa/thường)
         const filtered = Array.from(allDrugs)
             .filter(d => typeof d === 'string')
-            .filter(d => String(d).toLowerCase().includes(query) && !selectedDrugsLower.has(d.toLowerCase()));
+            .filter(d => String(d).toLowerCase().includes(query));
 
         if (filtered.length > 0) {
             filtered.forEach(drug => {
@@ -66,14 +42,8 @@ document.addEventListener("DOMContentLoaded", function() {
                 div.className = 'suggestion-item';
                 div.textContent = drug;
                 div.onclick = () => {
-                    const drugLower = drug.toLowerCase();
-                    if (!selectedDrugsLower.has(drugLower)) {
-                        selectedDrugs.add(drug);
-                        selectedDrugsLower.add(drugLower);
-                        updateSelectedDrugs();
-                        findInteractions();
-                    }
-                    input.value = '';
+                    showDrugInfo(drug);
+                    input.value = drug;
                     suggestions.style.display = 'none';
                 };
                 suggestions.appendChild(div);
@@ -91,165 +61,59 @@ document.addEventListener("DOMContentLoaded", function() {
         }
     });
 
-    // Xử lý Enter để thêm hoạt chất
+    // Xử lý Enter để chọn hoạt chất
     input.addEventListener('keydown', function(e) {
         if (e.key === 'Enter') {
             const value = input.value.trim();
             if (value) {
-                // Tìm thuốc trùng khớp (không phân biệt hoa/thường)
-                const found = Array.from(allDrugs).find(d => 
+                const found = Array.from(allDrugs).find(d =>
                     String(d).toLowerCase() === value.toLowerCase()
                 );
-                if (found && !selectedDrugsLower.has(value.toLowerCase())) {
-                    selectedDrugs.add(found);
-                    selectedDrugsLower.add(found.toLowerCase());
-                    updateSelectedDrugs();
-                    findInteractions();
+                if (found) {
+                    showDrugInfo(found);
+                } else {
+                    results.innerHTML = `<div class="result-card">Không tìm thấy thông tin cho thuốc này.</div>`;
                 }
             }
-            input.value = '';
             suggestions.style.display = 'none';
         }
     });
 
-    // Hiển thị danh sách đã chọn
-    function updateSelectedDrugs() {
-        selectedContainer.innerHTML = '';
-        let index = 1;
-        selectedDrugs.forEach(drug => {
-            const div = document.createElement('div');
-            div.className = 'selected-item';
-            div.innerHTML = `
-                <div class="selected-item-number">${index++}</div>
-                <div class="selected-item-content">${drug}</div>
-                <button class="remove-btn" data-drug="${drug}" title="Xóa">&times;</button>
-            `;
-            div.querySelector('.remove-btn').addEventListener('click', () => {
-                selectedDrugs.delete(drug);
-                selectedDrugsLower.delete(drug.toLowerCase());
-                updateSelectedDrugs();
-                findInteractions();
-            });
-            selectedContainer.appendChild(div);
+    // Hiển thị thông tin chi tiết
+    function showDrugInfo(drugName) {
+        const item = data.find(item => {
+            if (!item.cac_thuoc_trong_nhom) return false;
+            const drugs = Array.isArray(item.cac_thuoc_trong_nhom)
+                ? item.cac_thuoc_trong_nhom
+                : [item.cac_thuoc_trong_nhom];
+            return drugs.map(d => String(d).toLowerCase()).includes(drugName.toLowerCase());
         });
-
-        selectedCount.textContent = selectedDrugs.size;
-
-        if (selectedDrugs.size > 0) {
-            const clearBtn = document.createElement('button');
-            clearBtn.className = 'clear-all';
-            clearBtn.textContent = 'Xóa tất cả';
-            clearBtn.addEventListener('click', () => {
-                selectedDrugs.clear();
-                selectedDrugsLower.clear();
-                updateSelectedDrugs();
-                results.innerHTML = '';
-            });
-            selectedContainer.appendChild(clearBtn);
+        if (!item) {
+            results.innerHTML = `<div class="result-card">Không tìm thấy thông tin cho thuốc này.</div>`;
+            return;
         }
-    }
-
-    // Hàm xóa trùng lặp kết quả (chỉ kiểm tra cặp thuốc)
-    function removeDuplicates(interactions) {
-        const seen = new Set();
-        return interactions.filter(({ groupDrugs, interaction }) => {
-            const drugs = [...groupDrugs, interaction.thuoc].map(d => String(d).toLowerCase()).sort();
-            const key = drugs.join("-");
-            return seen.has(key) ? false : seen.add(key);
-        });
-    }
-
-    // Hàm tìm tương tác giữa các thuốc trong nhóm và thuốc tương tác
-    function findInteractions() {
-        results.innerHTML = '';
-        if (selectedDrugs.size < 2) return;
-
-        const drugsArray = Array.from(selectedDrugs);
-        const foundInteractions = [];
-        const processedPairs = new Set();
-
-        drugsArray.forEach((drug1, i) => {
-            drugsArray.slice(i + 1).forEach(drug2 => {
-                // Tránh kiểm tra trùng lặp cặp thuốc (không phân biệt hoa/thường)
-                const pairKey = [drug1.toLowerCase(), drug2.toLowerCase()].sort().join("-");
-                if (processedPairs.has(pairKey)) return;
-                processedPairs.add(pairKey);
-
-                // Kiểm tra tương tác từng cặp thuốc
-                data.forEach(item => {
-                    // Lấy danh sách thuốc trong nhóm (cac_thuoc_trong_nhom)
-                    const groupDrugs = item.cac_thuoc_trong_nhom 
-                        ? (Array.isArray(item.cac_thuoc_trong_nhom) 
-                            ? item.cac_thuoc_trong_nhom 
-                            : [item.cac_thuoc_trong_nhom])
-                        : [];
-                    
-                    // Kiểm tra drug1 và drug2 có trong nhóm hoặc là thuốc tương tác (không phân biệt hoa/thường)
-                    const groupDrugsLower = groupDrugs.map(d => String(d).toLowerCase());
-                    const drug1Lower = drug1.toLowerCase();
-                    const drug2Lower = drug2.toLowerCase();
-
-                    item.tuong_tac.forEach(t => {
-                        const interactingDrugs = Array.isArray(t.thuoc) ? t.thuoc : [t.thuoc];
-                        const interactingDrugsLower = interactingDrugs.map(d => String(d).toLowerCase());
-
-                        // Nếu drug1 thuộc nhóm và drug2 là thuốc tương tác
-                        if (groupDrugsLower.includes(drug1Lower) && interactingDrugsLower.includes(drug2Lower)) {
-                            foundInteractions.push({
-                                groupDrugs: groupDrugs.filter(d => selectedDrugsLower.has(String(d).toLowerCase())),
-                                interaction: { ...t, thuoc: drug2 }
-                            });
-                        }
-                        // Nếu drug2 thuộc nhóm và drug1 là thuốc tương tác
-                        if (groupDrugsLower.includes(drug2Lower) && interactingDrugsLower.includes(drug1Lower)) {
-                            foundInteractions.push({
-                                groupDrugs: groupDrugs.filter(d => selectedDrugsLower.has(String(d).toLowerCase())),
-                                interaction: { ...t, thuoc: drug1 }
-                            });
-                        }
-                    });
-                });
-            });
-        });
-
-        // Loại bỏ trùng lặp trước khi hiển thị
-        const uniqueInteractions = removeDuplicates(foundInteractions);
-
-        if (uniqueInteractions.length > 0) {
-            uniqueInteractions.forEach(({ groupDrugs, interaction }) => {
-                results.appendChild(createResultCard(groupDrugs, interaction));
-            });
-        } else {
-            results.innerHTML = `<div class="result-card">Không tìm thấy tương tác nào giữa các hoạt chất đã chọn.</div>`;
-        }
-    }
-
-    // Hàm tạo thẻ kết quả
-    function createResultCard(groupDrugs, interaction) {
-        const card = document.createElement('div');
-        card.className = `result-card mucdo-${interaction.muc_do}`;
-        // Hiển thị các thuốc trong nhóm đã chọn (nếu có nhiều)
-        const groupDisplay = groupDrugs.length > 1 ? groupDrugs.join(", ") : groupDrugs[0] || '';
-
-        card.innerHTML = `
-            <h3>${groupDisplay} ↔ ${interaction.thuoc}</h3>
-            <div class="severity mucdo-${interaction.muc_do}">
-                Mức độ ${interaction.muc_do}: ${getSeverityText(interaction.muc_do)}
+        results.innerHTML = `
+            <div class="result-card">
+                <h3>${drugName}</h3>
+                <p><b>Mô tả:</b> ${item.mo_ta || "Không có thông tin"}</p>
+                <p><b>Các thuốc trong nhóm:</b> ${Array.isArray(item.cac_thuoc_trong_nhom) ? item.cac_thuoc_trong_nhom.join(", ") : item.cac_thuoc_trong_nhom}</p>
+                <p><b>Chú ý khi chỉ định:</b><br>${formatChuY(item.chu_y_khi_chi_dinh)}</p>
+                <p><b>Tương tác:</b><br>${formatTuongTac(item.tuong_tac)}</p>
             </div>
-            <p><strong>Phân tích:</strong> ${interaction.phan_tich}</p>
-            <p><strong>Xử lý:</strong> ${interaction.xu_ly}</p>
         `;
-        return card;
     }
 
-    function getSeverityText(mucdo) {
-        const levels = {
-            1: 'Theo dõi',
-            2: 'Thận trọng',
-            3: 'Cân nhắc',
-            4: 'Nguy hiểm'
-        };
-        return levels[mucdo] || 'Không xác định';
+    function formatChuY(obj) {
+        if (!obj) return "Không có thông tin";
+        return Object.entries(obj).map(([k, v]) => `<b>${k}:</b> ${v}`).join("<br>");
+    }
+
+    function formatTuongTac(arr) {
+        if (!Array.isArray(arr) || arr.length === 0) return "Không có thông tin";
+        return arr.map(t => {
+            const thuoc = Array.isArray(t.thuoc) ? t.thuoc.join(", ") : t.thuoc;
+            return `<b>Với:</b> ${thuoc}<br><b>Mức độ:</b> ${t.muc_do}<br><b>Phân tích:</b> ${t.phan_tich}<br><b>Xử lý:</b> ${t.xu_ly}`;
+        }).join("<hr>");
     }
 
     // Hàm debounce
