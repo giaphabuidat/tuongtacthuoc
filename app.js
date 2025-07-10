@@ -1,20 +1,17 @@
 // © 2025 Bùi Đạt Hiếu - Bản quyền thuộc về tác giả. Mọi quyền được bảo lưu.
-// Liên hệ: dathieu102@email.com
 
 document.addEventListener("DOMContentLoaded", function() {
     const data = window.tuongTacData;
     const allDrugs = new Set();
 
-    // Chỉ lấy thuốc trong cac_thuoc_trong_nhom
+    // Chỉ lấy thuốc/hoạt chất trong cac_thuoc_trong_nhom
     data.forEach(item => {
         if (item.cac_thuoc_trong_nhom) {
             const drugs = Array.isArray(item.cac_thuoc_trong_nhom)
                 ? item.cac_thuoc_trong_nhom
                 : [item.cac_thuoc_trong_nhom];
             drugs.forEach(d => {
-                if (d) {
-                    allDrugs.add(String(d));
-                }
+                if (d) allDrugs.add(String(d));
             });
         }
     });
