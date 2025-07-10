@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <!--
-    Ứng dụng tra cứu tương tác thuốc
+    Ứng dụng tra cứu thông tin thuốc/hoạt chất
     © 2025 Bản quyền thuộc về Bùi Đạt Hiếu
     Liên hệ: dathieu102@email.com
     Phiên bản: 1.0
@@ -11,36 +11,25 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Tra cứu tương tác thuốc | Dược lý & An toàn kê đơn</title>
-    <meta name="description" content="Tra cứu nhanh tương tác thuốc, hoạt chất, cảnh báo nguy hiểm và hướng xử trí. Công cụ hỗ trợ dược sĩ, bác sĩ, sinh viên y dược.">
-    <meta name="keywords" content="tra cứu tương tác thuốc, tương tác thuốc, dược lý, an toàn kê đơn, dược sĩ, bác sĩ, thuốc, hoạt chất, xử trí tương tác thuốc">
+    <title>Tra cứu thông tin thuốc | Dược lý & An toàn kê đơn</title>
+    <meta name="description" content="Tra cứu nhanh thông tin thuốc/hoạt chất, cảnh báo nguy hiểm và hướng xử trí. Công cụ hỗ trợ dược sĩ, bác sĩ, sinh viên y dược.">
+    <meta name="keywords" content="tra cứu thuốc, thông tin thuốc, dược lý, an toàn kê đơn, dược sĩ, bác sĩ, thuốc, hoạt chất">
     <meta name="author" content="Bùi Đạt Hiếu">
     <meta name="copyright" content="Bùi Đạt Hiếu">
     <meta name="robots" content="index,follow">
     <link rel="canonical" href="https://tuongtacthuoc.vn/">
     <link rel="stylesheet" href="style.css">
-    <!-- Mở rộng: favicon -->
     <link rel="icon" href="favicon.ico" type="image/x-icon">
     <!-- Mở rộng: Open Graph cho Facebook/Zalo -->
-    <meta property="og:title" content="Tra cứu tương tác thuốc | Dược lý & An toàn kê đơn">
-    <meta property="og:description" content="Tra cứu nhanh tương tác thuốc, hoạt chất, cảnh báo nguy hiểm và hướng xử trí. Công cụ hỗ trợ dược sĩ, bác sĩ, sinh viên y dược.">
+    <meta property="og:title" content="Tra cứu thông tin thuốc | Dược lý & An toàn kê đơn">
+    <meta property="og:description" content="Tra cứu nhanh thông tin thuốc/hoạt chất, cảnh báo nguy hiểm và hướng xử trí. Công cụ hỗ trợ dược sĩ, bác sĩ, sinh viên y dược.">
     <meta property="og:type" content="website">
     <meta property="og:url" content="https://tuongtacthuoc.vn/">
     <meta property="og:image" content="https://tuongtacthuoc.vn/og-image.png">
-    <!-- Mở rộng: Twitter Card -->
     <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="Tra cứu tương tác thuốc | Dược lý & An toàn kê đơn">
-    <meta name="twitter:description" content="Tra cứu nhanh tương tác thuốc, hoạt chất, cảnh báo nguy hiểm và hướng xử trí.">
+    <meta name="twitter:title" content="Tra cứu thông tin thuốc | Dược lý & An toàn kê đơn">
+    <meta name="twitter:description" content="Tra cứu nhanh thông tin thuốc/hoạt chất, cảnh báo nguy hiểm và hướng xử trí.">
     <meta name="twitter:image" content="https://tuongtacthuoc.vn/og-image.png">
-    <!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-MCCV5GNKXW"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-  gtag('config', 'G-MCCV5GNKXW');
-</script>
-   
 </head>
 
 <body>
@@ -58,114 +47,95 @@
             <li><a href="#lienhe">Liên hệ</a></li>
         </ul>
     </nav>
-    <h1>Tra cứu tương tác thuốc</h1>
+    <h1>Tra cứu thông tin thuốc/hoạt chất</h1>
     <div class="search-container">
         <input type="text" id="search-input" placeholder="Nhập tên hoạt chất hoặc thuốc...">
         <div class="suggestions" id="suggestions"></div>
     </div>
-    <div class="two-column-layout">
-        <!-- Cột trái: Danh sách đã chọn -->
-        <div class="selected-column">
-            <h2>Danh sách đã chọn (<span id="selected-count">0</span>)</h2>
-            <div class="selected-list" id="selected-drugs"></div>
-        </div>
-        <!-- Cột phải: Kết quả tương tác -->
+    <div class="result-layout">
         <div class="results-column">
-            <h2>Kết quả tương tác</h2>
+            <h2>Thông tin chi tiết</h2>
             <div id="results"></div>
         </div>
     </div>
     
-    <!-- FAQ Section: Đặt ngay trên footer hoặc cuối trang -->
+    <!-- FAQ Section -->
     <div id="faq-section">
-  <h2 class="faq-title">Câu hỏi thường gặp</h2>
-  <div class="faq-list">
-    <div class="faq-item">
-      <button class="faq-question">
-        Thông tin tương tác thuốc trên trang có đáng tin cậy không?
-        <span class="icon">+</span>
-      </button>
-      <div class="faq-answer" style="display:none;">
-        Thông tin được tổng hợp từ các nguồn y khoa uy tín, cập nhật thường xuyên. Tuy nhiên, bạn nên tham khảo ý kiến bác sĩ/dược sĩ trước khi quyết định sử dụng thuốc.
+      <h2 class="faq-title">Câu hỏi thường gặp</h2>
+      <div class="faq-list">
+        <div class="faq-item">
+          <button class="faq-question">
+            Thông tin trên trang có đáng tin cậy không?
+            <span class="icon">+</span>
+          </button>
+          <div class="faq-answer" style="display:none;">
+            Thông tin được tổng hợp từ các nguồn y khoa uy tín, cập nhật thường xuyên. Tuy nhiên, bạn nên tham khảo ý kiến bác sĩ/dược sĩ trước khi quyết định sử dụng thuốc.
+          </div>
+        </div>
+        <div class="faq-item">
+          <button class="faq-question">
+            Tôi có thể tra cứu bằng tên biệt dược hay hoạt chất?
+            <span class="icon">+</span>
+          </button>
+          <div class="faq-answer" style="display:none;">
+            Bạn có thể nhập tên biệt dược hoặc hoạt chất vào ô tìm kiếm. Hệ thống sẽ tự động gợi ý và hỗ trợ bạn tra cứu nhanh chóng.
+          </div>
+        </div>
+        <div class="faq-item">
+          <button class="faq-question">
+            Nếu phát hiện lỗi hoặc muốn đóng góp thông tin thì làm thế nào?
+            <span class="icon">+</span>
+          </button>
+          <div class="faq-answer" style="display:none;">
+            Bạn vui lòng gửi email về <b>tuongtacthuoc.vn@gmail.com</b> hoặc sử dụng mục Liên hệ trên website. Chúng tôi rất trân trọng mọi ý kiến đóng góp!
+          </div>
+        </div>
       </div>
     </div>
-    <div class="faq-item">
-      <button class="faq-question">
-        Tôi có thể tra cứu bằng tên biệt dược hay hoạt chất?
-        <span class="icon">+</span>
-      </button>
-      <div class="faq-answer" style="display:none;">
-        Bạn có thể nhập tên biệt dược hoặc hoạt chất vào ô tìm kiếm. Hệ thống sẽ tự động gợi ý và hỗ trợ bạn tra cứu nhanh chóng.
+
+    <footer class="footer">
+      <div class="footer-inner">
+        <div class="footer-brand">
+          <span class="footer-logo">
+            <svg width="28" height="28" viewBox="0 0 28 28" fill="none">
+              <rect x="5" y="12" width="18" height="10" rx="5" fill="#1976d2"/>
+              <rect x="9" y="6" width="10" height="10" rx="5" fill="#42a5f5"/>
+              <rect x="13" y="2" width="2" height="8" rx="1" fill="#1976d2"/>
+            </svg>
+          </span>
+          <span class="footer-title">Tra cứu thông tin thuốc</span>
+        </div>
+        <div class="footer-links">
+          <a href="#huongdan">Hướng dẫn</a>
+          <a href="#lienhe">Liên hệ</a>
+          <a href="mailto:tuongtacthuoc.vn@gmail.com" title="Gửi email">Email</a>
+        </div>
+        <div class="footer-meta">
+          <span>© 2025 Tuongtacthuoc.vn. All rights reserved.</span>
+        </div>
       </div>
-    </div>
-    <div class="faq-item">
-      <button class="faq-question">
-        Nếu phát hiện lỗi hoặc muốn đóng góp thông tin thì làm thế nào?
-        <span class="icon">+</span>
-      </button>
-      <div class="faq-answer" style="display:none;">
-        Bạn vui lòng gửi email về <b>tuongtacthuoc.vn@gmail.com</b> hoặc sử dụng mục Liên hệ trên website. Chúng tôi rất trân trọng mọi ý kiến đóng góp!
-      </div>
-    </div>
-  </div>
-</div>
+    </footer>
 
-    
-    <!-- Nếu muốn có footer, thêm ở đây -->
-   <footer class="footer">
-  <div class="footer-inner">
-    <div class="footer-brand">
-      <span class="footer-logo">
-        <!-- SVG icon thuốc đơn giản, có thể thay bằng logo riêng nếu có -->
-        <svg width="28" height="28" viewBox="0 0 28 28" fill="none">
-          <rect x="5" y="12" width="18" height="10" rx="5" fill="#1976d2"/>
-          <rect x="9" y="6" width="10" height="10" rx="5" fill="#42a5f5"/>
-          <rect x="13" y="2" width="2" height="8" rx="1" fill="#1976d2"/>
-        </svg>
-      </span>
-      <span class="footer-title">Tra cứu tương tác thuốc</span>
-    </div>
-    <div class="footer-links">
-      <a href="#huongdan">Hướng dẫn</a>
-      <a href="#lienhe">Liên hệ</a>
-      <a href="mailto:tuongtacthuoc.vn@gmail.com" title="Gửi email">Email</a>
-    </div>
-    <div class="footer-meta">
-      <span>© 2025 Tuongtacthuoc.vn. All rights reserved.</span>
-    </div>
-  </div>
-</footer>
-
-
-   
- 
-<button id="toggle-dark" style="position:fixed;bottom:24px;right:24px;z-index:999;background:var(--primary);color:#fff;border:none;border-radius:50%;width:44px;height:44px;cursor:pointer;font-size:1.3em;box-shadow:0 2px 8px rgba(25,118,210,0.14);">🌙</button>
-<script>
-document.getElementById('menu-toggle').onclick = function() {
-    document.getElementById('menu-list').classList.toggle('active');
-};
-</script>
-    
+    <button id="toggle-dark" style="position:fixed;bottom:24px;right:24px;z-index:999;background:var(--primary);color:#fff;border:none;border-radius:50%;width:44px;height:44px;cursor:pointer;font-size:1.3em;box-shadow:0 2px 8px rgba(25,118,210,0.14);">🌙</button>
     <script>
-const btn = document.getElementById('toggle-dark');
-btn.onclick = function() {
-  // Bật/tắt class 'dark' trên body
-  document.body.classList.toggle('dark');
-  
-  // Lưu trạng thái vào localStorage (true = dark mode, false = light mode)
-  localStorage.setItem('darkMode', document.body.classList.contains('dark'));
-};
-
-// Khôi phục trạng thái khi tải trang
-const isDarkMode = localStorage.getItem('darkMode') === 'true';
-if (isDarkMode) {
-  document.body.classList.add('dark');
-} else {
-  document.body.classList.remove('dark'); // Đảm bảo light mode
-}
-</script>
-
- <script src="data.js"></script>
+    document.getElementById('menu-toggle').onclick = function() {
+        document.getElementById('menu-list').classList.toggle('active');
+    };
+    </script>
+    <script>
+    const btn = document.getElementById('toggle-dark');
+    btn.onclick = function() {
+      document.body.classList.toggle('dark');
+      localStorage.setItem('darkMode', document.body.classList.contains('dark'));
+    };
+    const isDarkMode = localStorage.getItem('darkMode') === 'true';
+    if (isDarkMode) {
+      document.body.classList.add('dark');
+    } else {
+      document.body.classList.remove('dark');
+    }
+    </script>
+    <script src="data.js"></script>
     <script src="app.js"></script>
     <script>
       // FAQ accordion logic
@@ -174,14 +144,12 @@ if (isDarkMode) {
         btn.addEventListener('click', function() {
           const answer = this.nextElementSibling;
           const icon = this.querySelector('.icon');
-          // Đóng các câu trả lời khác
           questions.forEach(q => {
             if(q !== this) {
               q.nextElementSibling.style.display = 'none';
               q.querySelector('.icon').textContent = '+';
             }
           });
-          // Toggle câu trả lời hiện tại
           if(answer.style.display === 'block') {
             answer.style.display = 'none';
             icon.textContent = '+';
@@ -191,6 +159,6 @@ if (isDarkMode) {
           }
         });
       });
-    </script>     
+    </script>
 </body>
 </html>
